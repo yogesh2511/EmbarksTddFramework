@@ -20,7 +20,6 @@ public class ExtentReportHelper {
             extent = new ExtentReports();
 
             // Set the report file path
-            //String reportPath = System.getProperty("user.dir") + "/Output/" + reportName + ".html";
             String reportPath = PathManager.getResourcePath("/report/Extent_" + reportName + ".html");
             htmlReporter = new ExtentSparkReporter(reportPath);
 

@@ -2,13 +2,21 @@ package base;
 
 import java.io.FileInputStream;
 import java.time.Duration;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Properties;
+import java.util.Set;
 import java.util.logging.Logger;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 
@@ -18,6 +26,7 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 import utilities.ExcelReader;
 import utilities.ExtentReportHelper;
+import utilities.LoggerUtils;
 import utilities.PathManager;
 
 public class TestBase {
@@ -31,7 +40,6 @@ public class TestBase {
 	public static ExcelReader excel = new ExcelReader(PathManager.getResourcePath("\\src\\main\\resources\\excel\\EmbarkData.xlsx"));	
 	public static ExtentSparkReporter sparkhtmlReporter;
 	public static ExtentReports test;
-
 	
 	public static Logger log = Logger.getLogger("devpinoyLogger");
 	static {
@@ -89,6 +97,8 @@ public class TestBase {
 		}
 
 	}
+	
+	
 
 
 }

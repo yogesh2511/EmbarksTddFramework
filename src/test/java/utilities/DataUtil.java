@@ -11,9 +11,8 @@ public class DataUtil extends TestBase{
 	@DataProvider(name="dp")
 	public Object[][] getData(Method m) {
 	
-		
+		// always provide method name should be same as the name of the sheet in the excel file
 		String sheetName = m.getName();
-		// excel = new ExcelReader(System.getProperty("user.dir")+"\\src\\main\\resources\\excel\\EmbarkData.xlsx");
 		
 		int rows = excel.getRowCount(sheetName);
 		int cols = excel.getColumnCount(sheetName);

@@ -167,13 +167,8 @@ public class ExcelReader {
 	             (String.valueOf(cal.get(Calendar.YEAR))).substring(2);
 	           cellText = cal.get(Calendar.MONTH)+1 + "/" +
 	                      cal.get(Calendar.DAY_OF_MONTH) + "/" +
-	                      cellText;
-	           
-	         
-
+	                      cellText;       
 	         }
-
-		  
 		  
 		  return cellText;
 	  }else if(cell.getCellType()==CellType.BLANK)

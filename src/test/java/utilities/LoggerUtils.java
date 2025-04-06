@@ -6,7 +6,7 @@ import org.apache.logging.log4j.Level;
 
 
 public class LoggerUtils {
-	 private static final String FQCN = LoggerUtils.class.getName(); // Fully Qualified Class Name of RestLogger
+	 private static final String FQCN = LoggerUtils.class.getName(); 
 
 	    private static ExtendedLogger getLogger() {
 	        return (ExtendedLogger) LogManager.getLogger(getCallerClassName());
@@ -41,9 +41,9 @@ public class LoggerUtils {
 	        for (int i = 2; i < stackTrace.length; i++) {
 	            String className = stackTrace[i].getClassName();
 	            if (!className.equals(LoggerUtils.class.getName())) {
-	                return className; // Return actual calling class
+	                return className;
 	            }
 	        }
-	        return LoggerUtils.class.getName(); // Fallback
+	        return LoggerUtils.class.getName();
 }
 }

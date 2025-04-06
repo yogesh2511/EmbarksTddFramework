@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 2 failed,   2 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -104,12 +104,7 @@
                     <div class="method-list-content failed suite-Surefire_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.LoginTest" class="method navigator-link" hash-for-method="loginTest2">loginTest2</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.LoginTest" class="method navigator-link" hash-for-method="loginTest3">loginTest3</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.embarkPortal.automation.LoginTest" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Surefire_suite -->
@@ -123,12 +118,12 @@
                     <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.LoginTest" class="method navigator-link" hash-for-method="loginTest(solankiyogesh95@gmail.com, Yogesh@2511)">loginTest(solankiyogesh95@gmail.com, Yogesh@2511)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.LoginTest" class="method navigator-link" hash-for-method="UserLoginTest">UserLoginTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.embarkPortal.automation.LoginTest" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="testcases.LoginTest" class="method navigator-link" hash-for-method="verifyHostAndAdventure">verifyHostAndAdventure</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -146,32 +141,38 @@
           <div class="suite-Surefire_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">testcases.LoginTest</span>
+              <span class="class-name">com.embarkPortal.automation.LoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest2">
-                  </a> <!-- loginTest2 -->
-                  <span class="method-name">loginTest2</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-Cannot inject @Test annotated Method [loginTest2] with [class java.lang.String, class java.lang.String].
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@type=&apos;email&apos;]&quot;}
+  (Session info: chrome=134.0.6998.179)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.30.0&apos;, revision: &apos;509c7f17cc*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [64745e710b3f47872618310001593c0d, findElement {value=//input[@type=&apos;email&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.179, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50596}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50596/devtoo..., se:cdpVersion: 134.0.6998.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 64745e710b3f47872618310001593c0d
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at pages.LoginPage.login(LoginPage.java:20)
+	at com.embarkPortal.automation.LoginTest.loginTest(LoginTest.java:15)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginTest3">
-                  </a> <!-- loginTest3 -->
-                  <span class="method-name">loginTest3</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-Cannot inject @Test annotated Method [loginTest3] with [class java.lang.String, class java.lang.String].
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames
+... Removed 37 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -185,25 +186,16 @@ For more information on native dependency injection please refer to https://test
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest(solankiyogesh95@gmail.com, Yogesh@2511)">
-                  </a> <!-- loginTest(solankiyogesh95@gmail.com, Yogesh@2511) -->
-                  <span class="method-name">loginTest</span>
-                  <span class="parameters">(solankiyogesh95@gmail.com, Yogesh@2511)</span>
+                  <a name="UserLoginTest">
+                  </a> <!-- UserLoginTest -->
+                  <span class="method-name">UserLoginTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-passed -->
-          <div class="suite-Surefire_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.embarkPortal.automation.LoginTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest">
-                  </a> <!-- loginTest -->
-                  <span class="method-name">loginTest</span>
+                  <a name="verifyHostAndAdventure">
+                  </a> <!-- verifyHostAndAdventure -->
+                  <span class="method-name">verifyHostAndAdventure</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -262,28 +254,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginTest')
-data.setCell(0, 2, 'com.embarkPortal.automation.LoginTest')
-data.setCell(0, 3, 361);
+data.setCell(0, 1, 'verifyHostAndAdventure')
+data.setCell(0, 2, 'testcases.LoginTest')
+data.setCell(0, 3, 60308);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'loginTest')
-data.setCell(1, 2, 'testcases.LoginTest')
-data.setCell(1, 3, 261);
+data.setCell(1, 2, 'com.embarkPortal.automation.LoginTest')
+data.setCell(1, 3, 10050);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'loginTest3')
+data.setCell(2, 1, 'UserLoginTest')
 data.setCell(2, 2, 'testcases.LoginTest')
-data.setCell(2, 3, 0);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'loginTest2')
-data.setCell(3, 2, 'testcases.LoginTest')
-data.setCell(3, 3, 0);
+data.setCell(2, 3, 2723);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 622 ms</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -298,15 +286,19 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">4 ignored methods</span>
+            <span class="header-content">6 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
               <span class="ignored-class-name">testcases.LoginTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">setUp</span>
+                <span class="ignored-method-name">RegistedLoginTest</span>
                 <br/>
                 <span class="ignored-method-name">close</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">UserRegistrationTest</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -336,22 +328,28 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.embarkPortal.automation.LoginTest</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">loginTest</span>
-                <span class="method-start">29783 ms</span>
+                <span class="method-start">19863 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.LoginTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">loginTest(solankiyogesh95@gmail.com, Yogesh@2511)</span>
-                <span class="method-start">30960 ms</span>
+                <span class="method-name">UserLoginTest</span>
+                <span class="method-start">31364 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyHostAndAdventure</span>
+                <span class="method-start">34674 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">base.TestBase</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">close</span>
-                <span class="method-start">32584 ms</span>
+                <span class="method-start">95473 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

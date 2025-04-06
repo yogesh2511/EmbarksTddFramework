@@ -5,9 +5,12 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 import base.TestBase;
 
@@ -30,5 +33,17 @@ public class ScreenshotUtil extends TestBase {
             return null;
         }
     }
+    
+    public static void uploadPhoto(String filePath) {
+        // Locate the hidden file input using its ID
+        WebElement fileInput = driver.findElement(By.xpath("//input[@type='file']"));
+
+        // Use JavaScript to make it visible (optional in some cases)
+        ((JavascriptExecutor) driver).executeScript("arguments[0].style.display = 'block';", fileInput);
+
+        // Upload file using sendKeys
+        fileInput.sendKeys(filePath);
+    }
+
 }
 

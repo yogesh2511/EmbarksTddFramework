@@ -1,43 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration status="WARN">
-	<appenders>
-		<Console name="Console" target="SYSTEM_OUT">
-			<PatternLayout
-				pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %C{1}:%L - %msg%n" />
-		</Console>
+    <appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %C{1}:%L - %msg%n" />
+        </Console>
 
-		<File name="FileLogger" fileName="src/main/resources/logs/Selenium.log" append="true">
+        <File name="FileLogger" fileName="src/main/resources/logs/Selenium.log" append="true">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %C{1}:%L - %msg%n" />
+        </File>
 
-			<!--<File name="FileLogger" fileName="logs/app.log" append="true">-->
-			<PatternLayout
-				pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %C{1}:%L - %msg%n" />
-		</File>
+        <File name="ErrorFileLogger" fileName="src/main/resources/logs/Application.log" append="true">
+            <Filters>
+                <ThresholdFilter level="error" onMatch="ACCEPT" onMismatch="DENY" />
+            </Filters>
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %C{1}:%L - %msg%n" />
+        </File>
+    </appenders>
 
-		<File name="ErrorFileLogger"
-			fileName="src/main/resources/logs/Application.log" append="true">
+    <loggers>
+        <!-- Suppress Apache POI logs -->
+        <logger name="org.apache.poi" level="error" additivity="false">
+            <appender-ref ref="Console"/>
+            <appender-ref ref="FileLogger"/>
+        </logger>
 
-			<!--<File name="ErrorFileLogger" fileName="logs/error.log" append="true">-->
-			<Filters>
-				<ThresholdFilter level="error" onMatch="ACCEPT"
-					onMismatch="DENY" />
-			</Filters>
-			<PatternLayout
-				pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %C{1}:%L - %msg%n" />
-		</File>
-	</appenders>
+        <logger name="org.apache.xmlbeans" level="error" additivity="false">
+            <appender-ref ref="Console"/>
+            <appender-ref ref="FileLogger"/>
+        </logger>
 
-	<loggers>
-		<!-- Optional custom logger if needed -->
-		<logger name="EmbarksTddFramework" level="trace" additivity="false">
-			<appender-ref ref="Console" />
-			<appender-ref ref="FileLogger" />
-			<appender-ref ref="ErrorFileLogger" />
-		</logger>
+        <!-- Optional custom logger -->
+        <logger name="EmbarksTddFramework" level="trace" additivity="false">
+            <appender-ref ref="Console" />
+            <appender-ref ref="FileLogger" />
+            <appender-ref ref="ErrorFileLogger" />
+        </logger>
 
-		<root level="trace">
-			<appender-ref ref="Console" />
-			<appender-ref ref="FileLogger" />
-			<appender-ref ref="ErrorFileLogger" />
-		</root>
-	</loggers>
+        <root level="trace">
+            <appender-ref ref="Console" />
+            <appender-ref ref="FileLogger" />
+            <appender-ref ref="ErrorFileLogger" />
+        </root>
+    </loggers>
 </configuration>
