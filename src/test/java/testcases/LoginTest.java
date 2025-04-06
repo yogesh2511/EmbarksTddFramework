@@ -1,13 +1,8 @@
 package testcases;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import com.github.javafaker.Faker;
 import base.TestBase;
-import helper.CommanHelper;
 import listeners.TestNGTestListener;
 import pages.HomePage;
 import pages.HostAndAdventurePage;

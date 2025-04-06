@@ -42,3 +42,47 @@
 2025-04-07 01:40:57 [main] INFO  HomePage:39 - Clicking on Logo link
 2025-04-07 01:40:57 [main] INFO  HomePage:30 - Clicking on UserName link
 2025-04-07 01:40:57 [main] INFO  HomePage:33 - Clicking on Logout link
+2025-04-07 02:01:29 [main] INFO  LandingPage:28 - Clicking on Login button
+2025-04-07 02:01:29 [main] INFO  LandingPage:36 - Successfully navigated to Login page: https://www.embark.org/login
+2025-04-07 02:01:29 [main] INFO  LoginTest:60 - Clicking on Login button
+2025-04-07 02:01:29 [main] INFO  LoginTest:62 - Starting login test
+2025-04-07 02:01:30 [main] INFO  LoginTest:64 - Logging in with email and password
+2025-04-07 02:01:33 [main] INFO  LoginTest:73 - Starting Host and Adventure test
+2025-04-07 02:01:33 [main] INFO  HomePage:24 - Clicking on Host an Adventure link
+2025-04-07 02:01:34 [main] INFO  LoginTest:76 - Clicking on Host an Adventure
+2025-04-07 02:01:34 [main] INFO  LoginTest:79 - Starting Host and Adventure test
+2025-04-07 02:01:34 [main] INFO  HostAndAdventurePage:31 - Host an Adventure header is displayed
+2025-04-07 02:01:36 [main] INFO  HostAndAdventurePage:38 - Category is selected
+2025-04-07 02:01:39 [main] INFO  HostAndAdventurePage:42 - Difficulty is selected
+2025-04-07 02:01:45 [main] INFO  HostAndAdventurePage:46 - City is selected
+2025-04-07 02:01:48 [main] INFO  HostAndAdventurePage:50 - Clicking on Next button
+2025-04-07 02:01:50 [main] INFO  HostAndAdventurePage:57 - Minimum group size error is displayed
+2025-04-07 02:01:50 [main] INFO  HostAndAdventurePage:59 - Minimum group size error is displayed
+2025-04-07 02:01:50 [main] INFO  HostAndAdventurePage:65 - Minimum group size is entered
+2025-04-07 02:01:50 [main] INFO  HostAndAdventurePage:70 - Maximum group size is entered
+2025-04-07 02:01:50 [main] INFO  HostAndAdventurePage:72 - Clicking on Next button
+2025-04-07 02:01:50 [main] INFO  LoginTest:83 - Starting Host and Adventure test
+2025-04-07 02:01:55 [main] INFO  HostAndAdventurePageDetails:54 - Difficulty is selected
+2025-04-07 02:01:55 [main] INFO  HostAndAdventurePageDetails:59 - Summary is entered
+2025-04-07 02:01:56 [main] INFO  HostAndAdventurePageDetails:64 - Included is entered
+2025-04-07 02:01:56 [main] INFO  HostAndAdventurePageDetails:69 - Not included is entered
+2025-04-07 02:01:56 [main] INFO  HostAndAdventurePageDetails:73 - Clicking on Save button
+2025-04-07 02:02:02 [main] INFO  HostAndAdventurePageDetails:78 - City is selected
+2025-04-07 02:02:02 [main] INFO  HostAndAdventurePageDetails:82 - Clicking on Save button
+2025-04-07 02:02:04 [main] INFO  HostAndAdventurePageDetails:88 - Clicking on Save button
+2025-04-07 02:02:07 [main] INFO  HostAndAdventurePageDetails:94 - Duration is entered
+2025-04-07 02:02:09 [main] INFO  HostAndAdventurePageDetails:99 - Days and Time is selected
+2025-04-07 02:02:09 [main] INFO  HostAndAdventurePageDetails:119 - Price is entered
+2025-04-07 02:02:12 [main] INFO  HostAndAdventurePageDetails:124 - City is selected
+2025-04-07 02:02:14 [main] INFO  HostAndAdventurePageDetails:129 - Group is selected
+2025-04-07 02:02:15 [main] INFO  HostAndAdventurePageDetails:150 - Clicking on Save button
+2025-04-07 02:02:20 [main] INFO  HostAndAdventurePageDetails:156 - City is selected
+2025-04-07 02:02:20 [main] INFO  HostAndAdventurePageDetails:161 - Itinerary is entered
+2025-04-07 02:02:20 [main] INFO  HostAndAdventurePageDetails:165 - Clicking on Save button
+2025-04-07 02:02:29 [main] INFO  HostAndAdventurePageDetails:171 - Clicking on View Tour button
+2025-04-07 02:02:37 [main] INFO  CommanHelper:136 - Switched to window at index: 1 | URL: https://www.embark.org/tours/summar-fun-19
+2025-04-07 02:02:37 [main] INFO  HostAndAdventurePageDetails:175 - Switching to new window
+2025-04-07 02:02:37 [main] INFO  CommanHelper:136 - Switched to window at index: 0 | URL: https://www.embark.org/tours/edit/7086/itinerary
+2025-04-07 02:02:37 [main] INFO  HomePage:39 - Clicking on Logo link
+2025-04-07 02:02:38 [main] INFO  HomePage:30 - Clicking on UserName link
+2025-04-07 02:02:38 [main] INFO  HomePage:33 - Clicking on Logout link

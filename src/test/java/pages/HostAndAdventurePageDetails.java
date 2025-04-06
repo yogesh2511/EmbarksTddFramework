@@ -6,7 +6,9 @@ import org.openqa.selenium.WebElement;
 
 import base.TestBase;
 import helper.CommanHelper;
+import utilities.ExcelReader;
 import utilities.LoggerUtils;
+import utilities.PathManager;
 import utilities.ScreenshotUtil;
 
 public class HostAndAdventurePageDetails extends TestBase {
@@ -78,8 +80,8 @@ public class HostAndAdventurePageDetails extends TestBase {
 		WebElement SaveSecondElement = driver.findElement(SaveSecond);
 		SaveSecondElement.click();
 		LoggerUtils.info("Clicking on Save button");
-		
-		ScreenshotUtil.uploadPhoto("D:\\Yogesh\\Java Workspace\\EmbarksTddFramework\\src\\main\\resources\\photos\\sample.jpg");
+		String image = PathManager.getResourcePath("\\src\\main\\resources\\photos\\sample.jpg");
+		ScreenshotUtil.uploadPhoto(image);
 		
 		WebElement SaveThirdElement = driver.findElement(SaveThird);
 		SaveThirdElement.click();
