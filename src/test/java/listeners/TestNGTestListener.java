@@ -11,6 +11,7 @@ import org.testng.ITestResult;
 import utilities.ExcelReader;
 import utilities.ExtentReportHelper;
 import utilities.LoggerUtils;
+import utilities.PathManager;
 import utilities.ScreenshotUtil;
 
 import java.io.File;
@@ -37,7 +38,7 @@ public class TestNGTestListener implements ITestListener {
             extent = ExtentReportHelper.ExtentDemo("AutomationReport");
 
             // Excel file setup
-            String reportFolderPath = System.getProperty("user.dir") + "/report/";
+            String reportFolderPath = PathManager.getResourcePath("/report/");
             File reportDir = new File(reportFolderPath);
             if (!reportDir.exists()) {
                 reportDir.mkdirs();

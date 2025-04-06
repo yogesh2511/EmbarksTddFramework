@@ -19,11 +19,11 @@ public class ExtentReportHelper {
         try {
             extent = new ExtentReports();
 
-            // ✅ Define report path
-            String reportPath = System.getProperty("user.dir") + "/Output/" + reportName + ".html";
+            // Set the report file path
+            //String reportPath = System.getProperty("user.dir") + "/Output/" + reportName + ".html";
+            String reportPath = PathManager.getResourcePath("/report/Extent_" + reportName + ".html");
             htmlReporter = new ExtentSparkReporter(reportPath);
 
-            // ✅ Configure ONLY via builder (NO external config file)
             ExtentSparkReporterConfig config = ExtentSparkReporterConfig.builder()
                     .offlineMode(true)
                     .theme(Theme.DARK)
