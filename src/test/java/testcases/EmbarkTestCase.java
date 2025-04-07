@@ -16,7 +16,7 @@ import utilities.LoggerUtils;
 @Listeners(ReportHelperListener.class)
 public class EmbarkTestCase extends TestBase {
 
-	@Test()
+	@Test(priority = 0)
 	public void UserRegistrationTest() throws InterruptedException {
 		//Register a new user with randomly auto-generated data.
 		// This method facing the issue with the click on Term and condition checkbox
@@ -31,7 +31,7 @@ public class EmbarkTestCase extends TestBase {
 		LoggerUtils.info("User registration is completed");
 	}
 
-	@Test()
+	@Test(priority = 0, dependsOnMethods = { "UserRegistrationTest" })
 	public void RegistedLoginTest() throws InterruptedException {
 		//Login with the Random registered user
 		System.out.println("User Login Test");
@@ -64,7 +64,7 @@ public class EmbarkTestCase extends TestBase {
 		Thread.sleep(2000);
 	}
 
-	@Test(priority = 2, dependsOnMethods = { "UserLoginTest" })
+	@Test(priority = 1, dependsOnMethods = { "UserLoginTest" })
 	public void verifyHostAndAdventure() throws InterruptedException {
 		// Click on "Host an Adventure" link at the top right corner.Adventure Details
 		LoggerUtils.info("Starting Host and Adventure test");
