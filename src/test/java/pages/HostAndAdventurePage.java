@@ -17,6 +17,8 @@ public class HostAndAdventurePage extends TestBase{
     //Locators
     By HostAndAdventureHeader = By.xpath("//h1[normalize-space(text())='Host an adventure']");
     By Next = By.xpath("//button[normalize-space(text())='Next']");
+    By MinimumGroupError = By.xpath("//span[normalize-space(text())='The group size min field is required.']");
+    By MaximumGroupError = By.xpath("//span[normalize-space(text())='The group size max field is required.']");
     By MinimumGroupSize = By.xpath("//input[@placeholder='Min']");
     By MaximumGroupSize = By.xpath("//input[@placeholder='Max']");
      
@@ -26,69 +28,64 @@ public class HostAndAdventurePage extends TestBase{
 	}
 
 	public void enterDetailsFromExcel() throws InterruptedException {
-		WebElement HostAndAdventureHeaderElement = driver.findElement(By.xpath("//h1[normalize-space(text())='Host an adventure']"));
+		WebElement HostAndAdventureHeaderElement = driver.findElement(HostAndAdventureHeader);
 		Assert.assertTrue(HostAndAdventureHeaderElement.isDisplayed());
 		LoggerUtils.info("Host an Adventure header is displayed");
-		
-		
-		
-		String categryvalue= excel.getCellData("HostAndAdventure", "Category", 2);
-		
+		//test.createTest("Host an Adventure header is displayed");
+			
+		String categryvalue= excel.getCellData("HostAndAdventure", "Category", 2);	
 		CommanHelper.selectDropdownOptionByText("Category", categryvalue);
 		LoggerUtils.info("Category is selected");
-		String DifficultyValue= excel.getCellData("HostAndAdventure", "Difficulty", 2);
+		//test.createTest("Category is selected");
 		
+		String DifficultyValue= excel.getCellData("HostAndAdventure", "Difficulty", 2);		
 		CommanHelper.selectDropdownOptionByText("Difficulty", DifficultyValue);
 		LoggerUtils.info("Difficulty is selected");
+		//test.createTest("Difficulty is selected");
+		
 		String CityValue= excel.getCellData("HostAndAdventure", "City", 2);
 		Thread.sleep(3000);
 		CommanHelper.selectAutoDropdownOptionByText("City", CityValue);
 		LoggerUtils.info("City is selected");
+		//test.createTest("City is selected");
 		Thread.sleep(3000);
-		WebElement NextButton = driver.findElement(By.xpath("//button[normalize-space(text())='Next']"));
+		
+		
+		WebElement NextButton = driver.findElement(Next);
 		NextButton.click();
 		LoggerUtils.info("Clicking on Next button");
-		WebElement MinimumGroupError = driver
-				.findElement(By.xpath("//span[normalize-space(text())='The group size min field is required.']"));
-		WebElement MinimumGroupSizeError = driver
-				.findElement(By.xpath("//span[normalize-space(text())='The group size max field is required.']"));
-
-		Assert.assertTrue(MinimumGroupError.isDisplayed());
+		//test.createTest("Clicking on Next button");
+		WebElement MinimumGroupErrorElement = driver.findElement(MinimumGroupError);
+		WebElement MaximumGroupErrorElement = driver.findElement(MaximumGroupError);
+		
+		Assert.assertTrue(MinimumGroupErrorElement.isDisplayed());
 		LoggerUtils.info("Minimum group size error is displayed");
-		Assert.assertTrue(MinimumGroupSizeError.isDisplayed());
+		//test.createTest("Minimum group size error is displayed");
+		
+		Assert.assertTrue(MaximumGroupErrorElement.isDisplayed());
 		LoggerUtils.info("Minimum group size error is displayed");
-
-		WebElement MinimumGroupSize = driver.findElement(By.xpath("//input[@placeholder='Min']"));
+		//test.createTest("Maximum group size error is displayed");
+		
+		WebElement MinimumGroupSizeElement = driver.findElement(MinimumGroupSize);
 		String MinimumGroupSizeValue= excel.getCellData("HostAndAdventure", "MinimumGroupSize", 2);
-		
-		MinimumGroupSize.sendKeys(MinimumGroupSizeValue);
+		MinimumGroupSizeElement.sendKeys(MinimumGroupSizeValue);
 		LoggerUtils.info("Minimum group size is entered");
-		WebElement MaximumGroupSize = driver.findElement(By.xpath("//input[@placeholder='Max']"));
-		String MaximumGroupSizeValue= excel.getCellData("HostAndAdventure", "MaximumGroupSize", 2);
+		//test.createTest("Minimum group size is entered");
 		
-		MaximumGroupSize.sendKeys(MaximumGroupSizeValue);
+		WebElement MaximumGroupSizeElement = driver.findElement(MaximumGroupSize);
+		String MaximumGroupSizeValue= excel.getCellData("HostAndAdventure", "MaximumGroupSize", 2);	
+		MaximumGroupSizeElement.sendKeys(MaximumGroupSizeValue);
 		LoggerUtils.info("Maximum group size is entered");
+		//test.createTest("Maximum group size is entered");
+		
 		NextButton.click();	
-		LoggerUtils.info("Clicking on Next button");		
-		
-		
+		LoggerUtils.info("Clicking on Next button");	
+		//test.createTest("Clicking on Next button");
+		Thread.sleep(2000);
+		LoggerUtils.info("Waiting for new tab to load....");
+		//test.createTest("Waiting for new tab to load....");
 		
 	}
-//	public void saveAdventure() {
-//		// TODO Auto-generated method stub
-//		
-//	}
-//	public boolean isValidationMessageDisplayed(String string) {
-//		// TODO Auto-generated method stub
-//		return false;
-//	}
-//	public void enterGroupSize() {
-//		// TODO Auto-generated method stub
-//		
-//	}
-//	public boolean isSuccessMessageDisplayed(String string) {
-//		// TODO Auto-generated method stub
-//		return false;
-//	}
+
 
 }

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="5" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="com.embarkPortal.automation.LoginTest">
+      <class name="testcases.EmbarkTestCase">
         <methods>
+          <include name="UserRegistrationTest"/>
           <include name="close"/>
-          <include name="loginTest"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.embarkPortal.automation.LoginTest -->
+      </class> <!-- testcases.EmbarkTestCase -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

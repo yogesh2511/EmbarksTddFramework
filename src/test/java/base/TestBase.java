@@ -2,32 +2,19 @@ package base;
 
 import java.io.FileInputStream;
 import java.time.Duration;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Properties;
-import java.util.Set;
 import java.util.logging.Logger;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 
-
-import com.aventstack.extentreports.*;
-import com.aventstack.extentreports.reporter.ExtentSparkReporter;
-
 import utilities.ExcelReader;
-import utilities.ExtentReportHelper;
-import utilities.LoggerUtils;
 import utilities.PathManager;
+
 
 public class TestBase {
 
@@ -38,8 +25,6 @@ public class TestBase {
 	public static Properties ORr;
 	public static FileInputStream file;
 	public static ExcelReader excel = new ExcelReader(PathManager.getResourcePath("\\src\\main\\resources\\excel\\EmbarkData.xlsx"));	
-	public static ExtentSparkReporter sparkhtmlReporter;
-	public static ExtentReports test;
 	
 	public static Logger log = Logger.getLogger("devpinoyLogger");
 	static {
@@ -56,8 +41,7 @@ public class TestBase {
 	}
 	@BeforeSuite(alwaysRun = true)
 	public void setUp() {
-		// Set up the ExtentReports
-		ExtentReportHelper.ExtentDemo("TestExecutionReport");
+		
 		String browserName= Config.getProperty("browser");
 		if (driver == null) {
 			if (browserName.equalsIgnoreCase("firefox")) {
@@ -82,9 +66,6 @@ public class TestBase {
 	@AfterTest(alwaysRun = true)
 	public static void close() {
 		try {
-			if (ExtentReportHelper.extent != null) {
-		        ExtentReportHelper.extent.flush();
-		    }
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -98,7 +79,5 @@ public class TestBase {
 
 	}
 	
-	
-
 
 }

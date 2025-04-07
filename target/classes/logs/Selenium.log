@@ -1,88 +1,963 @@
-2025-04-07 01:39:54 [main] INFO  LandingPage:28 - Clicking on Login button
-2025-04-07 01:39:54 [main] INFO  LandingPage:36 - Successfully navigated to Login page: https://www.embark.org/login
-2025-04-07 01:39:54 [main] INFO  LoginTest:65 - Clicking on Login button
-2025-04-07 01:39:54 [main] INFO  LoginTest:67 - Starting login test
-2025-04-07 01:39:55 [main] INFO  LoginTest:69 - Logging in with email and password
-2025-04-07 01:39:57 [main] INFO  LoginTest:78 - Starting Host and Adventure test
-2025-04-07 01:39:57 [main] INFO  HomePage:24 - Clicking on Host an Adventure link
-2025-04-07 01:39:58 [main] INFO  LoginTest:81 - Clicking on Host an Adventure
-2025-04-07 01:39:58 [main] INFO  LoginTest:84 - Starting Host and Adventure test
-2025-04-07 01:39:58 [main] INFO  HostAndAdventurePage:31 - Host an Adventure header is displayed
-2025-04-07 01:40:00 [main] INFO  HostAndAdventurePage:38 - Category is selected
-2025-04-07 01:40:03 [main] INFO  HostAndAdventurePage:42 - Difficulty is selected
-2025-04-07 01:40:09 [main] INFO  HostAndAdventurePage:46 - City is selected
-2025-04-07 01:40:12 [main] INFO  HostAndAdventurePage:50 - Clicking on Next button
-2025-04-07 01:40:13 [main] INFO  HostAndAdventurePage:57 - Minimum group size error is displayed
-2025-04-07 01:40:13 [main] INFO  HostAndAdventurePage:59 - Minimum group size error is displayed
-2025-04-07 01:40:14 [main] INFO  HostAndAdventurePage:65 - Minimum group size is entered
-2025-04-07 01:40:14 [main] INFO  HostAndAdventurePage:70 - Maximum group size is entered
-2025-04-07 01:40:14 [main] INFO  HostAndAdventurePage:72 - Clicking on Next button
-2025-04-07 01:40:14 [main] INFO  LoginTest:88 - Starting Host and Adventure test
-2025-04-07 01:40:19 [main] INFO  HostAndAdventurePageDetails:52 - Difficulty is selected
-2025-04-07 01:40:20 [main] INFO  HostAndAdventurePageDetails:57 - Summary is entered
-2025-04-07 01:40:20 [main] INFO  HostAndAdventurePageDetails:62 - Included is entered
-2025-04-07 01:40:20 [main] INFO  HostAndAdventurePageDetails:67 - Not included is entered
-2025-04-07 01:40:20 [main] INFO  HostAndAdventurePageDetails:71 - Clicking on Save button
-2025-04-07 01:40:26 [main] INFO  HostAndAdventurePageDetails:76 - City is selected
-2025-04-07 01:40:26 [main] INFO  HostAndAdventurePageDetails:80 - Clicking on Save button
-2025-04-07 01:40:27 [main] INFO  HostAndAdventurePageDetails:86 - Clicking on Save button
-2025-04-07 01:40:31 [main] INFO  HostAndAdventurePageDetails:92 - Duration is entered
-2025-04-07 01:40:33 [main] INFO  HostAndAdventurePageDetails:97 - Days and Time is selected
-2025-04-07 01:40:33 [main] INFO  HostAndAdventurePageDetails:117 - Price is entered
-2025-04-07 01:40:35 [main] INFO  HostAndAdventurePageDetails:122 - City is selected
-2025-04-07 01:40:37 [main] INFO  HostAndAdventurePageDetails:127 - Group is selected
-2025-04-07 01:40:38 [main] INFO  HostAndAdventurePageDetails:148 - Clicking on Save button
-2025-04-07 01:40:43 [main] INFO  HostAndAdventurePageDetails:154 - City is selected
-2025-04-07 01:40:44 [main] INFO  HostAndAdventurePageDetails:159 - Itinerary is entered
-2025-04-07 01:40:44 [main] INFO  HostAndAdventurePageDetails:163 - Clicking on Save button
-2025-04-07 01:40:52 [main] INFO  HostAndAdventurePageDetails:169 - Clicking on View Tour button
-2025-04-07 01:40:57 [main] INFO  CommanHelper:136 - Switched to window at index: 1 | URL: https://www.embark.org/tours/summar-fun-18
-2025-04-07 01:40:57 [main] INFO  HostAndAdventurePageDetails:173 - Switching to new window
-2025-04-07 01:40:57 [main] INFO  CommanHelper:136 - Switched to window at index: 0 | URL: https://www.embark.org/tours/edit/7085/itinerary
-2025-04-07 01:40:57 [main] INFO  HomePage:39 - Clicking on Logo link
-2025-04-07 01:40:57 [main] INFO  HomePage:30 - Clicking on UserName link
-2025-04-07 01:40:57 [main] INFO  HomePage:33 - Clicking on Logout link
-2025-04-07 02:01:29 [main] INFO  LandingPage:28 - Clicking on Login button
-2025-04-07 02:01:29 [main] INFO  LandingPage:36 - Successfully navigated to Login page: https://www.embark.org/login
-2025-04-07 02:01:29 [main] INFO  LoginTest:60 - Clicking on Login button
-2025-04-07 02:01:29 [main] INFO  LoginTest:62 - Starting login test
-2025-04-07 02:01:30 [main] INFO  LoginTest:64 - Logging in with email and password
-2025-04-07 02:01:33 [main] INFO  LoginTest:73 - Starting Host and Adventure test
-2025-04-07 02:01:33 [main] INFO  HomePage:24 - Clicking on Host an Adventure link
-2025-04-07 02:01:34 [main] INFO  LoginTest:76 - Clicking on Host an Adventure
-2025-04-07 02:01:34 [main] INFO  LoginTest:79 - Starting Host and Adventure test
-2025-04-07 02:01:34 [main] INFO  HostAndAdventurePage:31 - Host an Adventure header is displayed
-2025-04-07 02:01:36 [main] INFO  HostAndAdventurePage:38 - Category is selected
-2025-04-07 02:01:39 [main] INFO  HostAndAdventurePage:42 - Difficulty is selected
-2025-04-07 02:01:45 [main] INFO  HostAndAdventurePage:46 - City is selected
-2025-04-07 02:01:48 [main] INFO  HostAndAdventurePage:50 - Clicking on Next button
-2025-04-07 02:01:50 [main] INFO  HostAndAdventurePage:57 - Minimum group size error is displayed
-2025-04-07 02:01:50 [main] INFO  HostAndAdventurePage:59 - Minimum group size error is displayed
-2025-04-07 02:01:50 [main] INFO  HostAndAdventurePage:65 - Minimum group size is entered
-2025-04-07 02:01:50 [main] INFO  HostAndAdventurePage:70 - Maximum group size is entered
-2025-04-07 02:01:50 [main] INFO  HostAndAdventurePage:72 - Clicking on Next button
-2025-04-07 02:01:50 [main] INFO  LoginTest:83 - Starting Host and Adventure test
-2025-04-07 02:01:55 [main] INFO  HostAndAdventurePageDetails:54 - Difficulty is selected
-2025-04-07 02:01:55 [main] INFO  HostAndAdventurePageDetails:59 - Summary is entered
-2025-04-07 02:01:56 [main] INFO  HostAndAdventurePageDetails:64 - Included is entered
-2025-04-07 02:01:56 [main] INFO  HostAndAdventurePageDetails:69 - Not included is entered
-2025-04-07 02:01:56 [main] INFO  HostAndAdventurePageDetails:73 - Clicking on Save button
-2025-04-07 02:02:02 [main] INFO  HostAndAdventurePageDetails:78 - City is selected
-2025-04-07 02:02:02 [main] INFO  HostAndAdventurePageDetails:82 - Clicking on Save button
-2025-04-07 02:02:04 [main] INFO  HostAndAdventurePageDetails:88 - Clicking on Save button
-2025-04-07 02:02:07 [main] INFO  HostAndAdventurePageDetails:94 - Duration is entered
-2025-04-07 02:02:09 [main] INFO  HostAndAdventurePageDetails:99 - Days and Time is selected
-2025-04-07 02:02:09 [main] INFO  HostAndAdventurePageDetails:119 - Price is entered
-2025-04-07 02:02:12 [main] INFO  HostAndAdventurePageDetails:124 - City is selected
-2025-04-07 02:02:14 [main] INFO  HostAndAdventurePageDetails:129 - Group is selected
-2025-04-07 02:02:15 [main] INFO  HostAndAdventurePageDetails:150 - Clicking on Save button
-2025-04-07 02:02:20 [main] INFO  HostAndAdventurePageDetails:156 - City is selected
-2025-04-07 02:02:20 [main] INFO  HostAndAdventurePageDetails:161 - Itinerary is entered
-2025-04-07 02:02:20 [main] INFO  HostAndAdventurePageDetails:165 - Clicking on Save button
-2025-04-07 02:02:29 [main] INFO  HostAndAdventurePageDetails:171 - Clicking on View Tour button
-2025-04-07 02:02:37 [main] INFO  CommanHelper:136 - Switched to window at index: 1 | URL: https://www.embark.org/tours/summar-fun-19
-2025-04-07 02:02:37 [main] INFO  HostAndAdventurePageDetails:175 - Switching to new window
-2025-04-07 02:02:37 [main] INFO  CommanHelper:136 - Switched to window at index: 0 | URL: https://www.embark.org/tours/edit/7086/itinerary
-2025-04-07 02:02:37 [main] INFO  HomePage:39 - Clicking on Logo link
-2025-04-07 02:02:38 [main] INFO  HomePage:30 - Clicking on UserName link
-2025-04-07 02:02:38 [main] INFO  HomePage:33 - Clicking on Logout link
+2025-04-07 18:46:07 [main] INFO  LoginTest:56 - Starting User Login test
+2025-04-07 18:46:07 [main] INFO  LandingPage:28 - Clicking on Login button
+2025-04-07 18:46:07 [main] INFO  LandingPage:36 - Successfully navigated to Login page: https://www.embark.org/login
+2025-04-07 18:46:07 [main] INFO  LoginTest:59 - Clicking on Login button
+2025-04-07 18:46:07 [main] INFO  LoginTest:61 - Redirected to login page
+2025-04-07 18:46:08 [main] INFO  LoginPage:28 - Username is entered
+2025-04-07 18:46:08 [main] INFO  LoginPage:31 - Password is entered
+2025-04-07 18:46:08 [main] INFO  LoginPage:34 - Login button is clicked
+2025-04-07 18:46:08 [main] INFO  LoginTest:63 - Logging in with email and password
+2025-04-07 18:46:10 [main] INFO  LoginTest:72 - Starting Host and Adventure test
+2025-04-07 18:46:10 [main] INFO  HomePage:27 - Clicking on Host an Adventure link
+2025-04-07 18:46:10 [main] INFO  LoginTest:75 - Clicking on Host an Adventure
+2025-04-07 18:46:10 [main] INFO  LoginTest:78 - Starting Host and Adventure test
+2025-04-07 18:46:11 [main] INFO  HostAndAdventurePage:33 - Host an Adventure header is displayed
+2025-04-07 18:46:13 [main] INFO  HostAndAdventurePage:38 - Category is selected
+2025-04-07 18:46:15 [main] INFO  HostAndAdventurePage:43 - Difficulty is selected
+2025-04-07 18:46:21 [main] INFO  HostAndAdventurePage:49 - City is selected
+2025-04-07 18:46:25 [main] INFO  HostAndAdventurePage:56 - Clicking on Next button
+2025-04-07 18:46:26 [main] INFO  HostAndAdventurePage:62 - Minimum group size error is displayed
+2025-04-07 18:46:26 [main] INFO  HostAndAdventurePage:66 - Minimum group size error is displayed
+2025-04-07 18:46:26 [main] INFO  HostAndAdventurePage:72 - Minimum group size is entered
+2025-04-07 18:46:26 [main] INFO  HostAndAdventurePage:78 - Maximum group size is entered
+2025-04-07 18:46:26 [main] INFO  HostAndAdventurePage:82 - Clicking on Next button
+2025-04-07 18:46:28 [main] INFO  HostAndAdventurePage:85 - Waiting for new tab to load....
+2025-04-07 18:46:28 [main] INFO  LoginTest:82 - Starting Host and Adventure test
+2025-04-07 18:46:31 [main] INFO  HostAndAdventurePageDetails:49 - Title is entered
+2025-04-07 18:46:33 [main] INFO  HostAndAdventurePageDetails:54 - Difficulty is selected
+2025-04-07 18:46:33 [main] INFO  HostAndAdventurePageDetails:60 - Summary is entered
+2025-04-07 18:46:34 [main] INFO  HostAndAdventurePageDetails:65 - Included is entered
+2025-04-07 18:46:34 [main] INFO  HostAndAdventurePageDetails:71 - Not included is entered
+2025-04-07 18:46:34 [main] INFO  HostAndAdventurePageDetails:76 - Clicking on Save button
+2025-04-07 18:46:40 [main] INFO  HostAndAdventurePageDetails:82 - City is selected
+2025-04-07 18:46:40 [main] INFO  HostAndAdventurePageDetails:87 - Clicking on Save button
+2025-04-07 18:46:41 [main] INFO  HostAndAdventurePageDetails:94 - Clicking on Save button
+2025-04-07 18:46:44 [main] INFO  HostAndAdventurePageDetails:101 - Duration is entered
+2025-04-07 18:46:47 [main] INFO  HostAndAdventurePageDetails:107 - Days and Time is selected
+2025-04-07 18:46:47 [main] INFO  HostAndAdventurePageDetails:128 - Price is entered
+2025-04-07 18:46:49 [main] INFO  HostAndAdventurePageDetails:134 - City is selected
+2025-04-07 18:46:51 [main] INFO  HostAndAdventurePageDetails:140 - Group is selected
+2025-04-07 18:46:51 [main] INFO  HostAndAdventurePageDetails:146 - Availability is entered
+2025-04-07 18:46:51 [main] INFO  HostAndAdventurePageDetails:152 - What qualifies you to give this tour? is entered
+2025-04-07 18:46:52 [main] INFO  HostAndAdventurePageDetails:158 - Additional info is entered
+2025-04-07 18:46:52 [main] INFO  HostAndAdventurePageDetails:164 - Cancellation is entered
+2025-04-07 18:46:52 [main] INFO  HostAndAdventurePageDetails:169 - Clicking on Save button
+2025-04-07 18:46:57 [main] INFO  HostAndAdventurePageDetails:175 - Meetup Location is selected
+2025-04-07 18:46:57 [main] INFO  HostAndAdventurePageDetails:181 - Itinerary is entered
+2025-04-07 18:46:57 [main] INFO  HostAndAdventurePageDetails:186 - Clicking on Save button
+2025-04-07 18:47:06 [main] INFO  HostAndAdventurePageDetails:193 - Clicking on View Tour button
+2025-04-07 18:47:09 [main] INFO  HostAndAdventurePageDetails:197 - Waiting for new window to open
+2025-04-07 18:47:12 [main] INFO  CommanHelper:136 - Switched to window at index: 1 | URL: https://www.embark.org/tours/summar-fun-25
+2025-04-07 18:47:12 [main] INFO  HostAndAdventurePageDetails:200 - Switching to new window
+2025-04-07 18:47:12 [main] INFO  HostAndAdventurePageDetails:205 - Clicking on Save to Wishlist button
+2025-04-07 18:47:12 [main] INFO  HostAndAdventurePageDetails:209 - Closing the new Opened window
+2025-04-07 18:47:12 [main] INFO  CommanHelper:136 - Switched to window at index: 0 | URL: https://www.embark.org/tours/edit/7092/itinerary
+2025-04-07 18:47:12 [main] INFO  HostAndAdventurePageDetails:213 - Switching back to the original window
+2025-04-07 18:47:12 [main] INFO  HomePage:47 - Clicking on Logo link
+2025-04-07 18:47:13 [main] INFO  LoginTest:86 - Clicking on Logo
+2025-04-07 18:47:13 [main] INFO  HomePage:34 - Clicking on UserName link
+2025-04-07 18:47:15 [main] INFO  HomePage:38 - Clicking on Logout link
+2025-04-07 18:47:15 [main] INFO  HomePage:41 - Logout link clicked
+2025-04-07 18:47:15 [main] INFO  LoginTest:88 - Clicking on Logout
+2025-04-07 18:50:03 [main] INFO  LoginTest:56 - Starting User Login test
+2025-04-07 18:50:03 [main] INFO  LandingPage:28 - Clicking on Login button
+2025-04-07 18:50:03 [main] INFO  LandingPage:36 - Successfully navigated to Login page: https://www.embark.org/login
+2025-04-07 18:50:03 [main] INFO  LoginTest:59 - Clicking on Login button
+2025-04-07 18:50:03 [main] INFO  LoginTest:61 - Redirected to login page
+2025-04-07 18:50:04 [main] INFO  LoginPage:28 - Username is entered
+2025-04-07 18:50:04 [main] INFO  LoginPage:31 - Password is entered
+2025-04-07 18:50:04 [main] INFO  LoginPage:34 - Login button is clicked
+2025-04-07 18:50:04 [main] INFO  LoginTest:63 - Logging in with email and password
+2025-04-07 18:50:06 [main] INFO  LoginTest:72 - Starting Host and Adventure test
+2025-04-07 18:50:06 [main] INFO  HomePage:27 - Clicking on Host an Adventure link
+2025-04-07 18:50:06 [main] INFO  LoginTest:75 - Clicking on Host an Adventure
+2025-04-07 18:50:06 [main] INFO  LoginTest:78 - Starting Host and Adventure test
+2025-04-07 18:50:07 [main] INFO  HostAndAdventurePage:33 - Host an Adventure header is displayed
+2025-04-07 18:50:09 [main] INFO  HostAndAdventurePage:38 - Category is selected
+2025-04-07 18:50:11 [main] INFO  HostAndAdventurePage:43 - Difficulty is selected
+2025-04-07 18:50:17 [main] INFO  HostAndAdventurePage:49 - City is selected
+2025-04-07 18:50:20 [main] INFO  HostAndAdventurePage:56 - Clicking on Next button
+2025-04-07 18:50:22 [main] INFO  HostAndAdventurePage:62 - Minimum group size error is displayed
+2025-04-07 18:50:22 [main] INFO  HostAndAdventurePage:66 - Minimum group size error is displayed
+2025-04-07 18:50:22 [main] INFO  HostAndAdventurePage:72 - Minimum group size is entered
+2025-04-07 18:50:22 [main] INFO  HostAndAdventurePage:78 - Maximum group size is entered
+2025-04-07 18:50:22 [main] INFO  HostAndAdventurePage:82 - Clicking on Next button
+2025-04-07 18:50:24 [main] INFO  HostAndAdventurePage:85 - Waiting for new tab to load....
+2025-04-07 18:50:24 [main] INFO  LoginTest:82 - Starting Host and Adventure test
+2025-04-07 18:50:27 [main] INFO  HostAndAdventurePageDetails:49 - Title is entered
+2025-04-07 18:50:29 [main] INFO  HostAndAdventurePageDetails:54 - Difficulty is selected
+2025-04-07 18:50:29 [main] INFO  HostAndAdventurePageDetails:60 - Summary is entered
+2025-04-07 18:50:30 [main] INFO  HostAndAdventurePageDetails:65 - Included is entered
+2025-04-07 18:50:30 [main] INFO  HostAndAdventurePageDetails:71 - Not included is entered
+2025-04-07 18:50:30 [main] INFO  HostAndAdventurePageDetails:76 - Clicking on Save button
+2025-04-07 18:50:36 [main] INFO  HostAndAdventurePageDetails:82 - City is selected
+2025-04-07 18:50:36 [main] INFO  HostAndAdventurePageDetails:87 - Clicking on Save button
+2025-04-07 18:50:37 [main] INFO  HostAndAdventurePageDetails:94 - Clicking on Save button
+2025-04-07 18:50:40 [main] INFO  HostAndAdventurePageDetails:101 - Duration is entered
+2025-04-07 18:50:42 [main] INFO  HostAndAdventurePageDetails:107 - Days and Time is selected
+2025-04-07 18:50:42 [main] INFO  HostAndAdventurePageDetails:128 - Price is entered
+2025-04-07 18:50:45 [main] INFO  HostAndAdventurePageDetails:134 - City is selected
+2025-04-07 18:50:47 [main] INFO  HostAndAdventurePageDetails:140 - Group is selected
+2025-04-07 18:50:47 [main] INFO  HostAndAdventurePageDetails:146 - Availability is entered
+2025-04-07 18:50:47 [main] INFO  HostAndAdventurePageDetails:152 - What qualifies you to give this tour? is entered
+2025-04-07 18:50:47 [main] INFO  HostAndAdventurePageDetails:158 - Additional info is entered
+2025-04-07 18:50:47 [main] INFO  HostAndAdventurePageDetails:164 - Cancellation is entered
+2025-04-07 18:50:47 [main] INFO  HostAndAdventurePageDetails:169 - Clicking on Save button
+2025-04-07 18:50:53 [main] INFO  HostAndAdventurePageDetails:175 - Meetup Location is selected
+2025-04-07 18:50:53 [main] INFO  HostAndAdventurePageDetails:181 - Itinerary is entered
+2025-04-07 18:50:53 [main] INFO  HostAndAdventurePageDetails:186 - Clicking on Save button
+2025-04-07 18:51:01 [main] INFO  HostAndAdventurePageDetails:193 - Clicking on View Tour button
+2025-04-07 18:51:04 [main] INFO  HostAndAdventurePageDetails:197 - Waiting for new window to open
+2025-04-07 18:51:08 [main] INFO  CommanHelper:136 - Switched to window at index: 1 | URL: https://www.embark.org/tours/summar-fun-26
+2025-04-07 18:51:08 [main] INFO  HostAndAdventurePageDetails:200 - Switching to new window
+2025-04-07 18:51:08 [main] INFO  HostAndAdventurePageDetails:205 - Clicking on Save to Wishlist button
+2025-04-07 18:51:08 [main] INFO  HostAndAdventurePageDetails:209 - Closing the new Opened window
+2025-04-07 18:51:08 [main] INFO  CommanHelper:136 - Switched to window at index: 0 | URL: https://www.embark.org/tours/edit/7093/itinerary
+2025-04-07 18:51:08 [main] INFO  HostAndAdventurePageDetails:213 - Switching back to the original window
+2025-04-07 18:51:08 [main] INFO  HomePage:47 - Clicking on Logo link
+2025-04-07 18:51:08 [main] INFO  LoginTest:86 - Clicking on Logo
+2025-04-07 18:51:08 [main] INFO  HomePage:34 - Clicking on UserName link
+2025-04-07 18:51:10 [main] INFO  HomePage:38 - Clicking on Logout link
+2025-04-07 18:51:11 [main] INFO  HomePage:41 - Logout link clicked
+2025-04-07 18:51:11 [main] INFO  LoginTest:88 - Clicking on Logout
+2025-04-07 18:51:34 [main] INFO  EmbarkTestCase:38 - Starting User Login test
+2025-04-07 18:51:40 [main] INFO  LandingPage:28 - Clicking on Login button
+2025-04-07 18:51:40 [main] INFO  LandingPage:36 - Successfully navigated to Login page: https://www.embark.org/login
+2025-04-07 18:51:40 [main] INFO  EmbarkTestCase:41 - Clicking on Login button
+2025-04-07 18:51:40 [main] INFO  EmbarkTestCase:43 - Redirected to login page
+2025-04-07 18:51:40 [main] INFO  LoginPage:28 - Username is entered
+2025-04-07 18:51:40 [main] INFO  LoginPage:31 - Password is entered
+2025-04-07 18:51:40 [main] INFO  LoginPage:34 - Login button is clicked
+2025-04-07 18:51:40 [main] INFO  EmbarkTestCase:47 - Logging in with email and password
+2025-04-07 18:51:43 [main] INFO  EmbarkTestCase:23 - Starting User Registration test
+2025-04-07 18:51:43 [main] INFO  LandingPage:43 - Clicking on Register button
+2025-04-07 18:51:43 [main] INFO  LandingPage:50 - Successfully navigated to Register page: https://www.embark.org/register
+2025-04-07 18:51:43 [main] INFO  EmbarkTestCase:27 - Clicking on Register button
+2025-04-07 18:51:43 [main] INFO  EmbarkTestCase:29 - Starting registration test
+2025-04-07 18:51:44 [main] INFO  RegistrationPage:35 - Full Name is entered
+2025-04-07 18:51:44 [main] INFO  RegistrationPage:41 - Username is entered
+2025-04-07 18:51:44 [main] INFO  RegistrationPage:47 - Email is entered
+2025-04-07 18:51:44 [main] INFO  RegistrationPage:54 - Password is entered
+2025-04-07 18:51:44 [main] INFO  RegistrationPage:60 - Confirm Password is entered
+2025-04-07 18:51:49 [main] INFO  RegistrationPage:65 - Location is selected
+2025-04-07 18:51:49 [main] INFO  RegistrationPage:69 - Clicking on Terms and Condition checkbox
+2025-04-07 18:51:49 [main] INFO  RegistrationPage:74 - Clicking on Register button
+2025-04-07 18:51:52 [main] INFO  HomePage:47 - Clicking on Logo link
+2025-04-07 18:51:53 [main] INFO  RegistrationPage:80 - Clicking on Logo
+2025-04-07 18:52:06 [main] INFO  EmbarkTestCase:56 - Starting User Login test
+2025-04-07 18:52:06 [main] INFO  LandingPage:28 - Clicking on Login button
+2025-04-07 18:52:06 [main] INFO  LandingPage:36 - Successfully navigated to Login page: https://www.embark.org/login
+2025-04-07 18:52:06 [main] INFO  EmbarkTestCase:59 - Clicking on Login button
+2025-04-07 18:52:06 [main] INFO  EmbarkTestCase:61 - Redirected to login page
+2025-04-07 18:52:07 [main] INFO  LoginPage:28 - Username is entered
+2025-04-07 18:52:07 [main] INFO  LoginPage:31 - Password is entered
+2025-04-07 18:52:07 [main] INFO  LoginPage:34 - Login button is clicked
+2025-04-07 18:52:07 [main] INFO  EmbarkTestCase:63 - Logging in with email and password
+2025-04-07 18:52:09 [main] INFO  EmbarkTestCase:72 - Starting Host and Adventure test
+2025-04-07 18:52:09 [main] INFO  HomePage:27 - Clicking on Host an Adventure link
+2025-04-07 18:52:09 [main] INFO  EmbarkTestCase:75 - Clicking on Host an Adventure
+2025-04-07 18:52:09 [main] INFO  EmbarkTestCase:78 - Starting Host and Adventure test
+2025-04-07 18:52:09 [main] INFO  HostAndAdventurePage:33 - Host an Adventure header is displayed
+2025-04-07 18:52:11 [main] INFO  HostAndAdventurePage:38 - Category is selected
+2025-04-07 18:52:13 [main] INFO  HostAndAdventurePage:43 - Difficulty is selected
+2025-04-07 18:52:20 [main] INFO  HostAndAdventurePage:49 - City is selected
+2025-04-07 18:52:23 [main] INFO  HostAndAdventurePage:56 - Clicking on Next button
+2025-04-07 18:52:24 [main] INFO  HostAndAdventurePage:62 - Minimum group size error is displayed
+2025-04-07 18:52:24 [main] INFO  HostAndAdventurePage:66 - Minimum group size error is displayed
+2025-04-07 18:52:24 [main] INFO  HostAndAdventurePage:72 - Minimum group size is entered
+2025-04-07 18:52:24 [main] INFO  HostAndAdventurePage:78 - Maximum group size is entered
+2025-04-07 18:52:24 [main] INFO  HostAndAdventurePage:82 - Clicking on Next button
+2025-04-07 18:52:26 [main] INFO  HostAndAdventurePage:85 - Waiting for new tab to load....
+2025-04-07 18:52:26 [main] INFO  EmbarkTestCase:82 - Starting Host and Adventure test
+2025-04-07 18:52:29 [main] INFO  HostAndAdventurePageDetails:49 - Title is entered
+2025-04-07 18:52:31 [main] INFO  HostAndAdventurePageDetails:54 - Difficulty is selected
+2025-04-07 18:52:32 [main] INFO  HostAndAdventurePageDetails:60 - Summary is entered
+2025-04-07 18:52:32 [main] INFO  HostAndAdventurePageDetails:65 - Included is entered
+2025-04-07 18:52:32 [main] INFO  HostAndAdventurePageDetails:71 - Not included is entered
+2025-04-07 18:52:32 [main] INFO  HostAndAdventurePageDetails:76 - Clicking on Save button
+2025-04-07 18:52:38 [main] INFO  HostAndAdventurePageDetails:82 - City is selected
+2025-04-07 18:52:38 [main] INFO  HostAndAdventurePageDetails:87 - Clicking on Save button
+2025-04-07 18:52:39 [main] INFO  HostAndAdventurePageDetails:94 - Clicking on Save button
+2025-04-07 18:52:42 [main] INFO  HostAndAdventurePageDetails:101 - Duration is entered
+2025-04-07 18:52:44 [main] INFO  HostAndAdventurePageDetails:107 - Days and Time is selected
+2025-04-07 18:52:44 [main] INFO  HostAndAdventurePageDetails:128 - Price is entered
+2025-04-07 18:52:46 [main] INFO  HostAndAdventurePageDetails:134 - City is selected
+2025-04-07 18:52:48 [main] INFO  HostAndAdventurePageDetails:140 - Group is selected
+2025-04-07 18:52:48 [main] INFO  HostAndAdventurePageDetails:146 - Availability is entered
+2025-04-07 18:52:48 [main] INFO  HostAndAdventurePageDetails:152 - What qualifies you to give this tour? is entered
+2025-04-07 18:52:49 [main] INFO  HostAndAdventurePageDetails:158 - Additional info is entered
+2025-04-07 18:52:49 [main] INFO  HostAndAdventurePageDetails:164 - Cancellation is entered
+2025-04-07 18:52:49 [main] INFO  HostAndAdventurePageDetails:169 - Clicking on Save button
+2025-04-07 18:52:54 [main] INFO  HostAndAdventurePageDetails:175 - Meetup Location is selected
+2025-04-07 18:52:54 [main] INFO  HostAndAdventurePageDetails:181 - Itinerary is entered
+2025-04-07 18:52:54 [main] INFO  HostAndAdventurePageDetails:186 - Clicking on Save button
+2025-04-07 18:53:02 [main] INFO  HostAndAdventurePageDetails:193 - Clicking on View Tour button
+2025-04-07 18:53:05 [main] INFO  HostAndAdventurePageDetails:197 - Waiting for new window to open
+2025-04-07 18:53:05 [main] INFO  CommanHelper:136 - Switched to window at index: 1 | URL: https://www.embark.org/tours/summar-fun-27
+2025-04-07 18:53:05 [main] INFO  HostAndAdventurePageDetails:200 - Switching to new window
+2025-04-07 18:53:05 [main] INFO  HostAndAdventurePageDetails:205 - Clicking on Save to Wishlist button
+2025-04-07 18:53:05 [main] INFO  HostAndAdventurePageDetails:209 - Closing the new Opened window
+2025-04-07 18:53:05 [main] INFO  CommanHelper:136 - Switched to window at index: 0 | URL: https://www.embark.org/tours/edit/7094/itinerary
+2025-04-07 18:53:05 [main] INFO  HostAndAdventurePageDetails:213 - Switching back to the original window
+2025-04-07 18:53:05 [main] INFO  HomePage:47 - Clicking on Logo link
+2025-04-07 18:53:06 [main] INFO  EmbarkTestCase:86 - Clicking on Logo
+2025-04-07 18:53:06 [main] INFO  HomePage:34 - Clicking on UserName link
+2025-04-07 18:53:08 [main] INFO  HomePage:38 - Clicking on Logout link
+2025-04-07 18:53:08 [main] INFO  HomePage:41 - Logout link clicked
+2025-04-07 18:53:08 [main] INFO  EmbarkTestCase:88 - Clicking on Logout
+2025-04-07 18:59:18 [main] INFO  EmbarkTestCase:38 - Starting User Login test
+2025-04-07 18:59:18 [main] INFO  LandingPage:28 - Clicking on Login button
+2025-04-07 18:59:18 [main] INFO  LandingPage:36 - Successfully navigated to Login page: https://www.embark.org/login
+2025-04-07 18:59:18 [main] INFO  EmbarkTestCase:41 - Clicking on Login button
+2025-04-07 18:59:18 [main] INFO  EmbarkTestCase:43 - Redirected to login page
+2025-04-07 18:59:18 [main] INFO  LoginPage:28 - Username is entered
+2025-04-07 18:59:19 [main] INFO  LoginPage:31 - Password is entered
+2025-04-07 18:59:19 [main] INFO  LoginPage:34 - Login button is clicked
+2025-04-07 18:59:19 [main] INFO  EmbarkTestCase:47 - Logging in with email and password
+2025-04-07 18:59:22 [main] INFO  EmbarkTestCase:23 - Starting User Registration test
+2025-04-07 18:59:23 [main] INFO  LandingPage:43 - Clicking on Register button
+2025-04-07 18:59:23 [main] INFO  LandingPage:50 - Successfully navigated to Register page: https://www.embark.org/register
+2025-04-07 18:59:23 [main] INFO  EmbarkTestCase:27 - Clicking on Register button
+2025-04-07 18:59:23 [main] INFO  EmbarkTestCase:29 - Starting registration test
+2025-04-07 18:59:23 [main] INFO  RegistrationPage:35 - Full Name is entered
+2025-04-07 18:59:23 [main] INFO  RegistrationPage:41 - Username is entered
+2025-04-07 18:59:23 [main] INFO  RegistrationPage:47 - Email is entered
+2025-04-07 18:59:23 [main] INFO  RegistrationPage:54 - Password is entered
+2025-04-07 18:59:23 [main] INFO  RegistrationPage:60 - Confirm Password is entered
+2025-04-07 18:59:29 [main] INFO  RegistrationPage:65 - Location is selected
+2025-04-07 18:59:29 [main] INFO  RegistrationPage:69 - Clicking on Terms and Condition checkbox
+2025-04-07 18:59:29 [main] INFO  RegistrationPage:74 - Clicking on Register button
+2025-04-07 18:59:32 [main] INFO  HomePage:47 - Clicking on Logo link
+2025-04-07 18:59:32 [main] INFO  RegistrationPage:80 - Clicking on Logo
+2025-04-07 18:59:46 [main] INFO  EmbarkTestCase:56 - Starting User Login test
+2025-04-07 18:59:46 [main] INFO  LandingPage:28 - Clicking on Login button
+2025-04-07 18:59:46 [main] INFO  LandingPage:36 - Successfully navigated to Login page: https://www.embark.org/login
+2025-04-07 18:59:46 [main] INFO  EmbarkTestCase:59 - Clicking on Login button
+2025-04-07 18:59:46 [main] INFO  EmbarkTestCase:61 - Redirected to login page
+2025-04-07 18:59:46 [main] INFO  LoginPage:28 - Username is entered
+2025-04-07 18:59:46 [main] INFO  LoginPage:31 - Password is entered
+2025-04-07 18:59:46 [main] INFO  LoginPage:34 - Login button is clicked
+2025-04-07 18:59:46 [main] INFO  EmbarkTestCase:63 - Logging in with email and password
+2025-04-07 18:59:49 [main] INFO  EmbarkTestCase:72 - Starting Host and Adventure test
+2025-04-07 18:59:49 [main] INFO  HomePage:27 - Clicking on Host an Adventure link
+2025-04-07 18:59:49 [main] INFO  EmbarkTestCase:75 - Clicking on Host an Adventure
+2025-04-07 18:59:49 [main] INFO  EmbarkTestCase:78 - Starting Host and Adventure test
+2025-04-07 18:59:49 [main] INFO  HostAndAdventurePage:33 - Host an Adventure header is displayed
+2025-04-07 18:59:51 [main] INFO  HostAndAdventurePage:38 - Category is selected
+2025-04-07 18:59:53 [main] INFO  HostAndAdventurePage:43 - Difficulty is selected
+2025-04-07 19:00:00 [main] INFO  HostAndAdventurePage:49 - City is selected
+2025-04-07 19:00:03 [main] INFO  HostAndAdventurePage:56 - Clicking on Next button
+2025-04-07 19:00:04 [main] INFO  HostAndAdventurePage:62 - Minimum group size error is displayed
+2025-04-07 19:00:04 [main] INFO  HostAndAdventurePage:66 - Minimum group size error is displayed
+2025-04-07 19:00:04 [main] INFO  HostAndAdventurePage:72 - Minimum group size is entered
+2025-04-07 19:00:04 [main] INFO  HostAndAdventurePage:78 - Maximum group size is entered
+2025-04-07 19:00:04 [main] INFO  HostAndAdventurePage:82 - Clicking on Next button
+2025-04-07 19:00:06 [main] INFO  HostAndAdventurePage:85 - Waiting for new tab to load....
+2025-04-07 19:00:06 [main] INFO  EmbarkTestCase:82 - Starting Host and Adventure test
+2025-04-07 19:00:09 [main] INFO  HostAndAdventurePageDetails:49 - Title is entered
+2025-04-07 19:00:12 [main] INFO  HostAndAdventurePageDetails:54 - Difficulty is selected
+2025-04-07 19:00:12 [main] INFO  HostAndAdventurePageDetails:60 - Summary is entered
+2025-04-07 19:00:12 [main] INFO  HostAndAdventurePageDetails:65 - Included is entered
+2025-04-07 19:00:12 [main] INFO  HostAndAdventurePageDetails:71 - Not included is entered
+2025-04-07 19:00:12 [main] INFO  HostAndAdventurePageDetails:76 - Clicking on Save button
+2025-04-07 19:00:18 [main] INFO  HostAndAdventurePageDetails:82 - City is selected
+2025-04-07 19:00:18 [main] INFO  HostAndAdventurePageDetails:87 - Clicking on Save button
+2025-04-07 19:00:19 [main] INFO  HostAndAdventurePageDetails:94 - Clicking on Save button
+2025-04-07 19:00:22 [main] INFO  HostAndAdventurePageDetails:101 - Duration is entered
+2025-04-07 19:00:25 [main] INFO  HostAndAdventurePageDetails:107 - Days and Time is selected
+2025-04-07 19:00:25 [main] INFO  HostAndAdventurePageDetails:128 - Price is entered
+2025-04-07 19:00:27 [main] INFO  HostAndAdventurePageDetails:134 - City is selected
+2025-04-07 19:00:29 [main] INFO  HostAndAdventurePageDetails:140 - Group is selected
+2025-04-07 19:00:29 [main] INFO  HostAndAdventurePageDetails:146 - Availability is entered
+2025-04-07 19:00:29 [main] INFO  HostAndAdventurePageDetails:152 - What qualifies you to give this tour? is entered
+2025-04-07 19:00:29 [main] INFO  HostAndAdventurePageDetails:158 - Additional info is entered
+2025-04-07 19:00:29 [main] INFO  HostAndAdventurePageDetails:164 - Cancellation is entered
+2025-04-07 19:00:30 [main] INFO  HostAndAdventurePageDetails:169 - Clicking on Save button
+2025-04-07 19:00:35 [main] INFO  HostAndAdventurePageDetails:175 - Meetup Location is selected
+2025-04-07 19:00:35 [main] INFO  HostAndAdventurePageDetails:181 - Itinerary is entered
+2025-04-07 19:00:35 [main] INFO  HostAndAdventurePageDetails:186 - Clicking on Save button
+2025-04-07 19:00:47 [main] INFO  HostAndAdventurePageDetails:193 - Clicking on View Tour button
+2025-04-07 19:00:50 [main] INFO  HostAndAdventurePageDetails:197 - Waiting for new window to open
+2025-04-07 19:00:52 [main] INFO  CommanHelper:136 - Switched to window at index: 1 | URL: https://www.embark.org/tours/summar-fun-28
+2025-04-07 19:00:52 [main] INFO  HostAndAdventurePageDetails:200 - Switching to new window
+2025-04-07 19:00:52 [main] INFO  HostAndAdventurePageDetails:205 - Clicking on Save to Wishlist button
+2025-04-07 19:00:52 [main] INFO  HostAndAdventurePageDetails:209 - Closing the new Opened window
+2025-04-07 19:00:52 [main] INFO  CommanHelper:136 - Switched to window at index: 0 | URL: https://www.embark.org/tours/edit/7095/itinerary
+2025-04-07 19:00:52 [main] INFO  HostAndAdventurePageDetails:213 - Switching back to the original window
+2025-04-07 19:00:52 [main] INFO  HomePage:47 - Clicking on Logo link
+2025-04-07 19:00:52 [main] INFO  EmbarkTestCase:86 - Clicking on Logo
+2025-04-07 19:00:52 [main] INFO  HomePage:34 - Clicking on UserName link
+2025-04-07 19:00:54 [main] INFO  HomePage:38 - Clicking on Logout link
+2025-04-07 19:00:54 [main] INFO  HomePage:41 - Logout link clicked
+2025-04-07 19:00:54 [main] INFO  EmbarkTestCase:88 - Clicking on Logout
+2025-04-07 19:13:02 [main] INFO  EmbarkTestCase:38 - Starting User Login test
+2025-04-07 19:13:02 [main] INFO  LandingPage:28 - Clicking on Login button
+2025-04-07 19:13:02 [main] INFO  LandingPage:36 - Successfully navigated to Login page: https://www.embark.org/login
+2025-04-07 19:13:02 [main] INFO  EmbarkTestCase:41 - Clicking on Login button
+2025-04-07 19:13:02 [main] INFO  EmbarkTestCase:43 - Redirected to login page
+2025-04-07 19:13:02 [main] INFO  LoginPage:28 - Username is entered
+2025-04-07 19:13:02 [main] INFO  LoginPage:31 - Password is entered
+2025-04-07 19:13:03 [main] INFO  LoginPage:34 - Login button is clicked
+2025-04-07 19:13:03 [main] INFO  EmbarkTestCase:47 - Logging in with email and password
+2025-04-07 19:13:06 [main] INFO  EmbarkTestCase:23 - Starting User Registration test
+2025-04-07 19:13:06 [main] INFO  LandingPage:43 - Clicking on Register button
+2025-04-07 19:13:06 [main] INFO  LandingPage:50 - Successfully navigated to Register page: https://www.embark.org/register
+2025-04-07 19:13:06 [main] INFO  EmbarkTestCase:27 - Clicking on Register button
+2025-04-07 19:13:06 [main] INFO  EmbarkTestCase:29 - Starting registration test
+2025-04-07 19:13:07 [main] INFO  RegistrationPage:35 - Full Name is entered
+2025-04-07 19:13:07 [main] INFO  RegistrationPage:41 - Username is entered
+2025-04-07 19:13:07 [main] INFO  RegistrationPage:47 - Email is entered
+2025-04-07 19:13:07 [main] INFO  RegistrationPage:54 - Password is entered
+2025-04-07 19:13:07 [main] INFO  RegistrationPage:60 - Confirm Password is entered
+2025-04-07 19:13:12 [main] INFO  RegistrationPage:65 - Location is selected
+2025-04-07 19:13:12 [main] INFO  RegistrationPage:69 - Clicking on Terms and Condition checkbox
+2025-04-07 19:13:12 [main] INFO  RegistrationPage:74 - Clicking on Register button
+2025-04-07 19:13:16 [main] INFO  HomePage:47 - Clicking on Logo link
+2025-04-07 19:13:16 [main] INFO  RegistrationPage:80 - Clicking on Logo
+2025-04-07 19:13:30 [main] INFO  EmbarkTestCase:56 - Starting User Login test
+2025-04-07 19:13:30 [main] INFO  LandingPage:28 - Clicking on Login button
+2025-04-07 19:13:30 [main] INFO  LandingPage:36 - Successfully navigated to Login page: https://www.embark.org/login
+2025-04-07 19:13:30 [main] INFO  EmbarkTestCase:59 - Clicking on Login button
+2025-04-07 19:13:30 [main] INFO  EmbarkTestCase:61 - Redirected to login page
+2025-04-07 19:13:30 [main] INFO  LoginPage:28 - Username is entered
+2025-04-07 19:13:30 [main] INFO  LoginPage:31 - Password is entered
+2025-04-07 19:13:30 [main] INFO  LoginPage:34 - Login button is clicked
+2025-04-07 19:13:30 [main] INFO  EmbarkTestCase:63 - Logging in with email and password
+2025-04-07 19:13:32 [main] INFO  EmbarkTestCase:72 - Starting Host and Adventure test
+2025-04-07 19:13:33 [main] INFO  HomePage:27 - Clicking on Host an Adventure link
+2025-04-07 19:13:33 [main] INFO  EmbarkTestCase:75 - Clicking on Host an Adventure
+2025-04-07 19:13:33 [main] INFO  EmbarkTestCase:78 - Starting Host and Adventure test
+2025-04-07 19:13:33 [main] INFO  HostAndAdventurePage:33 - Host an Adventure header is displayed
+2025-04-07 19:13:35 [main] INFO  HostAndAdventurePage:38 - Category is selected
+2025-04-07 19:13:37 [main] INFO  HostAndAdventurePage:43 - Difficulty is selected
+2025-04-07 19:13:43 [main] INFO  HostAndAdventurePage:49 - City is selected
+2025-04-07 19:13:46 [main] INFO  HostAndAdventurePage:56 - Clicking on Next button
+2025-04-07 19:13:48 [main] INFO  HostAndAdventurePage:62 - Minimum group size error is displayed
+2025-04-07 19:13:48 [main] INFO  HostAndAdventurePage:66 - Minimum group size error is displayed
+2025-04-07 19:13:48 [main] INFO  HostAndAdventurePage:72 - Minimum group size is entered
+2025-04-07 19:13:48 [main] INFO  HostAndAdventurePage:78 - Maximum group size is entered
+2025-04-07 19:13:48 [main] INFO  HostAndAdventurePage:82 - Clicking on Next button
+2025-04-07 19:13:50 [main] INFO  HostAndAdventurePage:85 - Waiting for new tab to load....
+2025-04-07 19:13:50 [main] INFO  EmbarkTestCase:82 - Starting Host and Adventure test
+2025-04-07 19:13:53 [main] INFO  HostAndAdventurePageDetails:49 - Title is entered
+2025-04-07 19:13:55 [main] INFO  HostAndAdventurePageDetails:54 - Difficulty is selected
+2025-04-07 19:13:56 [main] INFO  HostAndAdventurePageDetails:60 - Summary is entered
+2025-04-07 19:13:56 [main] INFO  HostAndAdventurePageDetails:65 - Included is entered
+2025-04-07 19:13:56 [main] INFO  HostAndAdventurePageDetails:71 - Not included is entered
+2025-04-07 19:13:56 [main] INFO  HostAndAdventurePageDetails:76 - Clicking on Save button
+2025-04-07 19:14:02 [main] INFO  HostAndAdventurePageDetails:82 - City is selected
+2025-04-07 19:14:02 [main] INFO  HostAndAdventurePageDetails:87 - Clicking on Save button
+2025-04-07 19:14:03 [main] INFO  HostAndAdventurePageDetails:94 - Clicking on Save button
+2025-04-07 19:14:06 [main] INFO  HostAndAdventurePageDetails:101 - Duration is entered
+2025-04-07 19:14:08 [main] INFO  HostAndAdventurePageDetails:107 - Days and Time is selected
+2025-04-07 19:14:08 [main] INFO  HostAndAdventurePageDetails:128 - Price is entered
+2025-04-07 19:14:11 [main] INFO  HostAndAdventurePageDetails:134 - City is selected
+2025-04-07 19:14:13 [main] INFO  HostAndAdventurePageDetails:140 - Group is selected
+2025-04-07 19:14:13 [main] INFO  HostAndAdventurePageDetails:146 - Availability is entered
+2025-04-07 19:14:13 [main] INFO  HostAndAdventurePageDetails:152 - What qualifies you to give this tour? is entered
+2025-04-07 19:14:13 [main] INFO  HostAndAdventurePageDetails:158 - Additional info is entered
+2025-04-07 19:14:13 [main] INFO  HostAndAdventurePageDetails:164 - Cancellation is entered
+2025-04-07 19:14:13 [main] INFO  HostAndAdventurePageDetails:169 - Clicking on Save button
+2025-04-07 19:14:19 [main] INFO  HostAndAdventurePageDetails:175 - Meetup Location is selected
+2025-04-07 19:14:19 [main] INFO  HostAndAdventurePageDetails:181 - Itinerary is entered
+2025-04-07 19:14:19 [main] INFO  HostAndAdventurePageDetails:186 - Clicking on Save button
+2025-04-07 19:14:27 [main] INFO  HostAndAdventurePageDetails:193 - Clicking on View Tour button
+2025-04-07 19:14:30 [main] INFO  HostAndAdventurePageDetails:197 - Waiting for new window to open
+2025-04-07 19:14:33 [main] INFO  CommanHelper:136 - Switched to window at index: 1 | URL: https://www.embark.org/tours/summar-fun-29
+2025-04-07 19:14:33 [main] INFO  HostAndAdventurePageDetails:200 - Switching to new window
+2025-04-07 19:14:34 [main] INFO  HostAndAdventurePageDetails:205 - Clicking on Save to Wishlist button
+2025-04-07 19:14:34 [main] INFO  HostAndAdventurePageDetails:209 - Closing the new Opened window
+2025-04-07 19:14:34 [main] INFO  CommanHelper:136 - Switched to window at index: 0 | URL: https://www.embark.org/tours/edit/7096/itinerary
+2025-04-07 19:14:34 [main] INFO  HostAndAdventurePageDetails:213 - Switching back to the original window
+2025-04-07 19:14:34 [main] INFO  HomePage:47 - Clicking on Logo link
+2025-04-07 19:14:34 [main] INFO  EmbarkTestCase:86 - Clicking on Logo
+2025-04-07 19:14:34 [main] INFO  HomePage:34 - Clicking on UserName link
+2025-04-07 19:14:36 [main] INFO  HomePage:38 - Clicking on Logout link
+2025-04-07 19:14:36 [main] INFO  HomePage:41 - Logout link clicked
+2025-04-07 19:14:36 [main] INFO  EmbarkTestCase:88 - Clicking on Logout
+2025-04-07 19:29:53 [main] INFO  EmbarkTestCase:38 - Starting User Login test
+2025-04-07 19:29:53 [main] INFO  LandingPage:28 - Clicking on Login button
+2025-04-07 19:29:53 [main] INFO  LandingPage:36 - Successfully navigated to Login page: https://www.embark.org/login
+2025-04-07 19:29:53 [main] INFO  EmbarkTestCase:41 - Clicking on Login button
+2025-04-07 19:29:53 [main] INFO  EmbarkTestCase:43 - Redirected to login page
+2025-04-07 19:29:53 [main] INFO  LoginPage:28 - Username is entered
+2025-04-07 19:29:53 [main] INFO  LoginPage:31 - Password is entered
+2025-04-07 19:29:53 [main] INFO  LoginPage:34 - Login button is clicked
+2025-04-07 19:29:53 [main] INFO  EmbarkTestCase:47 - Logging in with email and password
+2025-04-07 19:29:58 [main] INFO  EmbarkTestCase:23 - Starting User Registration test
+2025-04-07 19:29:58 [main] INFO  LandingPage:43 - Clicking on Register button
+2025-04-07 19:29:58 [main] INFO  LandingPage:50 - Successfully navigated to Register page: https://www.embark.org/register
+2025-04-07 19:29:58 [main] INFO  EmbarkTestCase:27 - Clicking on Register button
+2025-04-07 19:29:58 [main] INFO  EmbarkTestCase:29 - Starting registration test
+2025-04-07 19:29:58 [main] INFO  RegistrationPage:35 - Full Name is entered
+2025-04-07 19:29:59 [main] INFO  RegistrationPage:41 - Username is entered
+2025-04-07 19:29:59 [main] INFO  RegistrationPage:47 - Email is entered
+2025-04-07 19:29:59 [main] INFO  RegistrationPage:54 - Password is entered
+2025-04-07 19:29:59 [main] INFO  RegistrationPage:60 - Confirm Password is entered
+2025-04-07 19:30:04 [main] INFO  RegistrationPage:65 - Location is selected
+2025-04-07 19:30:04 [main] INFO  RegistrationPage:69 - Clicking on Terms and Condition checkbox
+2025-04-07 19:30:04 [main] INFO  RegistrationPage:74 - Clicking on Register button
+2025-04-07 19:30:07 [main] INFO  HomePage:47 - Clicking on Logo link
+2025-04-07 19:30:07 [main] INFO  RegistrationPage:80 - Clicking on Logo
+2025-04-07 19:30:21 [main] INFO  EmbarkTestCase:56 - Starting User Login test
+2025-04-07 19:30:21 [main] INFO  LandingPage:28 - Clicking on Login button
+2025-04-07 19:30:21 [main] INFO  LandingPage:36 - Successfully navigated to Login page: https://www.embark.org/login
+2025-04-07 19:30:21 [main] INFO  EmbarkTestCase:59 - Clicking on Login button
+2025-04-07 19:30:21 [main] INFO  EmbarkTestCase:61 - Redirected to login page
+2025-04-07 19:30:21 [main] INFO  LoginPage:28 - Username is entered
+2025-04-07 19:30:21 [main] INFO  LoginPage:31 - Password is entered
+2025-04-07 19:30:22 [main] INFO  LoginPage:34 - Login button is clicked
+2025-04-07 19:30:22 [main] INFO  EmbarkTestCase:63 - Logging in with email and password
+2025-04-07 19:30:25 [main] INFO  EmbarkTestCase:72 - Starting Host and Adventure test
+2025-04-07 19:30:25 [main] INFO  HomePage:27 - Clicking on Host an Adventure link
+2025-04-07 19:30:25 [main] INFO  EmbarkTestCase:75 - Clicking on Host an Adventure
+2025-04-07 19:30:25 [main] INFO  EmbarkTestCase:78 - Starting Host and Adventure test
+2025-04-07 19:30:25 [main] INFO  HostAndAdventurePage:33 - Host an Adventure header is displayed
+2025-04-07 19:30:27 [main] INFO  HostAndAdventurePage:38 - Category is selected
+2025-04-07 19:30:30 [main] INFO  HostAndAdventurePage:43 - Difficulty is selected
+2025-04-07 19:30:36 [main] INFO  HostAndAdventurePage:49 - City is selected
+2025-04-07 19:30:39 [main] INFO  HostAndAdventurePage:56 - Clicking on Next button
+2025-04-07 19:30:40 [main] INFO  HostAndAdventurePage:62 - Minimum group size error is displayed
+2025-04-07 19:30:40 [main] INFO  HostAndAdventurePage:66 - Minimum group size error is displayed
+2025-04-07 19:30:40 [main] INFO  HostAndAdventurePage:72 - Minimum group size is entered
+2025-04-07 19:30:40 [main] INFO  HostAndAdventurePage:78 - Maximum group size is entered
+2025-04-07 19:30:40 [main] INFO  HostAndAdventurePage:82 - Clicking on Next button
+2025-04-07 19:30:42 [main] INFO  HostAndAdventurePage:85 - Waiting for new tab to load....
+2025-04-07 19:30:42 [main] INFO  EmbarkTestCase:82 - Starting Host and Adventure test
+2025-04-07 19:32:35 [main] INFO  EmbarkTestCase:38 - Starting User Login test
+2025-04-07 19:32:35 [main] INFO  LandingPage:28 - Clicking on Login button
+2025-04-07 19:32:36 [main] INFO  LandingPage:36 - Successfully navigated to Login page: https://www.embark.org/login
+2025-04-07 19:32:36 [main] INFO  EmbarkTestCase:41 - Clicking on Login button
+2025-04-07 19:32:36 [main] INFO  EmbarkTestCase:43 - Redirected to login page
+2025-04-07 19:32:36 [main] INFO  LoginPage:28 - Username is entered
+2025-04-07 19:32:36 [main] INFO  LoginPage:31 - Password is entered
+2025-04-07 19:32:36 [main] INFO  LoginPage:34 - Login button is clicked
+2025-04-07 19:32:36 [main] INFO  EmbarkTestCase:47 - Logging in with email and password
+2025-04-07 19:32:40 [main] INFO  EmbarkTestCase:23 - Starting User Registration test
+2025-04-07 19:32:41 [main] INFO  LandingPage:43 - Clicking on Register button
+2025-04-07 19:32:41 [main] INFO  LandingPage:50 - Successfully navigated to Register page: https://www.embark.org/register
+2025-04-07 19:32:41 [main] INFO  EmbarkTestCase:27 - Clicking on Register button
+2025-04-07 19:32:41 [main] INFO  EmbarkTestCase:29 - Starting registration test
+2025-04-07 19:32:41 [main] INFO  RegistrationPage:35 - Full Name is entered
+2025-04-07 19:32:41 [main] INFO  RegistrationPage:41 - Username is entered
+2025-04-07 19:32:41 [main] INFO  RegistrationPage:47 - Email is entered
+2025-04-07 19:32:41 [main] INFO  RegistrationPage:54 - Password is entered
+2025-04-07 19:32:41 [main] INFO  RegistrationPage:60 - Confirm Password is entered
+2025-04-07 19:32:47 [main] INFO  RegistrationPage:65 - Location is selected
+2025-04-07 19:32:47 [main] INFO  RegistrationPage:69 - Clicking on Terms and Condition checkbox
+2025-04-07 19:32:47 [main] INFO  RegistrationPage:74 - Clicking on Register button
+2025-04-07 19:32:50 [main] INFO  HomePage:47 - Clicking on Logo link
+2025-04-07 19:32:50 [main] INFO  RegistrationPage:80 - Clicking on Logo
+2025-04-07 19:33:04 [main] INFO  EmbarkTestCase:56 - Starting User Login test
+2025-04-07 19:33:04 [main] INFO  LandingPage:28 - Clicking on Login button
+2025-04-07 19:33:04 [main] INFO  LandingPage:36 - Successfully navigated to Login page: https://www.embark.org/login
+2025-04-07 19:33:04 [main] INFO  EmbarkTestCase:59 - Clicking on Login button
+2025-04-07 19:33:04 [main] INFO  EmbarkTestCase:61 - Redirected to login page
+2025-04-07 19:33:04 [main] INFO  LoginPage:28 - Username is entered
+2025-04-07 19:33:04 [main] INFO  LoginPage:31 - Password is entered
+2025-04-07 19:33:04 [main] INFO  LoginPage:34 - Login button is clicked
+2025-04-07 19:33:04 [main] INFO  EmbarkTestCase:63 - Logging in with email and password
+2025-04-07 19:33:07 [main] INFO  EmbarkTestCase:72 - Starting Host and Adventure test
+2025-04-07 19:33:07 [main] INFO  HomePage:27 - Clicking on Host an Adventure link
+2025-04-07 19:33:07 [main] INFO  EmbarkTestCase:75 - Clicking on Host an Adventure
+2025-04-07 19:33:07 [main] INFO  EmbarkTestCase:78 - Starting Host and Adventure test
+2025-04-07 19:33:07 [main] INFO  HostAndAdventurePage:33 - Host an Adventure header is displayed
+2025-04-07 19:33:10 [main] INFO  HostAndAdventurePage:38 - Category is selected
+2025-04-07 19:33:12 [main] INFO  HostAndAdventurePage:43 - Difficulty is selected
+2025-04-07 19:33:18 [main] INFO  HostAndAdventurePage:49 - City is selected
+2025-04-07 19:33:21 [main] INFO  HostAndAdventurePage:56 - Clicking on Next button
+2025-04-07 19:33:22 [main] INFO  HostAndAdventurePage:62 - Minimum group size error is displayed
+2025-04-07 19:33:22 [main] INFO  HostAndAdventurePage:66 - Minimum group size error is displayed
+2025-04-07 19:33:23 [main] INFO  HostAndAdventurePage:72 - Minimum group size is entered
+2025-04-07 19:33:23 [main] INFO  HostAndAdventurePage:78 - Maximum group size is entered
+2025-04-07 19:33:23 [main] INFO  HostAndAdventurePage:82 - Clicking on Next button
+2025-04-07 19:33:25 [main] INFO  HostAndAdventurePage:85 - Waiting for new tab to load....
+2025-04-07 19:33:25 [main] INFO  EmbarkTestCase:82 - Starting Host and Adventure test
+2025-04-07 19:33:28 [main] INFO  HostAndAdventurePageDetails:49 - Title is entered
+2025-04-07 19:33:30 [main] INFO  HostAndAdventurePageDetails:54 - Difficulty is selected
+2025-04-07 19:33:30 [main] INFO  HostAndAdventurePageDetails:60 - Summary is entered
+2025-04-07 19:33:30 [main] INFO  HostAndAdventurePageDetails:65 - Included is entered
+2025-04-07 19:33:31 [main] INFO  HostAndAdventurePageDetails:71 - Not included is entered
+2025-04-07 19:33:31 [main] INFO  HostAndAdventurePageDetails:76 - Clicking on Save button
+2025-04-07 19:33:37 [main] INFO  HostAndAdventurePageDetails:82 - City is selected
+2025-04-07 19:33:37 [main] INFO  HostAndAdventurePageDetails:87 - Clicking on Save button
+2025-04-07 19:33:38 [main] INFO  HostAndAdventurePageDetails:94 - Clicking on Save button
+2025-04-07 19:33:41 [main] INFO  HostAndAdventurePageDetails:101 - Duration is entered
+2025-04-07 19:33:44 [main] INFO  HostAndAdventurePageDetails:107 - Days and Time is selected
+2025-04-07 19:33:44 [main] INFO  HostAndAdventurePageDetails:128 - Price is entered
+2025-04-07 19:33:46 [main] INFO  HostAndAdventurePageDetails:134 - City is selected
+2025-04-07 19:33:48 [main] INFO  HostAndAdventurePageDetails:140 - Group is selected
+2025-04-07 19:33:48 [main] INFO  HostAndAdventurePageDetails:146 - Availability is entered
+2025-04-07 19:33:48 [main] INFO  HostAndAdventurePageDetails:152 - What qualifies you to give this tour? is entered
+2025-04-07 19:33:49 [main] INFO  HostAndAdventurePageDetails:158 - Additional info is entered
+2025-04-07 19:33:49 [main] INFO  HostAndAdventurePageDetails:164 - Cancellation is entered
+2025-04-07 19:33:49 [main] INFO  HostAndAdventurePageDetails:169 - Clicking on Save button
+2025-04-07 19:33:54 [main] INFO  HostAndAdventurePageDetails:175 - Meetup Location is selected
+2025-04-07 19:33:54 [main] INFO  HostAndAdventurePageDetails:181 - Itinerary is entered
+2025-04-07 19:33:54 [main] INFO  HostAndAdventurePageDetails:186 - Clicking on Save button
+2025-04-07 19:34:02 [main] INFO  HostAndAdventurePageDetails:193 - Clicking on View Tour button
+2025-04-07 19:34:05 [main] INFO  HostAndAdventurePageDetails:197 - Waiting for new window to open
+2025-04-07 19:34:05 [main] INFO  CommanHelper:136 - Switched to window at index: 1 | URL: https://www.embark.org/tours/summar-fun-30
+2025-04-07 19:34:05 [main] INFO  HostAndAdventurePageDetails:200 - Switching to new window
+2025-04-07 19:34:05 [main] INFO  HostAndAdventurePageDetails:205 - Clicking on Save to Wishlist button
+2025-04-07 19:34:06 [main] INFO  HostAndAdventurePageDetails:209 - Closing the new Opened window
+2025-04-07 19:34:06 [main] INFO  CommanHelper:136 - Switched to window at index: 0 | URL: https://www.embark.org/tours/edit/7097/itinerary
+2025-04-07 19:34:06 [main] INFO  HostAndAdventurePageDetails:213 - Switching back to the original window
+2025-04-07 19:34:06 [main] INFO  HomePage:47 - Clicking on Logo link
+2025-04-07 19:34:06 [main] INFO  EmbarkTestCase:86 - Clicking on Logo
+2025-04-07 19:34:06 [main] INFO  HomePage:34 - Clicking on UserName link
+2025-04-07 19:34:08 [main] INFO  HomePage:38 - Clicking on Logout link
+2025-04-07 19:34:08 [main] INFO  HomePage:41 - Logout link clicked
+2025-04-07 19:34:08 [main] INFO  EmbarkTestCase:88 - Clicking on Logout
+2025-04-07 19:41:20 [main] INFO  EmbarkTestCase:38 - Starting User Login test
+2025-04-07 19:41:20 [main] INFO  LandingPage:28 - Clicking on Login button
+2025-04-07 19:41:20 [main] INFO  LandingPage:36 - Successfully navigated to Login page: https://www.embark.org/login
+2025-04-07 19:41:20 [main] INFO  EmbarkTestCase:41 - Clicking on Login button
+2025-04-07 19:41:20 [main] INFO  EmbarkTestCase:43 - Redirected to login page
+2025-04-07 19:41:21 [main] INFO  LoginPage:28 - Username is entered
+2025-04-07 19:41:21 [main] INFO  LoginPage:31 - Password is entered
+2025-04-07 19:41:21 [main] INFO  LoginPage:34 - Login button is clicked
+2025-04-07 19:41:21 [main] INFO  EmbarkTestCase:47 - Logging in with email and password
+2025-04-07 19:41:25 [main] INFO  EmbarkTestCase:23 - Starting User Registration test
+2025-04-07 19:41:26 [main] INFO  LandingPage:43 - Clicking on Register button
+2025-04-07 19:41:26 [main] INFO  LandingPage:50 - Successfully navigated to Register page: https://www.embark.org/register
+2025-04-07 19:41:26 [main] INFO  EmbarkTestCase:27 - Clicking on Register button
+2025-04-07 19:41:26 [main] INFO  EmbarkTestCase:29 - Starting registration test
+2025-04-07 19:41:26 [main] INFO  RegistrationPage:35 - Full Name is entered
+2025-04-07 19:41:26 [main] INFO  RegistrationPage:41 - Username is entered
+2025-04-07 19:41:26 [main] INFO  RegistrationPage:47 - Email is entered
+2025-04-07 19:41:26 [main] INFO  RegistrationPage:54 - Password is entered
+2025-04-07 19:41:27 [main] INFO  RegistrationPage:60 - Confirm Password is entered
+2025-04-07 19:41:32 [main] INFO  RegistrationPage:65 - Location is selected
+2025-04-07 19:41:32 [main] INFO  RegistrationPage:69 - Clicking on Terms and Condition checkbox
+2025-04-07 19:41:32 [main] INFO  RegistrationPage:74 - Clicking on Register button
+2025-04-07 19:41:35 [main] INFO  HomePage:47 - Clicking on Logo link
+2025-04-07 19:41:35 [main] INFO  RegistrationPage:80 - Clicking on Logo
+2025-04-07 19:41:49 [main] INFO  EmbarkTestCase:56 - Starting User Login test
+2025-04-07 19:41:49 [main] INFO  LandingPage:28 - Clicking on Login button
+2025-04-07 19:41:49 [main] INFO  LandingPage:36 - Successfully navigated to Login page: https://www.embark.org/login
+2025-04-07 19:41:49 [main] INFO  EmbarkTestCase:59 - Clicking on Login button
+2025-04-07 19:41:49 [main] INFO  EmbarkTestCase:61 - Redirected to login page
+2025-04-07 19:41:50 [main] INFO  LoginPage:28 - Username is entered
+2025-04-07 19:41:50 [main] INFO  LoginPage:31 - Password is entered
+2025-04-07 19:41:50 [main] INFO  LoginPage:34 - Login button is clicked
+2025-04-07 19:41:50 [main] INFO  EmbarkTestCase:63 - Logging in with email and password
+2025-04-07 19:41:53 [main] INFO  EmbarkTestCase:72 - Starting Host and Adventure test
+2025-04-07 19:41:53 [main] INFO  HomePage:27 - Clicking on Host an Adventure link
+2025-04-07 19:41:53 [main] INFO  EmbarkTestCase:75 - Clicking on Host an Adventure
+2025-04-07 19:41:53 [main] INFO  EmbarkTestCase:78 - Starting Host and Adventure test
+2025-04-07 19:41:53 [main] INFO  HostAndAdventurePage:33 - Host an Adventure header is displayed
+2025-04-07 19:41:55 [main] INFO  HostAndAdventurePage:38 - Category is selected
+2025-04-07 19:41:58 [main] INFO  HostAndAdventurePage:43 - Difficulty is selected
+2025-04-07 19:42:04 [main] INFO  HostAndAdventurePage:49 - City is selected
+2025-04-07 19:42:07 [main] INFO  HostAndAdventurePage:56 - Clicking on Next button
+2025-04-07 19:42:08 [main] INFO  HostAndAdventurePage:62 - Minimum group size error is displayed
+2025-04-07 19:42:08 [main] INFO  HostAndAdventurePage:66 - Minimum group size error is displayed
+2025-04-07 19:42:08 [main] INFO  HostAndAdventurePage:72 - Minimum group size is entered
+2025-04-07 19:42:08 [main] INFO  HostAndAdventurePage:78 - Maximum group size is entered
+2025-04-07 19:42:09 [main] INFO  HostAndAdventurePage:82 - Clicking on Next button
+2025-04-07 19:42:11 [main] INFO  HostAndAdventurePage:85 - Waiting for new tab to load....
+2025-04-07 19:42:11 [main] INFO  EmbarkTestCase:82 - Starting Host and Adventure test
+2025-04-07 19:42:14 [main] INFO  HostAndAdventurePageDetails:49 - Title is entered
+2025-04-07 19:42:16 [main] INFO  HostAndAdventurePageDetails:54 - Difficulty is selected
+2025-04-07 19:42:16 [main] INFO  HostAndAdventurePageDetails:60 - Summary is entered
+2025-04-07 19:42:17 [main] INFO  HostAndAdventurePageDetails:65 - Included is entered
+2025-04-07 19:42:17 [main] INFO  HostAndAdventurePageDetails:71 - Not included is entered
+2025-04-07 19:42:17 [main] INFO  HostAndAdventurePageDetails:76 - Clicking on Save button
+2025-04-07 19:42:23 [main] INFO  HostAndAdventurePageDetails:82 - City is selected
+2025-04-07 19:42:23 [main] INFO  HostAndAdventurePageDetails:87 - Clicking on Save button
+2025-04-07 19:42:24 [main] INFO  HostAndAdventurePageDetails:94 - Clicking on Save button
+2025-04-07 19:42:28 [main] INFO  HostAndAdventurePageDetails:101 - Duration is entered
+2025-04-07 19:42:30 [main] INFO  HostAndAdventurePageDetails:107 - Days and Time is selected
+2025-04-07 19:42:30 [main] INFO  HostAndAdventurePageDetails:128 - Price is entered
+2025-04-07 19:42:33 [main] INFO  HostAndAdventurePageDetails:134 - City is selected
+2025-04-07 19:42:35 [main] INFO  HostAndAdventurePageDetails:140 - Group is selected
+2025-04-07 19:42:35 [main] INFO  HostAndAdventurePageDetails:146 - Availability is entered
+2025-04-07 19:42:35 [main] INFO  HostAndAdventurePageDetails:152 - What qualifies you to give this tour? is entered
+2025-04-07 19:42:36 [main] INFO  HostAndAdventurePageDetails:158 - Additional info is entered
+2025-04-07 19:42:36 [main] INFO  HostAndAdventurePageDetails:164 - Cancellation is entered
+2025-04-07 19:42:36 [main] INFO  HostAndAdventurePageDetails:169 - Clicking on Save button
+2025-04-07 19:42:41 [main] INFO  HostAndAdventurePageDetails:175 - Meetup Location is selected
+2025-04-07 19:42:42 [main] INFO  HostAndAdventurePageDetails:181 - Itinerary is entered
+2025-04-07 19:42:42 [main] INFO  HostAndAdventurePageDetails:186 - Clicking on Save button
+2025-04-07 19:42:50 [main] INFO  HostAndAdventurePageDetails:193 - Clicking on View Tour button
+2025-04-07 19:42:53 [main] INFO  HostAndAdventurePageDetails:197 - Waiting for new window to open
+2025-04-07 19:42:59 [main] INFO  CommanHelper:136 - Switched to window at index: 1 | URL: https://www.embark.org/tours/summar-fun-31
+2025-04-07 19:42:59 [main] INFO  HostAndAdventurePageDetails:200 - Switching to new window
+2025-04-07 19:42:59 [main] INFO  HostAndAdventurePageDetails:205 - Clicking on Save to Wishlist button
+2025-04-07 19:42:59 [main] INFO  HostAndAdventurePageDetails:209 - Closing the new Opened window
+2025-04-07 19:42:59 [main] INFO  CommanHelper:136 - Switched to window at index: 0 | URL: https://www.embark.org/tours/edit/7098/itinerary
+2025-04-07 19:42:59 [main] INFO  HostAndAdventurePageDetails:213 - Switching back to the original window
+2025-04-07 19:42:59 [main] INFO  HomePage:47 - Clicking on Logo link
+2025-04-07 19:43:00 [main] INFO  EmbarkTestCase:86 - Clicking on Logo
+2025-04-07 19:43:00 [main] INFO  HomePage:34 - Clicking on UserName link
+2025-04-07 19:43:02 [main] INFO  HomePage:38 - Clicking on Logout link
+2025-04-07 19:43:02 [main] INFO  HomePage:41 - Logout link clicked
+2025-04-07 19:43:02 [main] INFO  EmbarkTestCase:88 - Clicking on Logout
+2025-04-07 19:46:01 [main] INFO  EmbarkTestCase:56 - Starting User Login test
+2025-04-07 19:46:02 [main] INFO  LandingPage:28 - Clicking on Login button
+2025-04-07 19:46:02 [main] INFO  LandingPage:36 - Successfully navigated to Login page: https://www.embark.org/login
+2025-04-07 19:46:02 [main] INFO  EmbarkTestCase:59 - Clicking on Login button
+2025-04-07 19:46:02 [main] INFO  EmbarkTestCase:61 - Redirected to login page
+2025-04-07 19:46:02 [main] INFO  LoginPage:28 - Username is entered
+2025-04-07 19:46:02 [main] INFO  LoginPage:31 - Password is entered
+2025-04-07 19:46:02 [main] INFO  LoginPage:34 - Login button is clicked
+2025-04-07 19:46:02 [main] INFO  EmbarkTestCase:63 - Logging in with email and password
+2025-04-07 19:47:17 [main] INFO  EmbarkTestCase:56 - Starting User Login test
+2025-04-07 19:47:18 [main] INFO  LandingPage:28 - Clicking on Login button
+2025-04-07 19:47:18 [main] INFO  LandingPage:36 - Successfully navigated to Login page: https://www.embark.org/login
+2025-04-07 19:47:18 [main] INFO  EmbarkTestCase:59 - Clicking on Login button
+2025-04-07 19:47:18 [main] INFO  EmbarkTestCase:61 - Redirected to login page
+2025-04-07 19:47:18 [main] INFO  LoginPage:28 - Username is entered
+2025-04-07 19:47:18 [main] INFO  LoginPage:31 - Password is entered
+2025-04-07 19:47:18 [main] INFO  LoginPage:34 - Login button is clicked
+2025-04-07 19:47:18 [main] INFO  EmbarkTestCase:63 - Logging in with email and password
+2025-04-07 19:47:52 [main] INFO  EmbarkTestCase:56 - Starting User Login test
+2025-04-07 19:47:52 [main] INFO  LandingPage:28 - Clicking on Login button
+2025-04-07 19:47:52 [main] INFO  LandingPage:36 - Successfully navigated to Login page: https://www.embark.org/login
+2025-04-07 19:47:52 [main] INFO  EmbarkTestCase:59 - Clicking on Login button
+2025-04-07 19:47:52 [main] INFO  EmbarkTestCase:61 - Redirected to login page
+2025-04-07 19:47:53 [main] INFO  LoginPage:28 - Username is entered
+2025-04-07 19:47:53 [main] INFO  LoginPage:31 - Password is entered
+2025-04-07 19:47:53 [main] INFO  LoginPage:34 - Login button is clicked
+2025-04-07 19:47:53 [main] INFO  EmbarkTestCase:63 - Logging in with email and password
+2025-04-07 19:48:39 [main] INFO  EmbarkTestCase:38 - Starting User Login test
+2025-04-07 19:48:39 [main] INFO  LandingPage:28 - Clicking on Login button
+2025-04-07 19:48:39 [main] INFO  LandingPage:36 - Successfully navigated to Login page: https://www.embark.org/login
+2025-04-07 19:48:39 [main] INFO  EmbarkTestCase:41 - Clicking on Login button
+2025-04-07 19:48:39 [main] INFO  EmbarkTestCase:43 - Redirected to login page
+2025-04-07 19:48:39 [main] INFO  LoginPage:28 - Username is entered
+2025-04-07 19:48:39 [main] INFO  LoginPage:31 - Password is entered
+2025-04-07 19:48:39 [main] INFO  LoginPage:34 - Login button is clicked
+2025-04-07 19:48:39 [main] INFO  EmbarkTestCase:47 - Logging in with email and password
+2025-04-07 19:48:43 [main] INFO  EmbarkTestCase:23 - Starting User Registration test
+2025-04-07 19:48:43 [main] INFO  LandingPage:43 - Clicking on Register button
+2025-04-07 19:48:44 [main] INFO  LandingPage:50 - Successfully navigated to Register page: https://www.embark.org/register
+2025-04-07 19:48:44 [main] INFO  EmbarkTestCase:27 - Clicking on Register button
+2025-04-07 19:48:44 [main] INFO  EmbarkTestCase:29 - Starting registration test
+2025-04-07 19:48:44 [main] INFO  RegistrationPage:35 - Full Name is entered
+2025-04-07 19:48:44 [main] INFO  RegistrationPage:41 - Username is entered
+2025-04-07 19:48:44 [main] INFO  RegistrationPage:47 - Email is entered
+2025-04-07 19:48:44 [main] INFO  RegistrationPage:54 - Password is entered
+2025-04-07 19:48:44 [main] INFO  RegistrationPage:60 - Confirm Password is entered
+2025-04-07 19:48:50 [main] INFO  RegistrationPage:65 - Location is selected
+2025-04-07 19:48:50 [main] INFO  RegistrationPage:69 - Clicking on Terms and Condition checkbox
+2025-04-07 19:48:50 [main] INFO  RegistrationPage:74 - Clicking on Register button
+2025-04-07 19:48:53 [main] INFO  HomePage:47 - Clicking on Logo link
+2025-04-07 19:48:53 [main] INFO  RegistrationPage:80 - Clicking on Logo
+2025-04-07 19:49:07 [main] INFO  EmbarkTestCase:56 - Starting User Login test
+2025-04-07 19:49:07 [main] INFO  LandingPage:28 - Clicking on Login button
+2025-04-07 19:49:07 [main] INFO  LandingPage:36 - Successfully navigated to Login page: https://www.embark.org/login
+2025-04-07 19:49:07 [main] INFO  EmbarkTestCase:59 - Clicking on Login button
+2025-04-07 19:49:07 [main] INFO  EmbarkTestCase:61 - Redirected to login page
+2025-04-07 19:49:07 [main] INFO  LoginPage:28 - Username is entered
+2025-04-07 19:49:07 [main] INFO  LoginPage:31 - Password is entered
+2025-04-07 19:49:07 [main] INFO  LoginPage:34 - Login button is clicked
+2025-04-07 19:49:07 [main] INFO  EmbarkTestCase:63 - Logging in with email and password
+2025-04-07 19:49:11 [main] INFO  EmbarkTestCase:72 - Starting Host and Adventure test
+2025-04-07 19:49:11 [main] INFO  HomePage:27 - Clicking on Host an Adventure link
+2025-04-07 19:49:11 [main] INFO  EmbarkTestCase:75 - Clicking on Host an Adventure
+2025-04-07 19:49:11 [main] INFO  EmbarkTestCase:78 - Starting Host and Adventure test
+2025-04-07 19:49:11 [main] INFO  HostAndAdventurePage:33 - Host an Adventure header is displayed
+2025-04-07 19:49:14 [main] INFO  HostAndAdventurePage:38 - Category is selected
+2025-04-07 19:49:16 [main] INFO  HostAndAdventurePage:43 - Difficulty is selected
+2025-04-07 19:49:22 [main] INFO  HostAndAdventurePage:49 - City is selected
+2025-04-07 19:49:25 [main] INFO  HostAndAdventurePage:56 - Clicking on Next button
+2025-04-07 19:49:27 [main] INFO  HostAndAdventurePage:62 - Minimum group size error is displayed
+2025-04-07 19:49:27 [main] INFO  HostAndAdventurePage:66 - Minimum group size error is displayed
+2025-04-07 19:49:27 [main] INFO  HostAndAdventurePage:72 - Minimum group size is entered
+2025-04-07 19:49:27 [main] INFO  HostAndAdventurePage:78 - Maximum group size is entered
+2025-04-07 19:49:27 [main] INFO  HostAndAdventurePage:82 - Clicking on Next button
+2025-04-07 19:49:29 [main] INFO  HostAndAdventurePage:85 - Waiting for new tab to load....
+2025-04-07 19:49:29 [main] INFO  EmbarkTestCase:82 - Starting Host and Adventure test
+2025-04-07 19:49:32 [main] INFO  HostAndAdventurePageDetails:49 - Title is entered
+2025-04-07 19:49:35 [main] INFO  HostAndAdventurePageDetails:54 - Difficulty is selected
+2025-04-07 19:49:35 [main] INFO  HostAndAdventurePageDetails:60 - Summary is entered
+2025-04-07 19:49:35 [main] INFO  HostAndAdventurePageDetails:65 - Included is entered
+2025-04-07 19:49:35 [main] INFO  HostAndAdventurePageDetails:71 - Not included is entered
+2025-04-07 19:49:35 [main] INFO  HostAndAdventurePageDetails:76 - Clicking on Save button
+2025-04-07 19:49:42 [main] INFO  HostAndAdventurePageDetails:82 - City is selected
+2025-04-07 19:49:42 [main] INFO  HostAndAdventurePageDetails:87 - Clicking on Save button
+2025-04-07 19:49:43 [main] INFO  HostAndAdventurePageDetails:94 - Clicking on Save button
+2025-04-07 19:49:47 [main] INFO  HostAndAdventurePageDetails:101 - Duration is entered
+2025-04-07 19:49:49 [main] INFO  HostAndAdventurePageDetails:107 - Days and Time is selected
+2025-04-07 19:49:49 [main] INFO  HostAndAdventurePageDetails:128 - Price is entered
+2025-04-07 19:49:52 [main] INFO  HostAndAdventurePageDetails:134 - City is selected
+2025-04-07 19:49:54 [main] INFO  HostAndAdventurePageDetails:140 - Group is selected
+2025-04-07 19:49:54 [main] INFO  HostAndAdventurePageDetails:146 - Availability is entered
+2025-04-07 19:49:54 [main] INFO  HostAndAdventurePageDetails:152 - What qualifies you to give this tour? is entered
+2025-04-07 19:49:55 [main] INFO  HostAndAdventurePageDetails:158 - Additional info is entered
+2025-04-07 19:49:55 [main] INFO  HostAndAdventurePageDetails:164 - Cancellation is entered
+2025-04-07 19:49:55 [main] INFO  HostAndAdventurePageDetails:169 - Clicking on Save button
+2025-04-07 19:50:00 [main] INFO  HostAndAdventurePageDetails:175 - Meetup Location is selected
+2025-04-07 19:50:00 [main] INFO  HostAndAdventurePageDetails:181 - Itinerary is entered
+2025-04-07 19:50:01 [main] INFO  HostAndAdventurePageDetails:186 - Clicking on Save button
+2025-04-07 19:50:09 [main] INFO  HostAndAdventurePageDetails:193 - Clicking on View Tour button
+2025-04-07 19:50:12 [main] INFO  HostAndAdventurePageDetails:197 - Waiting for new window to open
+2025-04-07 19:50:16 [main] INFO  CommanHelper:136 - Switched to window at index: 1 | URL: https://www.embark.org/tours/summar-fun-32
+2025-04-07 19:50:16 [main] INFO  HostAndAdventurePageDetails:200 - Switching to new window
+2025-04-07 19:50:16 [main] INFO  HostAndAdventurePageDetails:205 - Clicking on Save to Wishlist button
+2025-04-07 19:50:16 [main] INFO  HostAndAdventurePageDetails:209 - Closing the new Opened window
+2025-04-07 19:50:16 [main] INFO  CommanHelper:136 - Switched to window at index: 0 | URL: https://www.embark.org/tours/edit/7099/itinerary
+2025-04-07 19:50:16 [main] INFO  HostAndAdventurePageDetails:213 - Switching back to the original window
+2025-04-07 19:50:16 [main] INFO  HomePage:47 - Clicking on Logo link
+2025-04-07 19:50:16 [main] INFO  EmbarkTestCase:86 - Clicking on Logo
+2025-04-07 19:50:17 [main] INFO  HomePage:34 - Clicking on UserName link
+2025-04-07 19:50:19 [main] INFO  HomePage:38 - Clicking on Logout link
+2025-04-07 19:50:19 [main] INFO  HomePage:41 - Logout link clicked
+2025-04-07 19:50:19 [main] INFO  EmbarkTestCase:88 - Clicking on Logout
+2025-04-07 19:53:20 [main] INFO  EmbarkTestCase:38 - Starting User Login test
+2025-04-07 19:53:21 [main] INFO  LandingPage:28 - Clicking on Login button
+2025-04-07 19:53:21 [main] INFO  LandingPage:36 - Successfully navigated to Login page: https://www.embark.org/login
+2025-04-07 19:53:21 [main] INFO  EmbarkTestCase:41 - Clicking on Login button
+2025-04-07 19:53:21 [main] INFO  EmbarkTestCase:43 - Redirected to login page
+2025-04-07 19:53:21 [main] INFO  LoginPage:28 - Username is entered
+2025-04-07 19:53:21 [main] INFO  LoginPage:31 - Password is entered
+2025-04-07 19:53:21 [main] INFO  LoginPage:34 - Login button is clicked
+2025-04-07 19:53:21 [main] INFO  EmbarkTestCase:47 - Logging in with email and password
+2025-04-07 19:53:25 [main] INFO  EmbarkTestCase:23 - Starting User Registration test
+2025-04-07 19:53:26 [main] INFO  LandingPage:43 - Clicking on Register button
+2025-04-07 19:53:26 [main] INFO  LandingPage:50 - Successfully navigated to Register page: https://www.embark.org/register
+2025-04-07 19:53:26 [main] INFO  EmbarkTestCase:27 - Clicking on Register button
+2025-04-07 19:53:26 [main] INFO  EmbarkTestCase:29 - Starting registration test
+2025-04-07 19:53:26 [main] INFO  RegistrationPage:35 - Full Name is entered
+2025-04-07 19:53:26 [main] INFO  RegistrationPage:41 - Username is entered
+2025-04-07 19:53:26 [main] INFO  RegistrationPage:47 - Email is entered
+2025-04-07 19:53:26 [main] INFO  RegistrationPage:54 - Password is entered
+2025-04-07 19:53:26 [main] INFO  RegistrationPage:60 - Confirm Password is entered
+2025-04-07 19:53:32 [main] INFO  RegistrationPage:65 - Location is selected
+2025-04-07 19:53:32 [main] INFO  RegistrationPage:69 - Clicking on Terms and Condition checkbox
+2025-04-07 19:53:32 [main] INFO  RegistrationPage:74 - Clicking on Register button
+2025-04-07 19:53:35 [main] INFO  HomePage:47 - Clicking on Logo link
+2025-04-07 19:53:35 [main] INFO  RegistrationPage:80 - Clicking on Logo
+2025-04-07 19:53:49 [main] INFO  EmbarkTestCase:56 - Starting User Login test
+2025-04-07 19:53:49 [main] INFO  LandingPage:28 - Clicking on Login button
+2025-04-07 19:53:49 [main] INFO  LandingPage:36 - Successfully navigated to Login page: https://www.embark.org/login
+2025-04-07 19:53:49 [main] INFO  EmbarkTestCase:59 - Clicking on Login button
+2025-04-07 19:53:49 [main] INFO  EmbarkTestCase:61 - Redirected to login page
+2025-04-07 19:53:50 [main] INFO  LoginPage:28 - Username is entered
+2025-04-07 19:53:50 [main] INFO  LoginPage:31 - Password is entered
+2025-04-07 19:53:50 [main] INFO  LoginPage:34 - Login button is clicked
+2025-04-07 19:53:50 [main] INFO  EmbarkTestCase:63 - Logging in with email and password
+2025-04-07 19:53:52 [main] INFO  EmbarkTestCase:72 - Starting Host and Adventure test
+2025-04-07 19:53:52 [main] INFO  HomePage:27 - Clicking on Host an Adventure link
+2025-04-07 19:53:52 [main] INFO  EmbarkTestCase:75 - Clicking on Host an Adventure
+2025-04-07 19:53:52 [main] INFO  EmbarkTestCase:78 - Starting Host and Adventure test
+2025-04-07 19:53:52 [main] INFO  HostAndAdventurePage:33 - Host an Adventure header is displayed
+2025-04-07 19:53:55 [main] INFO  HostAndAdventurePage:38 - Category is selected
+2025-04-07 19:53:57 [main] INFO  HostAndAdventurePage:43 - Difficulty is selected
+2025-04-07 19:54:04 [main] INFO  HostAndAdventurePage:49 - City is selected
+2025-04-07 19:54:07 [main] INFO  HostAndAdventurePage:56 - Clicking on Next button
+2025-04-07 19:54:08 [main] INFO  HostAndAdventurePage:62 - Minimum group size error is displayed
+2025-04-07 19:54:08 [main] INFO  HostAndAdventurePage:66 - Minimum group size error is displayed
+2025-04-07 19:54:08 [main] INFO  HostAndAdventurePage:72 - Minimum group size is entered
+2025-04-07 19:54:08 [main] INFO  HostAndAdventurePage:78 - Maximum group size is entered
+2025-04-07 19:54:08 [main] INFO  HostAndAdventurePage:82 - Clicking on Next button
+2025-04-07 19:54:10 [main] INFO  HostAndAdventurePage:85 - Waiting for new tab to load....
+2025-04-07 19:54:10 [main] INFO  EmbarkTestCase:82 - Starting Host and Adventure test
+2025-04-07 19:54:13 [main] INFO  HostAndAdventurePageDetails:49 - Title is entered
+2025-04-07 19:54:16 [main] INFO  HostAndAdventurePageDetails:54 - Difficulty is selected
+2025-04-07 19:54:16 [main] INFO  HostAndAdventurePageDetails:60 - Summary is entered
+2025-04-07 19:54:16 [main] INFO  HostAndAdventurePageDetails:65 - Included is entered
+2025-04-07 19:54:16 [main] INFO  HostAndAdventurePageDetails:71 - Not included is entered
+2025-04-07 19:54:16 [main] INFO  HostAndAdventurePageDetails:76 - Clicking on Save button
+2025-04-07 19:54:22 [main] INFO  HostAndAdventurePageDetails:82 - City is selected
+2025-04-07 19:54:22 [main] INFO  HostAndAdventurePageDetails:87 - Clicking on Save button
+2025-04-07 19:54:23 [main] INFO  HostAndAdventurePageDetails:94 - Clicking on Save button
+2025-04-07 19:54:26 [main] INFO  HostAndAdventurePageDetails:101 - Duration is entered
+2025-04-07 19:54:29 [main] INFO  HostAndAdventurePageDetails:107 - Days and Time is selected
+2025-04-07 19:54:29 [main] INFO  HostAndAdventurePageDetails:128 - Price is entered
+2025-04-07 19:54:31 [main] INFO  HostAndAdventurePageDetails:134 - City is selected
+2025-04-07 19:54:33 [main] INFO  HostAndAdventurePageDetails:140 - Group is selected
+2025-04-07 19:54:33 [main] INFO  HostAndAdventurePageDetails:146 - Availability is entered
+2025-04-07 19:54:33 [main] INFO  HostAndAdventurePageDetails:152 - What qualifies you to give this tour? is entered
+2025-04-07 19:54:34 [main] INFO  HostAndAdventurePageDetails:158 - Additional info is entered
+2025-04-07 19:54:34 [main] INFO  HostAndAdventurePageDetails:164 - Cancellation is entered
+2025-04-07 19:54:34 [main] INFO  HostAndAdventurePageDetails:169 - Clicking on Save button
+2025-04-07 19:54:39 [main] INFO  HostAndAdventurePageDetails:175 - Meetup Location is selected
+2025-04-07 19:54:39 [main] INFO  HostAndAdventurePageDetails:181 - Itinerary is entered
+2025-04-07 19:54:39 [main] INFO  HostAndAdventurePageDetails:186 - Clicking on Save button
+2025-04-07 19:54:47 [main] INFO  HostAndAdventurePageDetails:193 - Clicking on View Tour button
+2025-04-07 19:54:50 [main] INFO  HostAndAdventurePageDetails:197 - Waiting for new window to open
+2025-04-07 19:54:50 [main] INFO  CommanHelper:136 - Switched to window at index: 1 | URL: https://www.embark.org/tours/summar-fun-33
+2025-04-07 19:54:50 [main] INFO  HostAndAdventurePageDetails:200 - Switching to new window
+2025-04-07 19:54:51 [main] INFO  HostAndAdventurePageDetails:205 - Clicking on Save to Wishlist button
+2025-04-07 19:54:51 [main] INFO  HostAndAdventurePageDetails:209 - Closing the new Opened window
+2025-04-07 19:54:51 [main] INFO  CommanHelper:136 - Switched to window at index: 0 | URL: https://www.embark.org/tours/edit/7100/itinerary
+2025-04-07 19:54:51 [main] INFO  HostAndAdventurePageDetails:213 - Switching back to the original window
+2025-04-07 19:54:51 [main] INFO  HomePage:47 - Clicking on Logo link
+2025-04-07 19:54:51 [main] INFO  EmbarkTestCase:86 - Clicking on Logo
+2025-04-07 19:54:51 [main] INFO  HomePage:34 - Clicking on UserName link
+2025-04-07 19:54:53 [main] INFO  HomePage:38 - Clicking on Logout link
+2025-04-07 19:54:53 [main] INFO  HomePage:41 - Logout link clicked
+2025-04-07 19:54:53 [main] INFO  EmbarkTestCase:88 - Clicking on Logout
+2025-04-07 20:04:36 [main] INFO  EmbarkTestCase:38 - Starting User Login test
+2025-04-07 20:04:36 [main] INFO  LandingPage:28 - Clicking on Login button
+2025-04-07 20:04:36 [main] INFO  LandingPage:36 - Successfully navigated to Login page: https://www.embark.org/login
+2025-04-07 20:04:36 [main] INFO  EmbarkTestCase:41 - Clicking on Login button
+2025-04-07 20:04:36 [main] INFO  EmbarkTestCase:43 - Redirected to login page
+2025-04-07 20:04:37 [main] INFO  LoginPage:28 - Username is entered
+2025-04-07 20:04:37 [main] INFO  LoginPage:31 - Password is entered
+2025-04-07 20:04:37 [main] INFO  LoginPage:34 - Login button is clicked
+2025-04-07 20:04:37 [main] INFO  EmbarkTestCase:47 - Logging in with email and password
+2025-04-07 20:04:41 [main] INFO  EmbarkTestCase:23 - Starting User Registration test
+2025-04-07 20:04:41 [main] INFO  LandingPage:43 - Clicking on Register button
+2025-04-07 20:04:41 [main] INFO  LandingPage:50 - Successfully navigated to Register page: https://www.embark.org/register
+2025-04-07 20:04:41 [main] INFO  EmbarkTestCase:27 - Clicking on Register button
+2025-04-07 20:04:41 [main] INFO  EmbarkTestCase:29 - Starting registration test
+2025-04-07 20:04:41 [main] INFO  RegistrationPage:35 - Full Name is entered
+2025-04-07 20:04:41 [main] INFO  RegistrationPage:41 - Username is entered
+2025-04-07 20:04:42 [main] INFO  RegistrationPage:47 - Email is entered
+2025-04-07 20:04:42 [main] INFO  RegistrationPage:54 - Password is entered
+2025-04-07 20:04:42 [main] INFO  RegistrationPage:60 - Confirm Password is entered
+2025-04-07 20:04:47 [main] INFO  RegistrationPage:65 - Location is selected
+2025-04-07 20:04:47 [main] INFO  RegistrationPage:69 - Clicking on Terms and Condition checkbox
+2025-04-07 20:04:47 [main] INFO  RegistrationPage:74 - Clicking on Register button
+2025-04-07 20:04:50 [main] INFO  HomePage:47 - Clicking on Logo link
+2025-04-07 20:04:50 [main] INFO  RegistrationPage:80 - Clicking on Logo
+2025-04-07 20:05:04 [main] INFO  EmbarkTestCase:56 - Starting User Login test
+2025-04-07 20:05:04 [main] INFO  LandingPage:28 - Clicking on Login button
+2025-04-07 20:05:04 [main] INFO  LandingPage:36 - Successfully navigated to Login page: https://www.embark.org/login
+2025-04-07 20:05:04 [main] INFO  EmbarkTestCase:59 - Clicking on Login button
+2025-04-07 20:05:04 [main] INFO  EmbarkTestCase:61 - Redirected to login page
+2025-04-07 20:05:04 [main] INFO  LoginPage:28 - Username is entered
+2025-04-07 20:05:05 [main] INFO  LoginPage:31 - Password is entered
+2025-04-07 20:05:05 [main] INFO  LoginPage:34 - Login button is clicked
+2025-04-07 20:05:05 [main] INFO  EmbarkTestCase:63 - Logging in with email and password
+2025-04-07 20:05:07 [main] INFO  EmbarkTestCase:72 - Starting Host and Adventure test
+2025-04-07 20:05:07 [main] INFO  HomePage:27 - Clicking on Host an Adventure link
+2025-04-07 20:05:07 [main] INFO  EmbarkTestCase:75 - Clicking on Host an Adventure
+2025-04-07 20:05:07 [main] INFO  EmbarkTestCase:78 - Starting Host and Adventure test
+2025-04-07 20:05:07 [main] INFO  HostAndAdventurePage:33 - Host an Adventure header is displayed
+2025-04-07 20:05:09 [main] INFO  HostAndAdventurePage:38 - Category is selected
+2025-04-07 20:05:12 [main] INFO  HostAndAdventurePage:43 - Difficulty is selected
+2025-04-07 20:05:18 [main] INFO  HostAndAdventurePage:49 - City is selected
+2025-04-07 20:05:21 [main] INFO  HostAndAdventurePage:56 - Clicking on Next button
+2025-04-07 20:05:22 [main] INFO  HostAndAdventurePage:62 - Minimum group size error is displayed
+2025-04-07 20:05:22 [main] INFO  HostAndAdventurePage:66 - Minimum group size error is displayed
+2025-04-07 20:05:22 [main] INFO  HostAndAdventurePage:72 - Minimum group size is entered
+2025-04-07 20:05:22 [main] INFO  HostAndAdventurePage:78 - Maximum group size is entered
+2025-04-07 20:05:22 [main] INFO  HostAndAdventurePage:82 - Clicking on Next button
+2025-04-07 20:05:24 [main] INFO  HostAndAdventurePage:85 - Waiting for new tab to load....
+2025-04-07 20:05:24 [main] INFO  EmbarkTestCase:82 - Starting Host and Adventure test
+2025-04-07 20:05:27 [main] INFO  HostAndAdventurePageDetails:49 - Title is entered
+2025-04-07 20:05:29 [main] INFO  HostAndAdventurePageDetails:54 - Difficulty is selected
+2025-04-07 20:05:29 [main] INFO  HostAndAdventurePageDetails:60 - Summary is entered
+2025-04-07 20:05:30 [main] INFO  HostAndAdventurePageDetails:65 - Included is entered
+2025-04-07 20:05:30 [main] INFO  HostAndAdventurePageDetails:71 - Not included is entered
+2025-04-07 20:05:30 [main] INFO  HostAndAdventurePageDetails:76 - Clicking on Save button
+2025-04-07 20:05:36 [main] INFO  HostAndAdventurePageDetails:82 - City is selected
+2025-04-07 20:05:36 [main] INFO  HostAndAdventurePageDetails:87 - Clicking on Save button
+2025-04-07 20:05:37 [main] INFO  HostAndAdventurePageDetails:94 - Clicking on Save button
+2025-04-07 20:05:40 [main] INFO  HostAndAdventurePageDetails:101 - Duration is entered
+2025-04-07 20:05:43 [main] INFO  HostAndAdventurePageDetails:107 - Days and Time is selected
+2025-04-07 20:05:43 [main] INFO  HostAndAdventurePageDetails:128 - Price is entered
+2025-04-07 20:05:45 [main] INFO  HostAndAdventurePageDetails:134 - City is selected
+2025-04-07 20:05:47 [main] INFO  HostAndAdventurePageDetails:140 - Group is selected
+2025-04-07 20:05:47 [main] INFO  HostAndAdventurePageDetails:146 - Availability is entered
+2025-04-07 20:05:47 [main] INFO  HostAndAdventurePageDetails:152 - What qualifies you to give this tour? is entered
+2025-04-07 20:05:48 [main] INFO  HostAndAdventurePageDetails:158 - Additional info is entered
+2025-04-07 20:05:48 [main] INFO  HostAndAdventurePageDetails:164 - Cancellation is entered
+2025-04-07 20:05:48 [main] INFO  HostAndAdventurePageDetails:169 - Clicking on Save button
+2025-04-07 20:05:53 [main] INFO  HostAndAdventurePageDetails:175 - Meetup Location is selected
+2025-04-07 20:05:53 [main] INFO  HostAndAdventurePageDetails:181 - Itinerary is entered
+2025-04-07 20:05:53 [main] INFO  HostAndAdventurePageDetails:186 - Clicking on Save button
+2025-04-07 20:06:01 [main] INFO  HostAndAdventurePageDetails:193 - Clicking on View Tour button
+2025-04-07 20:06:04 [main] INFO  HostAndAdventurePageDetails:197 - Waiting for new window to open
+2025-04-07 20:06:06 [main] INFO  CommanHelper:136 - Switched to window at index: 1 | URL: https://www.embark.org/tours/summar-fun-34
+2025-04-07 20:06:06 [main] INFO  HostAndAdventurePageDetails:200 - Switching to new window
+2025-04-07 20:06:06 [main] INFO  HostAndAdventurePageDetails:205 - Clicking on Save to Wishlist button
+2025-04-07 20:06:06 [main] INFO  HostAndAdventurePageDetails:209 - Closing the new Opened window
+2025-04-07 20:06:06 [main] INFO  CommanHelper:136 - Switched to window at index: 0 | URL: https://www.embark.org/tours/edit/7101/itinerary
+2025-04-07 20:06:06 [main] INFO  HostAndAdventurePageDetails:213 - Switching back to the original window
+2025-04-07 20:06:06 [main] INFO  HomePage:47 - Clicking on Logo link
+2025-04-07 20:06:06 [main] INFO  EmbarkTestCase:86 - Clicking on Logo
+2025-04-07 20:06:06 [main] INFO  HomePage:34 - Clicking on UserName link
+2025-04-07 20:06:08 [main] INFO  HomePage:38 - Clicking on Logout link
+2025-04-07 20:06:08 [main] INFO  HomePage:41 - Logout link clicked
+2025-04-07 20:06:08 [main] INFO  EmbarkTestCase:88 - Clicking on Logout
+2025-04-07 20:09:41 [main] INFO  EmbarkTestCase:38 - Starting User Login test
+2025-04-07 20:09:42 [main] INFO  LandingPage:28 - Clicking on Login button
+2025-04-07 20:09:42 [main] INFO  LandingPage:36 - Successfully navigated to Login page: https://www.embark.org/login
+2025-04-07 20:09:42 [main] INFO  EmbarkTestCase:41 - Clicking on Login button
+2025-04-07 20:09:42 [main] INFO  EmbarkTestCase:43 - Redirected to login page
+2025-04-07 20:09:42 [main] INFO  LoginPage:28 - Username is entered
+2025-04-07 20:09:42 [main] INFO  LoginPage:31 - Password is entered
+2025-04-07 20:09:42 [main] INFO  LoginPage:34 - Login button is clicked
+2025-04-07 20:09:42 [main] INFO  EmbarkTestCase:47 - Logging in with email and password
+2025-04-07 20:09:46 [main] INFO  EmbarkTestCase:23 - Starting User Registration test
+2025-04-07 20:09:46 [main] INFO  LandingPage:43 - Clicking on Register button
+2025-04-07 20:09:46 [main] INFO  LandingPage:50 - Successfully navigated to Register page: https://www.embark.org/register
+2025-04-07 20:09:46 [main] INFO  EmbarkTestCase:27 - Clicking on Register button
+2025-04-07 20:09:46 [main] INFO  EmbarkTestCase:29 - Starting registration test
+2025-04-07 20:09:46 [main] INFO  RegistrationPage:35 - Full Name is entered
+2025-04-07 20:09:46 [main] INFO  RegistrationPage:41 - Username is entered
+2025-04-07 20:09:47 [main] INFO  RegistrationPage:47 - Email is entered
+2025-04-07 20:09:47 [main] INFO  RegistrationPage:54 - Password is entered
+2025-04-07 20:09:47 [main] INFO  RegistrationPage:60 - Confirm Password is entered
+2025-04-07 20:09:52 [main] INFO  RegistrationPage:65 - Location is selected
+2025-04-07 20:09:52 [main] INFO  RegistrationPage:69 - Clicking on Terms and Condition checkbox
+2025-04-07 20:09:52 [main] INFO  RegistrationPage:74 - Clicking on Register button
+2025-04-07 20:09:55 [main] INFO  HomePage:47 - Clicking on Logo link
+2025-04-07 20:09:55 [main] INFO  RegistrationPage:80 - Clicking on Logo
+2025-04-07 20:10:09 [main] INFO  EmbarkTestCase:56 - Starting User Login test
+2025-04-07 20:10:09 [main] INFO  LandingPage:28 - Clicking on Login button
+2025-04-07 20:10:09 [main] INFO  LandingPage:36 - Successfully navigated to Login page: https://www.embark.org/login
+2025-04-07 20:10:09 [main] INFO  EmbarkTestCase:59 - Clicking on Login button
+2025-04-07 20:10:09 [main] INFO  EmbarkTestCase:61 - Redirected to login page
+2025-04-07 20:10:09 [main] INFO  LoginPage:28 - Username is entered
+2025-04-07 20:10:10 [main] INFO  LoginPage:31 - Password is entered
+2025-04-07 20:10:10 [main] INFO  LoginPage:34 - Login button is clicked
+2025-04-07 20:10:10 [main] INFO  EmbarkTestCase:63 - Logging in with email and password
+2025-04-07 20:10:12 [main] INFO  EmbarkTestCase:72 - Starting Host and Adventure test
+2025-04-07 20:10:12 [main] INFO  HomePage:27 - Clicking on Host an Adventure link
+2025-04-07 20:10:12 [main] INFO  EmbarkTestCase:75 - Clicking on Host an Adventure
+2025-04-07 20:10:12 [main] INFO  EmbarkTestCase:78 - Starting Host and Adventure test
+2025-04-07 20:10:12 [main] INFO  HostAndAdventurePage:33 - Host an Adventure header is displayed
+2025-04-07 20:10:15 [main] INFO  HostAndAdventurePage:38 - Category is selected
+2025-04-07 20:10:17 [main] INFO  HostAndAdventurePage:43 - Difficulty is selected
+2025-04-07 20:10:23 [main] INFO  HostAndAdventurePage:49 - City is selected
+2025-04-07 20:10:26 [main] INFO  HostAndAdventurePage:56 - Clicking on Next button
+2025-04-07 20:10:27 [main] INFO  HostAndAdventurePage:62 - Minimum group size error is displayed
+2025-04-07 20:10:27 [main] INFO  HostAndAdventurePage:66 - Minimum group size error is displayed
+2025-04-07 20:10:27 [main] INFO  HostAndAdventurePage:72 - Minimum group size is entered
+2025-04-07 20:10:27 [main] INFO  HostAndAdventurePage:78 - Maximum group size is entered
+2025-04-07 20:10:27 [main] INFO  HostAndAdventurePage:82 - Clicking on Next button
+2025-04-07 20:10:29 [main] INFO  HostAndAdventurePage:85 - Waiting for new tab to load....
+2025-04-07 20:10:29 [main] INFO  EmbarkTestCase:82 - Starting Host and Adventure test
+2025-04-07 20:10:33 [main] INFO  HostAndAdventurePageDetails:49 - Title is entered
+2025-04-07 20:10:35 [main] INFO  HostAndAdventurePageDetails:54 - Difficulty is selected
+2025-04-07 20:10:35 [main] INFO  HostAndAdventurePageDetails:60 - Summary is entered
+2025-04-07 20:10:35 [main] INFO  HostAndAdventurePageDetails:65 - Included is entered
+2025-04-07 20:10:35 [main] INFO  HostAndAdventurePageDetails:71 - Not included is entered
+2025-04-07 20:10:35 [main] INFO  HostAndAdventurePageDetails:76 - Clicking on Save button
+2025-04-07 20:10:42 [main] INFO  HostAndAdventurePageDetails:82 - City is selected
+2025-04-07 20:10:42 [main] INFO  HostAndAdventurePageDetails:87 - Clicking on Save button
+2025-04-07 20:10:43 [main] INFO  HostAndAdventurePageDetails:94 - Clicking on Save button
+2025-04-07 20:10:46 [main] INFO  HostAndAdventurePageDetails:101 - Duration is entered
+2025-04-07 20:10:48 [main] INFO  HostAndAdventurePageDetails:107 - Days and Time is selected
+2025-04-07 20:10:49 [main] INFO  HostAndAdventurePageDetails:128 - Price is entered
+2025-04-07 20:10:51 [main] INFO  HostAndAdventurePageDetails:134 - City is selected
+2025-04-07 20:10:53 [main] INFO  HostAndAdventurePageDetails:140 - Group is selected
+2025-04-07 20:10:53 [main] INFO  HostAndAdventurePageDetails:146 - Availability is entered
+2025-04-07 20:10:53 [main] INFO  HostAndAdventurePageDetails:152 - What qualifies you to give this tour? is entered
+2025-04-07 20:10:53 [main] INFO  HostAndAdventurePageDetails:158 - Additional info is entered
+2025-04-07 20:10:53 [main] INFO  HostAndAdventurePageDetails:164 - Cancellation is entered
+2025-04-07 20:10:53 [main] INFO  HostAndAdventurePageDetails:169 - Clicking on Save button
+2025-04-07 20:10:59 [main] INFO  HostAndAdventurePageDetails:175 - Meetup Location is selected
+2025-04-07 20:10:59 [main] INFO  HostAndAdventurePageDetails:181 - Itinerary is entered
+2025-04-07 20:10:59 [main] INFO  HostAndAdventurePageDetails:186 - Clicking on Save button
+2025-04-07 20:11:07 [main] INFO  HostAndAdventurePageDetails:193 - Clicking on View Tour button
+2025-04-07 20:11:10 [main] INFO  HostAndAdventurePageDetails:197 - Waiting for new window to open
+2025-04-07 20:11:16 [main] INFO  CommanHelper:136 - Switched to window at index: 1 | URL: https://www.embark.org/tours/summar-fun-35
+2025-04-07 20:11:16 [main] INFO  HostAndAdventurePageDetails:200 - Switching to new window
+2025-04-07 20:11:16 [main] INFO  HostAndAdventurePageDetails:205 - Clicking on Save to Wishlist button
+2025-04-07 20:11:16 [main] INFO  HostAndAdventurePageDetails:209 - Closing the new Opened window
+2025-04-07 20:11:16 [main] INFO  CommanHelper:136 - Switched to window at index: 0 | URL: https://www.embark.org/tours/edit/7102/itinerary
+2025-04-07 20:11:16 [main] INFO  HostAndAdventurePageDetails:213 - Switching back to the original window
+2025-04-07 20:11:16 [main] INFO  HomePage:47 - Clicking on Logo link
+2025-04-07 20:11:16 [main] INFO  EmbarkTestCase:86 - Clicking on Logo
+2025-04-07 20:11:17 [main] INFO  HomePage:34 - Clicking on UserName link
+2025-04-07 20:11:19 [main] INFO  HomePage:38 - Clicking on Logout link
+2025-04-07 20:11:19 [main] INFO  HomePage:41 - Logout link clicked
+2025-04-07 20:11:19 [main] INFO  EmbarkTestCase:88 - Clicking on Logout

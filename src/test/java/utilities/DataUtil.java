@@ -4,6 +4,7 @@ import java.lang.reflect.Method;
 
 import org.testng.annotations.DataProvider;
 import base.TestBase;
+import utilities.ExcelReader;
 
 public class DataUtil extends TestBase{
 	

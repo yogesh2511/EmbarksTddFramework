@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Apr 07 01:39:41 IST 2025</td>
+<td>Started on:</td><td>Mon Apr 07 20:09:40 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>78 seconds (78021 ms)</td>
+<tr><td>Total time:</td><td>99 seconds (99023 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,16 +75,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.embarkPortal.automation.LoginTest.loginTest()'><b>loginTest</b><br>Test class: com.embarkPortal.automation.LoginTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@type=&apos;email&apos;]&quot;}
+<td title='testcases.EmbarkTestCase.UserRegistrationTest()'><b>UserRegistrationTest</b><br>Test class: testcases.EmbarkTestCase</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;right-side&apos;]//div//div[@id=&apos;navExplore&apos;]&quot;}
   (Session info: chrome=134.0.6998.179)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.30.0&apos;, revision: &apos;509c7f17cc*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [64745e710b3f47872618310001593c0d, findElement {value=//input[@type=&apos;email&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.179, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50596}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50596/devtoo..., se:cdpVersion: 134.0.6998.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 64745e710b3f47872618310001593c0d
+Command: [1900d88acd3e7385ac1cd44bf2dffe39, findElement {using=xpath, value=//div[@class=&apos;right-side&apos;]//div//div[@id=&apos;navExplore&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.179, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51272}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51272/devtoo..., se:cdpVersion: 134.0.6998.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1900d88acd3e7385ac1cd44bf2dffe39
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -96,19 +96,20 @@ Session ID: 64745e710b3f47872618310001593c0d
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at pages.LoginPage.login(LoginPage.java:20)
-	at com.embarkPortal.automation.LoginTest.loginTest(LoginTest.java:15)
+	at pages.HomePage.logout(HomePage.java:32)
+	at pages.RegistrationPage.userRegistering(RegistrationPage.java:83)
+	at testcases.EmbarkTestCase.UserRegistrationTest(EmbarkTestCase.java:30)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace759564454", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace759564454'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@type=&apos;email&apos;]&quot;}
+... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1687989795", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1687989795'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;right-side&apos;]//div//div[@id=&apos;navExplore&apos;]&quot;}
   (Session info: chrome=134.0.6998.179)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.30.0&apos;, revision: &apos;509c7f17cc*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [64745e710b3f47872618310001593c0d, findElement {value=//input[@type=&apos;email&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.179, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50596}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50596/devtoo..., se:cdpVersion: 134.0.6998.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 64745e710b3f47872618310001593c0d
+Command: [1900d88acd3e7385ac1cd44bf2dffe39, findElement {using=xpath, value=//div[@class=&apos;right-side&apos;]//div//div[@id=&apos;navExplore&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.179, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51272}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51272/devtoo..., se:cdpVersion: 134.0.6998.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1900d88acd3e7385ac1cd44bf2dffe39
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -125,8 +126,9 @@ Session ID: 64745e710b3f47872618310001593c0d
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at pages.LoginPage.login(LoginPage.java:20)
-	at com.embarkPortal.automation.LoginTest.loginTest(LoginTest.java:15)
+	at pages.HomePage.logout(HomePage.java:32)
+	at pages.RegistrationPage.userRegistering(RegistrationPage.java:83)
+	at testcases.EmbarkTestCase.UserRegistrationTest(EmbarkTestCase.java:30)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -161,8 +163,8 @@ Session ID: 64745e710b3f47872618310001593c0d
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
-<td>10</td>
-<td>com.embarkPortal.automation.LoginTest@5be82d43</td></tr>
+<td>22</td>
+<td>testcases.EmbarkTestCase@2ef8a8c3</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -172,15 +174,20 @@ Session ID: 64745e710b3f47872618310001593c0d
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testcases.LoginTest.UserLoginTest()'><b>UserLoginTest</b><br>Test class: testcases.LoginTest</td>
+<td title='testcases.EmbarkTestCase.UserLoginTest()'><b>UserLoginTest</b><br>Test class: testcases.EmbarkTestCase</td>
 <td></td>
 <td>2</td>
-<td>testcases.LoginTest@345e5a17</td></tr>
+<td>testcases.EmbarkTestCase@2ef8a8c3</td></tr>
 <tr>
-<td title='testcases.LoginTest.verifyHostAndAdventure()'><b>verifyHostAndAdventure</b><br>Test class: testcases.LoginTest</td>
+<td title='testcases.EmbarkTestCase.verifyHostAndAdventure()'><b>verifyHostAndAdventure</b><br>Test class: testcases.EmbarkTestCase</td>
 <td></td>
-<td>60</td>
-<td>testcases.LoginTest@345e5a17</td></tr>
+<td>66</td>
+<td>testcases.EmbarkTestCase@2ef8a8c3</td></tr>
+<tr>
+<td title='testcases.EmbarkTestCase.RegistedLoginTest()'><b>RegistedLoginTest</b><br>Test class: testcases.EmbarkTestCase</td>
+<td></td>
+<td>3</td>
+<td>testcases.EmbarkTestCase@2ef8a8c3</td></tr>
 </table><p>
 </body>
 </html>

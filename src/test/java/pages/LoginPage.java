@@ -4,7 +4,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class LoginPage {
+import base.TestBase;
+import utilities.LoggerUtils;
+
+public class LoginPage extends TestBase {
     private WebDriver driver;
 
     // Locators
@@ -22,12 +25,13 @@ public class LoginPage {
         WebElement loginButton = driver.findElement(loginButtonLocator);
 
         usernameField.sendKeys(username);
+        LoggerUtils.info("Username is entered");
+        //test.createTest("Username is entered");
         passwordField.sendKeys(password);
+        LoggerUtils.info("Password is entered");
+        //test.createTest("Password is entered");
         loginButton.click();
-    }
-
-    public boolean isLoginSuccessful() {
-        // Add logic to verify successful login (e.g., presence of a logout button, dashboard text, etc.)
-        return true;
+        LoggerUtils.info("Login button is clicked");
+        //test.createTest("Login button is clicked");
     }
 }
