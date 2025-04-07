@@ -49,3 +49,33 @@
 2025-04-07 22:07:51 [main] INFO  HostAndAdventurePageDetails:65 - Included is entered
 2025-04-07 22:07:51 [main] INFO  HostAndAdventurePageDetails:71 - Not included is entered
 2025-04-07 22:07:51 [main] INFO  HostAndAdventurePageDetails:76 - Clicking on Save button
+2025-04-07 22:07:57 [main] INFO  HostAndAdventurePageDetails:82 - City is selected
+2025-04-07 22:07:57 [main] INFO  HostAndAdventurePageDetails:87 - Clicking on Save button
+2025-04-07 22:07:58 [main] INFO  HostAndAdventurePageDetails:94 - Clicking on Save button
+2025-04-07 22:08:01 [main] INFO  HostAndAdventurePageDetails:101 - Duration is entered
+2025-04-07 22:08:03 [main] INFO  HostAndAdventurePageDetails:107 - Days and Time is selected
+2025-04-07 22:08:03 [main] INFO  HostAndAdventurePageDetails:128 - Price is entered
+2025-04-07 22:08:06 [main] INFO  HostAndAdventurePageDetails:134 - City is selected
+2025-04-07 22:08:08 [main] INFO  HostAndAdventurePageDetails:140 - Group is selected
+2025-04-07 22:08:08 [main] INFO  HostAndAdventurePageDetails:146 - Availability is entered
+2025-04-07 22:08:08 [main] INFO  HostAndAdventurePageDetails:152 - What qualifies you to give this tour? is entered
+2025-04-07 22:08:08 [main] INFO  HostAndAdventurePageDetails:158 - Additional info is entered
+2025-04-07 22:08:08 [main] INFO  HostAndAdventurePageDetails:164 - Cancellation is entered
+2025-04-07 22:08:08 [main] INFO  HostAndAdventurePageDetails:169 - Clicking on Save button
+2025-04-07 22:08:14 [main] INFO  HostAndAdventurePageDetails:175 - Meetup Location is selected
+2025-04-07 22:08:14 [main] INFO  HostAndAdventurePageDetails:181 - Itinerary is entered
+2025-04-07 22:08:14 [main] INFO  HostAndAdventurePageDetails:186 - Clicking on Save button
+2025-04-07 22:08:22 [main] INFO  HostAndAdventurePageDetails:193 - Clicking on View Tour button
+2025-04-07 22:08:25 [main] INFO  HostAndAdventurePageDetails:197 - Waiting for new window to open
+2025-04-07 22:08:26 [main] INFO  CommanHelper:136 - Switched to window at index: 1 | URL: https://www.embark.org/tours/summar-fun-42
+2025-04-07 22:08:26 [main] INFO  HostAndAdventurePageDetails:200 - Switching to new window
+2025-04-07 22:08:26 [main] INFO  HostAndAdventurePageDetails:205 - Clicking on Save to Wishlist button
+2025-04-07 22:08:26 [main] INFO  HostAndAdventurePageDetails:209 - Closing the new Opened window
+2025-04-07 22:08:26 [main] INFO  CommanHelper:136 - Switched to window at index: 0 | URL: https://www.embark.org/tours/edit/7109/itinerary
+2025-04-07 22:08:26 [main] INFO  HostAndAdventurePageDetails:213 - Switching back to the original window
+2025-04-07 22:08:26 [main] INFO  HomePage:47 - Clicking on Logo link
+2025-04-07 22:08:27 [main] INFO  EmbarkTestCase:84 - Clicking on Logo
+2025-04-07 22:08:27 [main] INFO  HomePage:34 - Clicking on UserName link
+2025-04-07 22:08:29 [main] INFO  HomePage:38 - Clicking on Logout link
+2025-04-07 22:08:29 [main] INFO  HomePage:41 - Logout link clicked
+2025-04-07 22:08:29 [main] INFO  EmbarkTestCase:86 - Clicking on Logout

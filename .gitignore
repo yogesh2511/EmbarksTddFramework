@@ -1,3 +1,13 @@
+./*target/
+./*report/
+.*/test-output/
 /target/
-/report/
-/test-output/
+
+# Maven target directory
+target/
+
+# Test output directory
+test-output/
+
+# Report directory
+report/
