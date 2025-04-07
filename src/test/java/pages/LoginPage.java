@@ -11,9 +11,9 @@ public class LoginPage extends TestBase {
     private WebDriver driver;
 
     // Locators
-    private By usernameLocator = By.xpath("//input[@type='email']");
-    private By passwordLocator = By.xpath("//input[@type='password']");
-    private By loginButtonLocator = By.xpath("//button[@type='submit']");
+    private By usernameLocator = By.xpath(OR.getProperty("usernameLocator"));
+    private By passwordLocator = By.xpath(OR.getProperty("passwordLocator"));
+    private By loginButtonLocator = By.xpath(OR.getProperty("loginButtonLocator"));
 
     public LoginPage(WebDriver driver) {
         this.driver = driver;

@@ -15,14 +15,14 @@ public class RegistrationPage extends TestBase {
 	private WebDriver driver;
 
 	// Locators
-	private By FullName = By.xpath("//input[@placeholder='Full Name']");
-	private By Username = By.xpath("//input[@placeholder='username09']");
-	private By EmailName = By.xpath("//input[@placeholder='username@gmail.com']");
-	private By Password = By.xpath("(//input[@type='password'])[1]");
-	private By ConfirmPassword = By.xpath("(//input[@type='password'])[2]");
-	private By Location = By.xpath("//input[@placeholder='Enter a location']");
-	private By TermsAndCondition = By.id("terms_and_conditions");
-	private By RegisterButton = By.xpath("//button[normalize-space()='Register']");
+	private By FullName = By.xpath(OR.getProperty("FullName"));
+	private By Username = By.xpath(OR.getProperty("Username"));
+	private By EmailName = By.xpath(OR.getProperty("EmailName"));
+	private By Password = By.xpath(OR.getProperty("Password"));
+	private By ConfirmPassword = By.xpath(OR.getProperty("ConfirmPassword"));
+	private By Location = By.xpath(OR.getProperty("Location"));
+	private By TermsAndCondition = By.xpath(OR.getProperty("TermsAndCondition"));
+	private By RegisterButton = By.xpath(OR.getProperty("RegisterButton"));
 	
 	public RegistrationPage(WebDriver driver) {
 		this.driver = driver;

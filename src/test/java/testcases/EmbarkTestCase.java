@@ -19,7 +19,7 @@ public class EmbarkTestCase extends TestBase {
 	@Test()
 	public void UserRegistrationTest() throws InterruptedException {
 		//Register a new user with randomly auto-generated data.
-		// This method facing the issue with the Term and condition
+		// This method facing the issue with the click on Term and condition checkbox
 		LoggerUtils.info("Starting User Registration test");
 		System.out.println("User Registration Test");
 		LandingPage landingPage = new LandingPage(driver);
@@ -64,11 +64,9 @@ public class EmbarkTestCase extends TestBase {
 		Thread.sleep(2000);
 	}
 
-	@Test(priority = 2)
+	@Test(priority = 2, dependsOnMethods = { "UserLoginTest" })
 	public void verifyHostAndAdventure() throws InterruptedException {
-
 		// Click on "Host an Adventure" link at the top right corner.Adventure Details
-		// Entry
 		LoggerUtils.info("Starting Host and Adventure test");
 		HomePage homePage = new HomePage(driver);
 		homePage.clickHostAndAdventure();

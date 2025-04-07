@@ -2,38 +2,38 @@
 <testng-results ignored="2" total="6" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-07T20:09:40 IST" name="Surefire suite" finished-at="2025-04-07T20:11:19 IST" duration-ms="99023">
+  <suite started-at="2025-04-07T22:07:03 IST" name="Surefire suite" finished-at="2025-04-07T22:08:30 IST" duration-ms="86923">
     <groups>
     </groups>
-    <test started-at="2025-04-07T20:09:40 IST" name="Surefire test" finished-at="2025-04-07T20:11:19 IST" duration-ms="99023">
+    <test started-at="2025-04-07T22:07:03 IST" name="Surefire test" finished-at="2025-04-07T22:08:30 IST" duration-ms="86923">
       <class name="testcases.EmbarkTestCase">
-        <test-method signature="RegistedLoginTest()[pri:0, instance:testcases.EmbarkTestCase@2ef8a8c3]" started-at="2025-04-07T20:09:41 IST" name="RegistedLoginTest" finished-at="2025-04-07T20:09:45 IST" duration-ms="3737" status="PASS">
+        <test-method signature="RegistedLoginTest()[pri:0, instance:testcases.EmbarkTestCase@63fd4873]" started-at="2025-04-07T22:07:04 IST" name="RegistedLoginTest" finished-at="2025-04-07T22:07:07 IST" duration-ms="3704" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegistedLoginTest -->
-        <test-method signature="UserRegistrationTest()[pri:0, instance:testcases.EmbarkTestCase@2ef8a8c3]" started-at="2025-04-07T20:09:46 IST" name="UserRegistrationTest" finished-at="2025-04-07T20:10:08 IST" duration-ms="22716" status="FAIL">
+        <test-method signature="UserRegistrationTest()[pri:0, instance:testcases.EmbarkTestCase@63fd4873]" started-at="2025-04-07T22:07:08 IST" name="UserRegistrationTest" finished-at="2025-04-07T22:07:25 IST" duration-ms="16648" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='right-side']//div//div[@id='navExplore']"}
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"terms_and_conditions"}
   (Session info: chrome=134.0.6998.179)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.30.0', revision: '509c7f17cc*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1900d88acd3e7385ac1cd44bf2dffe39, findElement {using=xpath, value=//div[@class='right-side']//div//div[@id='navExplore']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.179, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51272}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51272/devtoo..., se:cdpVersion: 134.0.6998.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1900d88acd3e7385ac1cd44bf2dffe39]]>
+Command: [1a505a3e028bf429a8ee98f3bc91efd8, findElement {value=terms_and_conditions, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.179, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53128}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53128/devtoo..., se:cdpVersion: 134.0.6998.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1a505a3e028bf429a8ee98f3bc91efd8]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='right-side']//div//div[@id='navExplore']"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"terms_and_conditions"}
   (Session info: chrome=134.0.6998.179)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.30.0', revision: '509c7f17cc*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1900d88acd3e7385ac1cd44bf2dffe39, findElement {using=xpath, value=//div[@class='right-side']//div//div[@id='navExplore']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.179, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51272}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51272/devtoo..., se:cdpVersion: 134.0.6998.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1900d88acd3e7385ac1cd44bf2dffe39
+Command: [1a505a3e028bf429a8ee98f3bc91efd8, findElement {value=terms_and_conditions, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.179, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53128}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53128/devtoo..., se:cdpVersion: 134.0.6998.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1a505a3e028bf429a8ee98f3bc91efd8
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -50,8 +50,8 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at pages.HomePage.logout(HomePage.java:32)
-at pages.RegistrationPage.userRegistering(RegistrationPage.java:83)
+at helper.CommanHelper.selectCheckboxIfNotSelected(CommanHelper.java:94)
+at pages.RegistrationPage.userRegistering(RegistrationPage.java:68)
 at testcases.EmbarkTestCase.UserRegistrationTest(EmbarkTestCase.java:30)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -92,21 +92,21 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserRegistrationTest -->
-        <test-method signature="UserLoginTest()[pri:1, instance:testcases.EmbarkTestCase@2ef8a8c3]" started-at="2025-04-07T20:10:09 IST" name="UserLoginTest" finished-at="2025-04-07T20:10:12 IST" duration-ms="2620" status="PASS">
+        <test-method signature="UserLoginTest()[pri:1, instance:testcases.EmbarkTestCase@63fd4873]" started-at="2025-04-07T22:07:25 IST" name="UserLoginTest" finished-at="2025-04-07T22:07:27 IST" duration-ms="2453" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserLoginTest -->
-        <test-method signature="verifyHostAndAdventure()[pri:2, instance:testcases.EmbarkTestCase@2ef8a8c3]" started-at="2025-04-07T20:10:12 IST" name="verifyHostAndAdventure" finished-at="2025-04-07T20:11:19 IST" duration-ms="66666" status="PASS">
+        <test-method signature="verifyHostAndAdventure()[pri:2, instance:testcases.EmbarkTestCase@63fd4873]" started-at="2025-04-07T22:07:28 IST" name="verifyHostAndAdventure" finished-at="2025-04-07T22:08:29 IST" depends-on-methods="testcases.EmbarkTestCase.UserLoginTest" duration-ms="61171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHostAndAdventure -->
       </class> <!-- testcases.EmbarkTestCase -->
       <class name="base.TestBase">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:base.TestBase@6c4f9535]" started-at="2025-04-07T20:09:27 IST" name="setUp" finished-at="2025-04-07T20:09:40 IST" duration-ms="13464" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:base.TestBase@6c4f9535]" started-at="2025-04-07T22:06:51 IST" name="setUp" finished-at="2025-04-07T22:07:03 IST" duration-ms="12009" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="close()[pri:0, instance:base.TestBase@6c4f9535]" started-at="2025-04-07T20:11:19 IST" name="close" finished-at="2025-04-07T20:11:19 IST" duration-ms="526" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:base.TestBase@6c4f9535]" started-at="2025-04-07T22:08:29 IST" name="close" finished-at="2025-04-07T22:08:30 IST" duration-ms="484" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->

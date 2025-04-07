@@ -13,29 +13,29 @@ import utilities.ScreenshotUtil;
 public class HostAndAdventurePageDetails extends TestBase {
 
 	private WebDriver driver;
-	private By title = By.xpath("//input[@placeholder='Enter the name of your tour']");
-	private By Summary = By.xpath("//textarea[@placeholder='Brief summary of the tour and other helpful details']");
-	private By Included = By.xpath("//textarea[@placeholder='List of things that are included in the tour. Enter each item on a new line to display as a bulleted list.']");
-	private By NotIncluded = By.xpath("//textarea[@placeholder='List of things that are NOT included in the tour. What should guests bring themselves? Enter each item on a new line to display as a bulled list']");
-	private By SaveFirst = By.xpath("//button[normalize-space()='Save']");
-	private By SaveSecond = By.xpath("//button[normalize-space()='Save']");
-	private By SaveThird = By.xpath("//button[normalize-space()='Save']");
-	private By Duration = By.xpath("//input[@type='number']");	
-	private By DaysAndTime = By.xpath("(//label[text()='Duration']/following-sibling::div//div)[2]");
-	private By Price = By.xpath("//input[@placeholder='Price']");
-	private By CurrencyType = By.xpath("(//label[text()='Price']/following-sibling::div/div/div)[1]/div");
-	private By GroupSecond = By.xpath("(//label[text()='Price']/following-sibling::div/div/div)[2]");
+	private By title = By.xpath(OR.getProperty("title"));
+	private By Summary = By.xpath(OR.getProperty("Summary"));
+	private By Included = By.xpath(OR.getProperty("Included"));
+	private By NotIncluded = By.xpath(OR.getProperty("NotIncluded"));
+	private By SaveFirst = By.xpath(OR.getProperty("SaveFirst"));
+	private By SaveSecond = By.xpath(OR.getProperty("SaveSecond"));
+	private By SaveThird = By.xpath(OR.getProperty("SaveThird"));
+	private By Duration = By.xpath(OR.getProperty("Duration"));	
+	private By DaysAndTime = By.xpath(OR.getProperty("DaysAndTime"));
+	private By Price = By.xpath(OR.getProperty("Price"));
+	private By CurrencyType = By.xpath(OR.getProperty("CurrencyType"));
+	private By GroupSecond = By.xpath(OR.getProperty("GroupSecond"));
 	
-	private By Availability = By.xpath("(//label[normalize-space(text())='Availability']/following::textarea)[1]");
-	private By WhatQualifies = By.xpath("(//label[normalize-space(text())='What qualifies you to give this tour?']/following::textarea)[1]");
-	private By AdditionalInfo = By.xpath("(//label[normalize-space(text())='Additional info']/following::textarea)[1]");
-	private By Cancellation = By.xpath("//label[normalize-space(text())='Cancellation']/following::textarea");
-	private By Itinerary = By.xpath("//div[@class='itinerary-day']//textarea");
+	private By Availability = By.xpath(OR.getProperty("Availability"));
+	private By WhatQualifies = By.xpath(OR.getProperty("WhatQualifies"));
+	private By AdditionalInfo = By.xpath(OR.getProperty("AdditionalInfo"));
+	private By Cancellation = By.xpath(OR.getProperty("Cancellation"));
+	private By Itinerary = By.xpath(OR.getProperty("Itinerary"));
 	
-	private By SaveFour = By.xpath("//button[normalize-space()='Save']");
-	private By SaveFive = By.xpath("//button[normalize-space()='Save']");
-	private By ViewTour = By.xpath("//a[normalize-space()='View Tour']");
-	private By SaveToWishlist = By.xpath("//div[@class='wishlist-btnwrapper']//div[@title='Save to Wish List']");
+	private By SaveFour = By.xpath(OR.getProperty("SaveFour"));
+	private By SaveFive = By.xpath(OR.getProperty("SaveFive"));
+	private By ViewTour = By.xpath(OR.getProperty("ViewTour"));
+	private By SaveToWishlist = By.xpath(OR.getProperty("SaveToWishlist"));
 	
 	public HostAndAdventurePageDetails(WebDriver driver) {
 		this.driver = driver;

@@ -11,13 +11,14 @@ import org.testng.Assert;
 
 import com.github.javafaker.Faker;
 
+import base.TestBase;
 import utilities.LoggerUtils;
 
-public class LandingPage {
+public class LandingPage extends TestBase {
 
 	private WebDriver driver;
-	private By loginButton = By.xpath("//a[normalize-space()='Login']");
-	private By registerButton = By.xpath("//a[normalize-space()='Register']");
+	private By loginButton = By.xpath(OR.getProperty("loginButton"));
+	private By registerButton = By.xpath(OR.getProperty("registerButton"));
 	
 	public LandingPage(WebDriver driver) {
 		this.driver = driver;
@@ -39,6 +40,7 @@ public class LandingPage {
 	}
 
 	public void clickRegisterButton() {
+		System.out.println(registerButton.toString());
 	    driver.findElement(registerButton).click();
 	    LoggerUtils.info("Clicking on Register button");
 

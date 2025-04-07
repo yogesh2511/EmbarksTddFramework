@@ -6,9 +6,7 @@
       <class name="testcases.EmbarkTestCase">
         <methods>
           <include name="close"/>
-          <include name="UserRegistrationTest"/>
           <include name="UserLoginTest"/>
-          <include name="RegistedLoginTest"/>
           <include name="setUp"/>
           <include name="verifyHostAndAdventure"/>
         </methods>

@@ -15,12 +15,12 @@ public class HostAndAdventurePage extends TestBase{
     private WebDriver driver;
     
     //Locators
-    By HostAndAdventureHeader = By.xpath("//h1[normalize-space(text())='Host an adventure']");
-    By Next = By.xpath("//button[normalize-space(text())='Next']");
-    By MinimumGroupError = By.xpath("//span[normalize-space(text())='The group size min field is required.']");
-    By MaximumGroupError = By.xpath("//span[normalize-space(text())='The group size max field is required.']");
-    By MinimumGroupSize = By.xpath("//input[@placeholder='Min']");
-    By MaximumGroupSize = By.xpath("//input[@placeholder='Max']");
+    By HostAndAdventureHeader = By.xpath(OR.getProperty("HostAndAdventureHeader"));
+    By Next = By.xpath(OR.getProperty("Next"));
+    By MinimumGroupError = By.xpath(OR.getProperty("MinimumGroupError"));
+    By MaximumGroupError = By.xpath(OR.getProperty("MaximumGroupError"));
+    By MinimumGroupSize = By.xpath(OR.getProperty("MinimumGroupSize"));
+    By MaximumGroupSize = By.xpath(OR.getProperty("MaximumGroupSize"));
      
     
 	public HostAndAdventurePage(WebDriver driver) {

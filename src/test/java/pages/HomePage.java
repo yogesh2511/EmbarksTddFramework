@@ -12,10 +12,10 @@ public class HomePage extends TestBase {
 	private WebDriver driver;
 
 	// Locators
-	private By HostAndAdventureHeader = By.xpath("//a[normalize-space()='Host an Adventure']");
-	private By Logout = By.xpath("//a[@class='nav-link']");
-	private By UserName = By.xpath("//div[@class='right-side']//div//div[@id='navExplore']");
-	private By LogoLink = By.xpath("//img[@src='/build/images/logo.jpg']");
+	private By HostAndAdventureHeader = By.xpath(OR.getProperty("HostAndAdventureHeader"));
+	private By Logout = By.xpath(OR.getProperty("Logout"));
+	private By UserName = By.xpath(OR.getProperty("UserNameLogo"));
+	private By LogoLink = By.xpath(OR.getProperty("LogoLink"));
 	
 	public HomePage(WebDriver driver) {
 		this.driver = driver;
