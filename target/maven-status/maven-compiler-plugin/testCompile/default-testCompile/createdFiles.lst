@@ -1,5 +1,6 @@
 listeners\ReportHelperListener.class
 base\TestBase.class
+listeners\EventCapture.class
 pages\LoginPage.class
 utilities\ExtentManager.class
 pages\HomePage.class

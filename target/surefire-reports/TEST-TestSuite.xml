@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="102.907" tests="4" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="94.489" tests="4" errors="0" skipped="1" failures="1">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\vikram solanki\AppData\Local\Temp\surefire17572205143694298953\surefirebooter-20250407221912441_3.jar C:\Users\vikram solanki\AppData\Local\Temp\surefire17572205143694298953 2025-04-07T22-19-12_032-jvmRun1 surefire-20250407221912441_1tmp surefire_0-20250407221912441_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\vikram solanki\AppData\Local\Temp\surefire341643390185358064\surefirebooter-20250408215836819_3.jar C:\Users\vikram solanki\AppData\Local\Temp\surefire341643390185358064 2025-04-08T21-58-36_458-jvmRun1 surefire-20250408215836819_1tmp surefire_0-20250408215836819_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Yogesh\Java Workspace\EmbarksTddFramework\target\test-classes;D:\Yogesh\Java Workspace\EmbarksTddFramework\target\classes;C:\Users\vikram solanki\.m2\repository\org\seleniumhq\selenium\selenium-java\4.30.0\selenium-java-4.30.0.jar;C:\Users\vikram solanki\.m2\repository\org\seleniumhq\selenium\selenium-api\4.30.0\selenium-api-4.30.0.jar;C:\Users\vikram solanki\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\vikram solanki\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.30.0\selenium-chrome-driver-4.30.0.jar;C:\Users\vikram solanki\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\vikram solanki\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.30.0\selenium-chromium-driver-4.30.0.jar;C:\Users\vikram solanki\.m2\repository\org\seleniumhq\selenium\selenium-json\4.30.0\selenium-json-4.30.0.jar;C:\Users\vikram solanki\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.30.0\selenium-manager-4.30.0.jar;C:\Users\vikram solanki\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.30.0\selenium-devtools-v132-4.30.0.jar;C:\Users\vikram solanki\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.30.0\selenium-devtools-v133-4.30.0.jar;C:\Users\vikram solanki\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v134\4.30.0\selenium-devtools-v134-4.30.0.jar;C:\Users\vikram solanki\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.30.0\selenium-edge-driver-4.30.0.jar;C:\Users\vikram solanki\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.30.0\selenium-firefox-driver-4.30.0.jar;C:\Users\vikram solanki\.m2\repository\org\seleniumhq\selenium\selenium-http\4.30.0\selenium-http-4.30.0.jar;C:\Users\vikram solanki\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.30.0\selenium-ie-driver-4.30.0.jar;C:\Users\vikram solanki\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.30.0\selenium-remote-driver-4.30.0.jar;C:\Users\vikram solanki\.m2\repository\com\google\guava\guava\33.4.5-jre\guava-33.4.5-jre.jar;C:\Users\vikram solanki\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\vikram solanki\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\vikram solanki\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\vikram solanki\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\vikram solanki\.m2\repository\io\opentelemetry\opentelemetry-api\1.48.0\opentelemetry-api-1.48.0.jar;C:\Users\vikram solanki\.m2\repository\io\opentelemetry\opentelemetry-context\1.48.0\opentelemetry-context-1.48.0.jar;C:\Users\vikram solanki\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.48.0\opentelemetry-exporter-logging-1.48.0.jar;C:\Users\vikram solanki\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.48.0\opentelemetry-sdk-common-1.48.0.jar;C:\Users\vikram solanki\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.48.0\opentelemetry-sdk-extension-autoconfigure-spi-1.48.0.jar;C:\Users\vikram solanki\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.48.0\opentelemetry-sdk-extension-autoconfigure-1.48.0.jar;C:\Users\vikram solanki\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.48.0\opentelemetry-sdk-trace-1.48.0.jar;C:\Users\vikram solanki\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.48.0\opentelemetry-sdk-1.48.0.jar;C:\Users\vikram solanki\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.48.0\opentelemetry-sdk-metrics-1.48.0.jar;C:\Users\vikram solanki\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.48.0\opentelemetry-sdk-logs-1.48.0.jar;C:\Users\vikram solanki\.m2\repository\net\bytebuddy\byte-buddy\1.17.2\byte-buddy-1.17.2.jar;C:\Users\vikram solanki\.m2\repository\org\seleniumhq\selenium\selenium-os\4.30.0\selenium-os-4.30.0.jar;C:\Users\vikram solanki\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\vikram solanki\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.30.0\selenium-safari-driver-4.30.0.jar;C:\Users\vikram solanki\.m2\repository\org\seleniumhq\selenium\selenium-support\4.30.0\selenium-support-4.30.0.jar;C:\Users\vikram solanki\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.3\log4j-core-2.24.3.jar;C:\Users\vikram solanki\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\vikram solanki\.m2\repository\org\testng\testng\7.5.1\testng-7.5.1.jar;C:\Users\vikram solanki\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\vikram solanki\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\vikram solanki\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\vikram solanki\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\vikram solanki\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\vikram solanki\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\vikram solanki\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\vikram solanki\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\vikram solanki\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\vikram solanki\.m2\repository\com\github\javafaker\javafaker\0.15\javafaker-0.15.jar;C:\Users\vikram solanki\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\vikram solanki\.m2\repository\org\yaml\snakeyaml\1.20\snakeyaml-1.20-android.jar;C:\Users\vikram solanki\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\vikram solanki\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\vikram solanki\.m2\repository\org\apache\poi\poi-ooxml\5.4.0\poi-ooxml-5.4.0.jar;C:\Users\vikram solanki\.m2\repository\org\apache\poi\poi\5.4.0\poi-5.4.0.jar;C:\Users\vikram solanki\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\vikram solanki\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\vikram solanki\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\vikram solanki\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.0\poi-ooxml-lite-5.4.0.jar;C:\Users\vikram solanki\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\vikram solanki\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\vikram solanki\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\vikram solanki\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\vikram solanki\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\vikram solanki\AppData\Local\Temp\surefire17572205143694298953\surefirebooter-20250407221912441_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\vikram solanki\AppData\Local\Temp\surefire341643390185358064\surefirebooter-20250408215836819_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -56,68 +56,17 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="RegistedLoginTest" classname="testcases.EmbarkTestCase" time="3.768">
-    <system-out><![CDATA[D:\Yogesh\Java Workspace\EmbarksTddFramework
-D:\Yogesh\Java Workspace\EmbarksTddFramework
-D:\Yogesh\Java Workspace\EmbarksTddFramework
-[Configuration] [WARN] Detected a static method [base.TestBase.close()]. Static configuration methods can cause  unexpected behavior.
-[Configuration] [WARN] Detected a static method [base.TestBase.close()]. Static configuration methods can cause  unexpected behavior.
-D:\Yogesh\Java Workspace\EmbarksTddFramework
-Created new Excel file: D:\Yogesh\Java Workspace\EmbarksTddFramework/report/testResult.xlsx
-User Login Test
-2025-04-07 22:19:28 [main] INFO  EmbarkTestCase:38 - Starting User Login test
-2025-04-07 22:19:28 [main] INFO  LandingPage:29 - Clicking on Login button
-2025-04-07 22:19:28 [main] INFO  LandingPage:37 - Successfully navigated to Login page: https://www.embark.org/login
-2025-04-07 22:19:28 [main] INFO  EmbarkTestCase:41 - Clicking on Login button
-2025-04-07 22:19:28 [main] INFO  EmbarkTestCase:43 - Redirected to login page
-2025-04-07 22:19:28 [main] INFO  LoginPage:28 - Username is entered
-2025-04-07 22:19:28 [main] INFO  LoginPage:31 - Password is entered
-2025-04-07 22:19:28 [main] INFO  LoginPage:34 - Login button is clicked
-2025-04-07 22:19:28 [main] INFO  EmbarkTestCase:47 - Logging in with email and password
-]]></system-out>
-    <system-err><![CDATA[Apr 07, 2025 10:19:17 PM base.TestBase setUp
-INFO: Launching chrome browser
-Apr 07, 2025 10:19:27 PM base.TestBase setUp
-INFO: Navigating to https://www.embark.org/
-java.lang.IllegalArgumentException: Sheet index (0) is out of range (no sheets)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.validateSheetIndex(XSSFWorkbook.java:1537)
-	at org.apache.poi.xssf.usermodel.XSSFWorkbook.getSheetAt(XSSFWorkbook.java:1237)
-	at utilities.ExcelReader.<init>(ExcelReader.java:41)
-	at listeners.ReportHelperListener.onStart(ReportHelperListener.java:67)
-	at org.testng.TestRunner.fireEvent(TestRunner.java:938)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:630)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.runSuites(TestNG.java:1092)
-	at org.testng.TestNG.run(TestNG.java:1060)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></system-err>
-  </testcase>
-  <testcase name="UserRegistrationTest" classname="testcases.EmbarkTestCase" time="16.145">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;terms_and_conditions&quot;}&#10;  (Session info: chrome=134.0.6998.179)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.30.0&apos;, revision: &apos;509c7f17cc*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [de1a3e33fc8a86a78e8ca8e947f2a1c8, findElement {value=terms_and_conditions, using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.179, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53453}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53453/devtoo..., se:cdpVersion: 134.0.6998.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: de1a3e33fc8a86a78e8ca8e947f2a1c8" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+  <testcase name="UserRegistrationTest" classname="testcases.EmbarkTestCase" time="16.285">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;terms_and_conditions&quot;}&#10;  (Session info: chrome=135.0.7049.42)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.30.0&apos;, revision: &apos;509c7f17cc*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [62b651e5197193a5f73f65ed2bd0fa29, findElement {using=xpath, value=terms_and_conditions}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.42, chrome: {chromedriverVersion: 135.0.7049.42 (0f351bbd2617..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50841}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50841/devtoo..., se:cdpVersion: 135.0.7049.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 62b651e5197193a5f73f65ed2bd0fa29" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"terms_and_conditions"}
-  (Session info: chrome=134.0.6998.179)
+  (Session info: chrome=135.0.7049.42)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.30.0', revision: '509c7f17cc*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [de1a3e33fc8a86a78e8ca8e947f2a1c8, findElement {value=terms_and_conditions, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.179, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53453}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53453/devtoo..., se:cdpVersion: 134.0.6998.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: de1a3e33fc8a86a78e8ca8e947f2a1c8
+Command: [62b651e5197193a5f73f65ed2bd0fa29, findElement {using=xpath, value=terms_and_conditions}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.42, chrome: {chromedriverVersion: 135.0.7049.42 (0f351bbd2617..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50841}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50841/devtoo..., se:cdpVersion: 135.0.7049.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 62b651e5197193a5f73f65ed2bd0fa29
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -136,7 +85,7 @@ Session ID: de1a3e33fc8a86a78e8ca8e947f2a1c8
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
 	at helper.CommanHelper.selectCheckboxIfNotSelected(CommanHelper.java:94)
 	at pages.RegistrationPage.userRegistering(RegistrationPage.java:68)
-	at testcases.EmbarkTestCase.UserRegistrationTest(EmbarkTestCase.java:30)
+	at testcases.EmbarkTestCase.UserRegistrationTest(EmbarkTestCase.java:34)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -171,89 +120,105 @@ Session ID: de1a3e33fc8a86a78e8ca8e947f2a1c8
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-out><![CDATA[2025-04-07 22:19:32 [main] INFO  EmbarkTestCase:23 - Starting User Registration test
+    <system-out><![CDATA[D:\Yogesh\Java Workspace\EmbarksTddFramework
+D:\Yogesh\Java Workspace\EmbarksTddFramework
+D:\Yogesh\Java Workspace\EmbarksTddFramework
+[Configuration] [WARN] Detected a static method [base.TestBase.close()]. Static configuration methods can cause  unexpected behavior.
+[Configuration] [WARN] Detected a static method [base.TestBase.close()]. Static configuration methods can cause  unexpected behavior.
+D:\Yogesh\Java Workspace\EmbarksTddFramework
+2025-04-08 21:58:49 [main] INFO  EmbarkTestCase:23 - Starting User Registration test
 User Registration Test
 By.xpath: //a[normalize-space()='Register']
-2025-04-07 22:19:32 [main] INFO  LandingPage:45 - Clicking on Register button
-2025-04-07 22:19:32 [main] INFO  LandingPage:52 - Successfully navigated to Register page: https://www.embark.org/register
-2025-04-07 22:19:32 [main] INFO  EmbarkTestCase:27 - Clicking on Register button
-2025-04-07 22:19:32 [main] INFO  EmbarkTestCase:29 - Starting registration test
-2025-04-07 22:19:33 [main] INFO  RegistrationPage:35 - Full Name is entered
-2025-04-07 22:19:33 [main] INFO  RegistrationPage:41 - Username is entered
-2025-04-07 22:19:33 [main] INFO  RegistrationPage:47 - Email is entered
-Alias stored: email -> jayden.upton@yahoo.com
-2025-04-07 22:19:33 [main] INFO  RegistrationPage:54 - Password is entered
-Alias stored: password -> hvjnf9df20
-2025-04-07 22:19:33 [main] INFO  RegistrationPage:60 - Confirm Password is entered
-2025-04-07 22:19:38 [main] INFO  RegistrationPage:65 - Location is selected
+2025-04-08 21:58:49 [main] INFO  LandingPage:45 - Clicking on Register button
+2025-04-08 21:58:49 [main] INFO  LandingPage:52 - Successfully navigated to Register page: https://www.embark.org/register
+2025-04-08 21:58:49 [main] INFO  EmbarkTestCase:29 - Clicking on Register button
+2025-04-08 21:58:49 [main] INFO  EmbarkTestCase:32 - Starting registration test
+2025-04-08 21:58:49 [main] INFO  RegistrationPage:35 - Full Name is entered
+2025-04-08 21:58:50 [main] INFO  RegistrationPage:41 - Username is entered
+2025-04-08 21:58:50 [main] INFO  RegistrationPage:47 - Email is entered
+Alias stored: email -> orion.howe@hotmail.com
+2025-04-08 21:58:50 [main] INFO  RegistrationPage:54 - Password is entered
+Alias stored: password -> p7hasfkk
+2025-04-08 21:58:50 [main] INFO  RegistrationPage:60 - Confirm Password is entered
+2025-04-08 21:58:55 [main] INFO  RegistrationPage:65 - Location is selected
+]]></system-out>
+    <system-err><![CDATA[Apr 08, 2025 9:58:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 135, returning the closest version; found: 134; Please update to a Selenium version that supports CDP version 135
+Apr 08, 2025 9:58:39 PM base.TestBase setUp
+INFO: Launching chrome browser
+Apr 08, 2025 9:58:48 PM base.TestBase setUp
+INFO: Navigating to https://www.embark.org/
+]]></system-err>
+  </testcase>
+  <testcase name="RegistedLoginTest" classname="testcases.EmbarkTestCase" time="0.0">
+    <skipped message="Method EmbarkTestCase.RegistedLoginTest()[pri:0, instance:testcases.EmbarkTestCase@6cf633eb] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="UserLoginTest" classname="testcases.EmbarkTestCase" time="2.559">
+    <system-out><![CDATA[2025-04-08 21:59:06 [main] INFO  EmbarkTestCase:65 - Starting User Login test
+2025-04-08 21:59:06 [main] INFO  LandingPage:29 - Clicking on Login button
+2025-04-08 21:59:06 [main] INFO  LandingPage:37 - Successfully navigated to Login page: https://www.embark.org/login
+2025-04-08 21:59:06 [main] INFO  EmbarkTestCase:69 - Clicking on Login button
+2025-04-08 21:59:06 [main] INFO  EmbarkTestCase:72 - Redirected to login page
+2025-04-08 21:59:06 [main] INFO  LoginPage:28 - Username is entered
+2025-04-08 21:59:07 [main] INFO  LoginPage:31 - Password is entered
+2025-04-08 21:59:07 [main] INFO  LoginPage:34 - Login button is clicked
+2025-04-08 21:59:07 [main] INFO  EmbarkTestCase:75 - Logging in with email and password
 ]]></system-out>
   </testcase>
-  <testcase name="UserLoginTest" classname="testcases.EmbarkTestCase" time="2.611">
-    <system-out><![CDATA[2025-04-07 22:19:49 [main] INFO  EmbarkTestCase:56 - Starting User Login test
-2025-04-07 22:19:49 [main] INFO  LandingPage:29 - Clicking on Login button
-2025-04-07 22:19:49 [main] INFO  LandingPage:37 - Successfully navigated to Login page: https://www.embark.org/login
-2025-04-07 22:19:49 [main] INFO  EmbarkTestCase:59 - Clicking on Login button
-2025-04-07 22:19:49 [main] INFO  EmbarkTestCase:61 - Redirected to login page
-2025-04-07 22:19:49 [main] INFO  LoginPage:28 - Username is entered
-2025-04-07 22:19:49 [main] INFO  LoginPage:31 - Password is entered
-2025-04-07 22:19:49 [main] INFO  LoginPage:34 - Login button is clicked
-2025-04-07 22:19:49 [main] INFO  EmbarkTestCase:63 - Logging in with email and password
-]]></system-out>
-  </testcase>
-  <testcase name="verifyHostAndAdventure" classname="testcases.EmbarkTestCase" time="62.181">
-    <system-out><![CDATA[2025-04-07 22:19:52 [main] INFO  EmbarkTestCase:70 - Starting Host and Adventure test
-2025-04-07 22:19:52 [main] INFO  HomePage:27 - Clicking on Host an Adventure link
-2025-04-07 22:19:52 [main] INFO  EmbarkTestCase:73 - Clicking on Host an Adventure
-2025-04-07 22:19:52 [main] INFO  EmbarkTestCase:76 - Starting Host and Adventure test
-2025-04-07 22:19:52 [main] INFO  HostAndAdventurePage:33 - Host an Adventure header is displayed
-2025-04-07 22:19:54 [main] INFO  HostAndAdventurePage:38 - Category is selected
-2025-04-07 22:19:56 [main] INFO  HostAndAdventurePage:43 - Difficulty is selected
-2025-04-07 22:20:03 [main] INFO  HostAndAdventurePage:49 - City is selected
-2025-04-07 22:20:06 [main] INFO  HostAndAdventurePage:56 - Clicking on Next button
-2025-04-07 22:20:07 [main] INFO  HostAndAdventurePage:62 - Minimum group size error is displayed
-2025-04-07 22:20:07 [main] INFO  HostAndAdventurePage:66 - Minimum group size error is displayed
-2025-04-07 22:20:07 [main] INFO  HostAndAdventurePage:72 - Minimum group size is entered
-2025-04-07 22:20:07 [main] INFO  HostAndAdventurePage:78 - Maximum group size is entered
-2025-04-07 22:20:07 [main] INFO  HostAndAdventurePage:82 - Clicking on Next button
-2025-04-07 22:20:09 [main] INFO  HostAndAdventurePage:85 - Waiting for new tab to load....
-2025-04-07 22:20:09 [main] INFO  EmbarkTestCase:80 - Starting Host and Adventure test
-2025-04-07 22:20:12 [main] INFO  HostAndAdventurePageDetails:49 - Title is entered
-2025-04-07 22:20:14 [main] INFO  HostAndAdventurePageDetails:54 - Difficulty is selected
-2025-04-07 22:20:14 [main] INFO  HostAndAdventurePageDetails:60 - Summary is entered
-2025-04-07 22:20:15 [main] INFO  HostAndAdventurePageDetails:65 - Included is entered
-2025-04-07 22:20:15 [main] INFO  HostAndAdventurePageDetails:71 - Not included is entered
-2025-04-07 22:20:15 [main] INFO  HostAndAdventurePageDetails:76 - Clicking on Save button
-2025-04-07 22:20:21 [main] INFO  HostAndAdventurePageDetails:82 - City is selected
-2025-04-07 22:20:21 [main] INFO  HostAndAdventurePageDetails:87 - Clicking on Save button
+  <testcase name="verifyHostAndAdventure" classname="testcases.EmbarkTestCase" time="60.354">
+    <system-out><![CDATA[2025-04-08 21:59:09 [main] INFO  EmbarkTestCase:83 - Starting Host and Adventure test
+2025-04-08 21:59:09 [main] INFO  HomePage:27 - Clicking on Host an Adventure link
+2025-04-08 21:59:09 [main] INFO  EmbarkTestCase:87 - Clicking on Host an Adventure
+2025-04-08 21:59:09 [main] INFO  EmbarkTestCase:90 - Starting Host and Adventure test
+2025-04-08 21:59:09 [main] INFO  HostAndAdventurePage:33 - Host an Adventure header is displayed
+2025-04-08 21:59:12 [main] INFO  HostAndAdventurePage:38 - Category is selected
+2025-04-08 21:59:14 [main] INFO  HostAndAdventurePage:43 - Difficulty is selected
+2025-04-08 21:59:20 [main] INFO  HostAndAdventurePage:49 - City is selected
+2025-04-08 21:59:23 [main] INFO  HostAndAdventurePage:56 - Clicking on Next button
+2025-04-08 21:59:24 [main] INFO  HostAndAdventurePage:62 - Minimum group size error is displayed
+2025-04-08 21:59:24 [main] INFO  HostAndAdventurePage:66 - Minimum group size error is displayed
+2025-04-08 21:59:24 [main] INFO  HostAndAdventurePage:72 - Minimum group size is entered
+2025-04-08 21:59:24 [main] INFO  HostAndAdventurePage:78 - Maximum group size is entered
+2025-04-08 21:59:25 [main] INFO  HostAndAdventurePage:82 - Clicking on Next button
+2025-04-08 21:59:27 [main] INFO  HostAndAdventurePage:85 - Waiting for new tab to load....
+2025-04-08 21:59:27 [main] INFO  EmbarkTestCase:95 - Starting Host and Adventure test
+2025-04-08 21:59:30 [main] INFO  HostAndAdventurePageDetails:49 - Title is entered
+2025-04-08 21:59:32 [main] INFO  HostAndAdventurePageDetails:54 - Difficulty is selected
+2025-04-08 21:59:32 [main] INFO  HostAndAdventurePageDetails:60 - Summary is entered
+2025-04-08 21:59:32 [main] INFO  HostAndAdventurePageDetails:65 - Included is entered
+2025-04-08 21:59:32 [main] INFO  HostAndAdventurePageDetails:71 - Not included is entered
+2025-04-08 21:59:32 [main] INFO  HostAndAdventurePageDetails:76 - Clicking on Save button
+2025-04-08 21:59:39 [main] INFO  HostAndAdventurePageDetails:82 - City is selected
+2025-04-08 21:59:39 [main] INFO  HostAndAdventurePageDetails:87 - Clicking on Save button
 D:\Yogesh\Java Workspace\EmbarksTddFramework
-2025-04-07 22:20:22 [main] INFO  HostAndAdventurePageDetails:94 - Clicking on Save button
-2025-04-07 22:20:25 [main] INFO  HostAndAdventurePageDetails:101 - Duration is entered
-2025-04-07 22:20:28 [main] INFO  HostAndAdventurePageDetails:107 - Days and Time is selected
-2025-04-07 22:20:28 [main] INFO  HostAndAdventurePageDetails:128 - Price is entered
-2025-04-07 22:20:30 [main] INFO  HostAndAdventurePageDetails:134 - City is selected
-2025-04-07 22:20:32 [main] INFO  HostAndAdventurePageDetails:140 - Group is selected
-2025-04-07 22:20:32 [main] INFO  HostAndAdventurePageDetails:146 - Availability is entered
-2025-04-07 22:20:33 [main] INFO  HostAndAdventurePageDetails:152 - What qualifies you to give this tour? is entered
-2025-04-07 22:20:33 [main] INFO  HostAndAdventurePageDetails:158 - Additional info is entered
-2025-04-07 22:20:33 [main] INFO  HostAndAdventurePageDetails:164 - Cancellation is entered
-2025-04-07 22:20:33 [main] INFO  HostAndAdventurePageDetails:169 - Clicking on Save button
-2025-04-07 22:20:38 [main] INFO  HostAndAdventurePageDetails:175 - Meetup Location is selected
-2025-04-07 22:20:38 [main] INFO  HostAndAdventurePageDetails:181 - Itinerary is entered
-2025-04-07 22:20:38 [main] INFO  HostAndAdventurePageDetails:186 - Clicking on Save button
-2025-04-07 22:20:46 [main] INFO  HostAndAdventurePageDetails:193 - Clicking on View Tour button
-2025-04-07 22:20:49 [main] INFO  HostAndAdventurePageDetails:197 - Waiting for new window to open
-2025-04-07 22:20:51 [main] INFO  CommanHelper:136 - Switched to window at index: 1 | URL: https://www.embark.org/tours/summar-fun-43
-2025-04-07 22:20:51 [main] INFO  HostAndAdventurePageDetails:200 - Switching to new window
-2025-04-07 22:20:51 [main] INFO  HostAndAdventurePageDetails:205 - Clicking on Save to Wishlist button
-2025-04-07 22:20:51 [main] INFO  HostAndAdventurePageDetails:209 - Closing the new Opened window
-2025-04-07 22:20:51 [main] INFO  CommanHelper:136 - Switched to window at index: 0 | URL: https://www.embark.org/tours/edit/7110/itinerary
-2025-04-07 22:20:51 [main] INFO  HostAndAdventurePageDetails:213 - Switching back to the original window
-2025-04-07 22:20:51 [main] INFO  HomePage:47 - Clicking on Logo link
-2025-04-07 22:20:52 [main] INFO  EmbarkTestCase:84 - Clicking on Logo
-2025-04-07 22:20:52 [main] INFO  HomePage:34 - Clicking on UserName link
-2025-04-07 22:20:54 [main] INFO  HomePage:38 - Clicking on Logout link
-2025-04-07 22:20:54 [main] INFO  HomePage:41 - Logout link clicked
-2025-04-07 22:20:54 [main] INFO  EmbarkTestCase:86 - Clicking on Logout
+2025-04-08 21:59:40 [main] INFO  HostAndAdventurePageDetails:94 - Clicking on Save button
+2025-04-08 21:59:43 [main] INFO  HostAndAdventurePageDetails:101 - Duration is entered
+2025-04-08 21:59:45 [main] INFO  HostAndAdventurePageDetails:107 - Days and Time is selected
+2025-04-08 21:59:45 [main] INFO  HostAndAdventurePageDetails:128 - Price is entered
+2025-04-08 21:59:47 [main] INFO  HostAndAdventurePageDetails:134 - City is selected
+2025-04-08 21:59:49 [main] INFO  HostAndAdventurePageDetails:140 - Group is selected
+2025-04-08 21:59:49 [main] INFO  HostAndAdventurePageDetails:146 - Availability is entered
+2025-04-08 21:59:50 [main] INFO  HostAndAdventurePageDetails:152 - What qualifies you to give this tour? is entered
+2025-04-08 21:59:50 [main] INFO  HostAndAdventurePageDetails:158 - Additional info is entered
+2025-04-08 21:59:50 [main] INFO  HostAndAdventurePageDetails:164 - Cancellation is entered
+2025-04-08 21:59:50 [main] INFO  HostAndAdventurePageDetails:169 - Clicking on Save button
+2025-04-08 21:59:55 [main] INFO  HostAndAdventurePageDetails:175 - Meetup Location is selected
+2025-04-08 21:59:55 [main] INFO  HostAndAdventurePageDetails:181 - Itinerary is entered
+2025-04-08 21:59:55 [main] INFO  HostAndAdventurePageDetails:186 - Clicking on Save button
+2025-04-08 22:00:04 [main] INFO  HostAndAdventurePageDetails:193 - Clicking on View Tour button
+2025-04-08 22:00:07 [main] INFO  HostAndAdventurePageDetails:197 - Waiting for new window to open
+2025-04-08 22:00:07 [main] INFO  CommanHelper:136 - Switched to window at index: 1 | URL: https://www.embark.org/tours/summar-fun-54
+2025-04-08 22:00:07 [main] INFO  HostAndAdventurePageDetails:200 - Switching to new window
+2025-04-08 22:00:07 [main] INFO  HostAndAdventurePageDetails:205 - Clicking on Save to Wishlist button
+2025-04-08 22:00:07 [main] INFO  HostAndAdventurePageDetails:209 - Closing the new Opened window
+2025-04-08 22:00:07 [main] INFO  CommanHelper:136 - Switched to window at index: 0 | URL: https://www.embark.org/tours/edit/7122/itinerary
+2025-04-08 22:00:07 [main] INFO  HostAndAdventurePageDetails:213 - Switching back to the original window
+2025-04-08 22:00:07 [main] INFO  HomePage:47 - Clicking on Logo link
+2025-04-08 22:00:07 [main] INFO  EmbarkTestCase:100 - Clicking on Logo
+2025-04-08 22:00:07 [main] INFO  HomePage:34 - Clicking on UserName link
+2025-04-08 22:00:09 [main] INFO  HomePage:38 - Clicking on Logout link
+2025-04-08 22:00:09 [main] INFO  HomePage:41 - Logout link clicked
+2025-04-08 22:00:09 [main] INFO  EmbarkTestCase:103 - Clicking on Logout
 ]]></system-out>
   </testcase>
 </testsuite>

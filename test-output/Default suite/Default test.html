@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>2/1/1</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Apr 07 22:35:20 IST 2025</td>
+<td>Started on:</td><td>Fri Apr 11 14:49:32 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>82 seconds (82381 ms)</td>
+<tr><td>Total time:</td><td>101 seconds (101234 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,15 +77,15 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='testcases.EmbarkTestCase.UserRegistrationTest()'><b>UserRegistrationTest</b><br>Test class: testcases.EmbarkTestCase</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;terms_and_conditions&quot;}
-  (Session info: chrome=134.0.6998.179)
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;right-side&apos;]//div//div[@id=&apos;navExplore&apos;]&quot;}
+  (Session info: chrome=135.0.7049.42)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.30.0&apos;, revision: &apos;509c7f17cc*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c4a51812edcdb360df96f281ffb18302, findElement {using=xpath, value=terms_and_conditions}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.179, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54137}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54137/devtoo..., se:cdpVersion: 134.0.6998.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c4a51812edcdb360df96f281ffb18302
+Command: [f4dbfd6d3cc21203358b60393a863dc3, findElement {using=xpath, value=//div[@class=&apos;right-side&apos;]//div//div[@id=&apos;navExplore&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.42, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65484}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65484/devtoo..., se:cdpVersion: 135.0.7049.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f4dbfd6d3cc21203358b60393a863dc3
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -102,9 +102,9 @@ Session ID: c4a51812edcdb360df96f281ffb18302
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at helper.CommanHelper.selectCheckboxIfNotSelected(CommanHelper.java:94)
-	at pages.RegistrationPage.userRegistering(RegistrationPage.java:68)
-	at testcases.EmbarkTestCase.UserRegistrationTest(EmbarkTestCase.java:30)
+	at pages.HomePage.logout(HomePage.java:33)
+	at pages.RegistrationPage.userRegistering(RegistrationPage.java:83)
+	at testcases.EmbarkTestCase.UserRegistrationTest(EmbarkTestCase.java:34)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -133,16 +133,16 @@ Session ID: c4a51812edcdb360df96f281ffb18302
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace240311623", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace240311623'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;terms_and_conditions&quot;}
-  (Session info: chrome=134.0.6998.179)
+</pre></div><a href='#' onClick='toggleBox("stack-trace482331175", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace482331175'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;right-side&apos;]//div//div[@id=&apos;navExplore&apos;]&quot;}
+  (Session info: chrome=135.0.7049.42)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.30.0&apos;, revision: &apos;509c7f17cc*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c4a51812edcdb360df96f281ffb18302, findElement {using=xpath, value=terms_and_conditions}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.179, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54137}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54137/devtoo..., se:cdpVersion: 134.0.6998.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c4a51812edcdb360df96f281ffb18302
+Command: [f4dbfd6d3cc21203358b60393a863dc3, findElement {using=xpath, value=//div[@class=&apos;right-side&apos;]//div//div[@id=&apos;navExplore&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.42, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65484}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65484/devtoo..., se:cdpVersion: 135.0.7049.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f4dbfd6d3cc21203358b60393a863dc3
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -159,9 +159,9 @@ Session ID: c4a51812edcdb360df96f281ffb18302
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at helper.CommanHelper.selectCheckboxIfNotSelected(CommanHelper.java:94)
-	at pages.RegistrationPage.userRegistering(RegistrationPage.java:68)
-	at testcases.EmbarkTestCase.UserRegistrationTest(EmbarkTestCase.java:30)
+	at pages.HomePage.logout(HomePage.java:33)
+	at pages.RegistrationPage.userRegistering(RegistrationPage.java:83)
+	at testcases.EmbarkTestCase.UserRegistrationTest(EmbarkTestCase.java:34)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -191,8 +191,8 @@ Session ID: c4a51812edcdb360df96f281ffb18302
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>16</td>
-<td>testcases.EmbarkTestCase@3e1162e7</td></tr>
+<td>32</td>
+<td>testcases.EmbarkTestCase@6ddeeb78</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -205,13 +205,13 @@ Session ID: c4a51812edcdb360df96f281ffb18302
 <tr>
 <td title='testcases.EmbarkTestCase.verifyHostAndAdventure()'><b>verifyHostAndAdventure</b><br>Test class: testcases.EmbarkTestCase</td>
 <td></td>
-<td>59</td>
-<td>testcases.EmbarkTestCase@3e1162e7</td></tr>
+<td>60</td>
+<td>testcases.EmbarkTestCase@6ddeeb78</td></tr>
 <tr>
 <td title='testcases.EmbarkTestCase.UserLoginTest()'><b>UserLoginTest</b><br>Test class: testcases.EmbarkTestCase</td>
 <td></td>
-<td>2</td>
-<td>testcases.EmbarkTestCase@3e1162e7</td></tr>
+<td>4</td>
+<td>testcases.EmbarkTestCase@6ddeeb78</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -223,8 +223,8 @@ Session ID: c4a51812edcdb360df96f281ffb18302
 </tr>
 <tr>
 <td title='testcases.EmbarkTestCase.RegistedLoginTest()'><b>RegistedLoginTest</b><br>Test class: testcases.EmbarkTestCase</td>
-<td><div><pre>java.lang.Throwable: Method testcases.EmbarkTestCase.RegistedLoginTest() on instance testcases.EmbarkTestCase@3e1162e7 depends on not successfully finished methods 
-[testcases.EmbarkTestCase.UserRegistrationTest() on instance testcases.EmbarkTestCase@3e1162e7]
+<td><div><pre>java.lang.Throwable: Method testcases.EmbarkTestCase.RegistedLoginTest() on instance testcases.EmbarkTestCase@6ddeeb78 depends on not successfully finished methods 
+[testcases.EmbarkTestCase.UserRegistrationTest() on instance testcases.EmbarkTestCase@6ddeeb78]
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -244,9 +244,9 @@ Session ID: c4a51812edcdb360df96f281ffb18302
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace336879403", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace336879403'><pre>java.lang.Throwable: Method testcases.EmbarkTestCase.RegistedLoginTest() on instance testcases.EmbarkTestCase@3e1162e7 depends on not successfully finished methods 
-[testcases.EmbarkTestCase.UserRegistrationTest() on instance testcases.EmbarkTestCase@3e1162e7]
+</pre></div><a href='#' onClick='toggleBox("stack-trace421297614", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace421297614'><pre>java.lang.Throwable: Method testcases.EmbarkTestCase.RegistedLoginTest() on instance testcases.EmbarkTestCase@6ddeeb78 depends on not successfully finished methods 
+[testcases.EmbarkTestCase.UserRegistrationTest() on instance testcases.EmbarkTestCase@6ddeeb78]
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -268,7 +268,7 @@ Session ID: c4a51812edcdb360df96f281ffb18302
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>testcases.EmbarkTestCase@3e1162e7</td></tr>
+<td>testcases.EmbarkTestCase@6ddeeb78</td></tr>
 </table><p>
 </body>
 </html>

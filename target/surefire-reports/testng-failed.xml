@@ -7,6 +7,7 @@
         <methods>
           <include name="close"/>
           <include name="UserRegistrationTest"/>
+          <include name="RegistedLoginTest"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- testcases.EmbarkTestCase -->

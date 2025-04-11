@@ -91,8 +91,9 @@ public class CommanHelper extends TestBase {
 	}
 
 	public static void selectCheckboxIfNotSelected(By checkboxLocator) {
-		WebElement checkbox = driver.findElement(checkboxLocator);
 		try {
+			WebElement checkbox = driver.findElement(checkboxLocator);
+			
 			if (!checkbox.isSelected()) {
 				JavascriptExecutor js = (JavascriptExecutor) driver;
 				js.executeScript("document.getElementById('terms_and_conditions').checked = true;");

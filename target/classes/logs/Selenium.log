@@ -376,3 +376,519 @@
 2025-04-07 22:33:20 [main] INFO  HomePage:38 - Clicking on Logout link
 2025-04-07 22:33:20 [main] INFO  HomePage:41 - Logout link clicked
 2025-04-07 22:33:20 [main] INFO  EmbarkTestCase:86 - Clicking on Logout
+2025-04-07 22:35:20 [main] INFO  EmbarkTestCase:23 - Starting User Registration test
+2025-04-07 22:35:21 [main] INFO  LandingPage:45 - Clicking on Register button
+2025-04-07 22:35:21 [main] INFO  LandingPage:52 - Successfully navigated to Register page: https://www.embark.org/register
+2025-04-07 22:35:21 [main] INFO  EmbarkTestCase:27 - Clicking on Register button
+2025-04-07 22:35:21 [main] INFO  EmbarkTestCase:29 - Starting registration test
+2025-04-07 22:35:21 [main] INFO  RegistrationPage:35 - Full Name is entered
+2025-04-07 22:35:21 [main] INFO  RegistrationPage:41 - Username is entered
+2025-04-07 22:35:22 [main] INFO  RegistrationPage:47 - Email is entered
+2025-04-07 22:35:22 [main] INFO  RegistrationPage:54 - Password is entered
+2025-04-07 22:35:22 [main] INFO  RegistrationPage:60 - Confirm Password is entered
+2025-04-07 22:35:26 [main] INFO  RegistrationPage:65 - Location is selected
+2025-04-07 22:35:38 [main] INFO  EmbarkTestCase:56 - Starting User Login test
+2025-04-07 22:35:38 [main] INFO  LandingPage:29 - Clicking on Login button
+2025-04-07 22:35:38 [main] INFO  LandingPage:37 - Successfully navigated to Login page: https://www.embark.org/login
+2025-04-07 22:35:38 [main] INFO  EmbarkTestCase:59 - Clicking on Login button
+2025-04-07 22:35:38 [main] INFO  EmbarkTestCase:61 - Redirected to login page
+2025-04-07 22:35:38 [main] INFO  LoginPage:28 - Username is entered
+2025-04-07 22:35:38 [main] INFO  LoginPage:31 - Password is entered
+2025-04-07 22:35:38 [main] INFO  LoginPage:34 - Login button is clicked
+2025-04-07 22:35:38 [main] INFO  EmbarkTestCase:63 - Logging in with email and password
+2025-04-07 22:35:41 [main] INFO  EmbarkTestCase:70 - Starting Host and Adventure test
+2025-04-07 22:35:41 [main] INFO  HomePage:27 - Clicking on Host an Adventure link
+2025-04-07 22:35:41 [main] INFO  EmbarkTestCase:73 - Clicking on Host an Adventure
+2025-04-07 22:35:41 [main] INFO  EmbarkTestCase:76 - Starting Host and Adventure test
+2025-04-07 22:35:41 [main] INFO  HostAndAdventurePage:33 - Host an Adventure header is displayed
+2025-04-07 22:35:44 [main] INFO  HostAndAdventurePage:38 - Category is selected
+2025-04-07 22:35:46 [main] INFO  HostAndAdventurePage:43 - Difficulty is selected
+2025-04-07 22:35:52 [main] INFO  HostAndAdventurePage:49 - City is selected
+2025-04-07 22:35:55 [main] INFO  HostAndAdventurePage:56 - Clicking on Next button
+2025-04-07 22:35:56 [main] INFO  HostAndAdventurePage:62 - Minimum group size error is displayed
+2025-04-07 22:35:56 [main] INFO  HostAndAdventurePage:66 - Minimum group size error is displayed
+2025-04-07 22:35:56 [main] INFO  HostAndAdventurePage:72 - Minimum group size is entered
+2025-04-07 22:35:56 [main] INFO  HostAndAdventurePage:78 - Maximum group size is entered
+2025-04-07 22:35:57 [main] INFO  HostAndAdventurePage:82 - Clicking on Next button
+2025-04-07 22:35:59 [main] INFO  HostAndAdventurePage:85 - Waiting for new tab to load....
+2025-04-07 22:35:59 [main] INFO  EmbarkTestCase:80 - Starting Host and Adventure test
+2025-04-07 22:36:02 [main] INFO  HostAndAdventurePageDetails:49 - Title is entered
+2025-04-07 22:36:04 [main] INFO  HostAndAdventurePageDetails:54 - Difficulty is selected
+2025-04-07 22:36:04 [main] INFO  HostAndAdventurePageDetails:60 - Summary is entered
+2025-04-07 22:36:04 [main] INFO  HostAndAdventurePageDetails:65 - Included is entered
+2025-04-07 22:36:04 [main] INFO  HostAndAdventurePageDetails:71 - Not included is entered
+2025-04-07 22:36:04 [main] INFO  HostAndAdventurePageDetails:76 - Clicking on Save button
+2025-04-07 22:36:11 [main] INFO  HostAndAdventurePageDetails:82 - City is selected
+2025-04-07 22:36:11 [main] INFO  HostAndAdventurePageDetails:87 - Clicking on Save button
+2025-04-07 22:36:11 [main] INFO  HostAndAdventurePageDetails:94 - Clicking on Save button
+2025-04-07 22:36:15 [main] INFO  HostAndAdventurePageDetails:101 - Duration is entered
+2025-04-07 22:36:17 [main] INFO  HostAndAdventurePageDetails:107 - Days and Time is selected
+2025-04-07 22:36:17 [main] INFO  HostAndAdventurePageDetails:128 - Price is entered
+2025-04-07 22:36:19 [main] INFO  HostAndAdventurePageDetails:134 - City is selected
+2025-04-07 22:36:21 [main] INFO  HostAndAdventurePageDetails:140 - Group is selected
+2025-04-07 22:36:21 [main] INFO  HostAndAdventurePageDetails:146 - Availability is entered
+2025-04-07 22:36:21 [main] INFO  HostAndAdventurePageDetails:152 - What qualifies you to give this tour? is entered
+2025-04-07 22:36:22 [main] INFO  HostAndAdventurePageDetails:158 - Additional info is entered
+2025-04-07 22:36:22 [main] INFO  HostAndAdventurePageDetails:164 - Cancellation is entered
+2025-04-07 22:36:22 [main] INFO  HostAndAdventurePageDetails:169 - Clicking on Save button
+2025-04-07 22:36:27 [main] INFO  HostAndAdventurePageDetails:175 - Meetup Location is selected
+2025-04-07 22:36:27 [main] INFO  HostAndAdventurePageDetails:181 - Itinerary is entered
+2025-04-07 22:36:27 [main] INFO  HostAndAdventurePageDetails:186 - Clicking on Save button
+2025-04-07 22:36:35 [main] INFO  HostAndAdventurePageDetails:193 - Clicking on View Tour button
+2025-04-07 22:36:38 [main] INFO  HostAndAdventurePageDetails:197 - Waiting for new window to open
+2025-04-07 22:36:38 [main] INFO  CommanHelper:136 - Switched to window at index: 1 | URL: https://www.embark.org/tours/summar-fun-47
+2025-04-07 22:36:38 [main] INFO  HostAndAdventurePageDetails:200 - Switching to new window
+2025-04-07 22:36:38 [main] INFO  HostAndAdventurePageDetails:205 - Clicking on Save to Wishlist button
+2025-04-07 22:36:38 [main] INFO  HostAndAdventurePageDetails:209 - Closing the new Opened window
+2025-04-07 22:36:38 [main] INFO  CommanHelper:136 - Switched to window at index: 0 | URL: https://www.embark.org/tours/edit/7114/itinerary
+2025-04-07 22:36:38 [main] INFO  HostAndAdventurePageDetails:213 - Switching back to the original window
+2025-04-07 22:36:38 [main] INFO  HomePage:47 - Clicking on Logo link
+2025-04-07 22:36:39 [main] INFO  EmbarkTestCase:84 - Clicking on Logo
+2025-04-07 22:36:39 [main] INFO  HomePage:34 - Clicking on UserName link
+2025-04-07 22:36:41 [main] INFO  HomePage:38 - Clicking on Logout link
+2025-04-07 22:36:41 [main] INFO  HomePage:41 - Logout link clicked
+2025-04-07 22:36:41 [main] INFO  EmbarkTestCase:86 - Clicking on Logout
+2025-04-08 21:20:07 [main] INFO  EmbarkTestCase:24 - Starting User Registration test
+2025-04-08 21:20:07 [main] INFO  LandingPage:45 - Clicking on Register button
+2025-04-08 21:20:07 [main] INFO  LandingPage:52 - Successfully navigated to Register page: https://www.embark.org/register
+2025-04-08 21:20:07 [main] INFO  EmbarkTestCase:30 - Clicking on Register button
+2025-04-08 21:20:07 [main] INFO  EmbarkTestCase:34 - Starting registration test
+2025-04-08 21:20:07 [main] INFO  RegistrationPage:35 - Full Name is entered
+2025-04-08 21:20:07 [main] INFO  RegistrationPage:41 - Username is entered
+2025-04-08 21:20:07 [main] INFO  RegistrationPage:47 - Email is entered
+2025-04-08 21:20:07 [main] INFO  RegistrationPage:54 - Password is entered
+2025-04-08 21:20:08 [main] INFO  RegistrationPage:60 - Confirm Password is entered
+2025-04-08 21:20:12 [main] INFO  RegistrationPage:65 - Location is selected
+2025-04-08 21:20:24 [main] INFO  EmbarkTestCase:61 - Starting User Login test
+2025-04-08 21:20:24 [main] INFO  LandingPage:29 - Clicking on Login button
+2025-04-08 21:20:24 [main] INFO  LandingPage:37 - Successfully navigated to Login page: https://www.embark.org/login
+2025-04-08 21:20:24 [main] INFO  EmbarkTestCase:64 - Clicking on Login button
+2025-04-08 21:20:24 [main] INFO  EmbarkTestCase:66 - Redirected to login page
+2025-04-08 21:20:24 [main] INFO  LoginPage:28 - Username is entered
+2025-04-08 21:20:24 [main] INFO  LoginPage:31 - Password is entered
+2025-04-08 21:20:24 [main] INFO  LoginPage:34 - Login button is clicked
+2025-04-08 21:20:24 [main] INFO  EmbarkTestCase:68 - Logging in with email and password
+2025-04-08 21:20:27 [main] INFO  EmbarkTestCase:75 - Starting Host and Adventure test
+2025-04-08 21:20:27 [main] INFO  HomePage:27 - Clicking on Host an Adventure link
+2025-04-08 21:20:27 [main] INFO  EmbarkTestCase:78 - Clicking on Host an Adventure
+2025-04-08 21:20:27 [main] INFO  EmbarkTestCase:81 - Starting Host and Adventure test
+2025-04-08 21:20:27 [main] INFO  HostAndAdventurePage:33 - Host an Adventure header is displayed
+2025-04-08 21:20:30 [main] INFO  HostAndAdventurePage:38 - Category is selected
+2025-04-08 21:20:32 [main] INFO  HostAndAdventurePage:43 - Difficulty is selected
+2025-04-08 21:20:38 [main] INFO  HostAndAdventurePage:49 - City is selected
+2025-04-08 21:20:42 [main] INFO  HostAndAdventurePage:56 - Clicking on Next button
+2025-04-08 21:20:43 [main] INFO  HostAndAdventurePage:62 - Minimum group size error is displayed
+2025-04-08 21:20:43 [main] INFO  HostAndAdventurePage:66 - Minimum group size error is displayed
+2025-04-08 21:20:43 [main] INFO  HostAndAdventurePage:72 - Minimum group size is entered
+2025-04-08 21:20:43 [main] INFO  HostAndAdventurePage:78 - Maximum group size is entered
+2025-04-08 21:20:43 [main] INFO  HostAndAdventurePage:82 - Clicking on Next button
+2025-04-08 21:20:45 [main] INFO  HostAndAdventurePage:85 - Waiting for new tab to load....
+2025-04-08 21:20:45 [main] INFO  EmbarkTestCase:85 - Starting Host and Adventure test
+2025-04-08 21:20:48 [main] INFO  HostAndAdventurePageDetails:49 - Title is entered
+2025-04-08 21:20:51 [main] INFO  HostAndAdventurePageDetails:54 - Difficulty is selected
+2025-04-08 21:20:51 [main] INFO  HostAndAdventurePageDetails:60 - Summary is entered
+2025-04-08 21:20:51 [main] INFO  HostAndAdventurePageDetails:65 - Included is entered
+2025-04-08 21:20:51 [main] INFO  HostAndAdventurePageDetails:71 - Not included is entered
+2025-04-08 21:20:51 [main] INFO  HostAndAdventurePageDetails:76 - Clicking on Save button
+2025-04-08 21:20:57 [main] INFO  HostAndAdventurePageDetails:82 - City is selected
+2025-04-08 21:20:57 [main] INFO  HostAndAdventurePageDetails:87 - Clicking on Save button
+2025-04-08 21:20:59 [main] INFO  HostAndAdventurePageDetails:94 - Clicking on Save button
+2025-04-08 21:21:02 [main] INFO  HostAndAdventurePageDetails:101 - Duration is entered
+2025-04-08 21:21:04 [main] INFO  HostAndAdventurePageDetails:107 - Days and Time is selected
+2025-04-08 21:21:04 [main] INFO  HostAndAdventurePageDetails:128 - Price is entered
+2025-04-08 21:21:06 [main] INFO  HostAndAdventurePageDetails:134 - City is selected
+2025-04-08 21:21:09 [main] INFO  HostAndAdventurePageDetails:140 - Group is selected
+2025-04-08 21:21:09 [main] INFO  HostAndAdventurePageDetails:146 - Availability is entered
+2025-04-08 21:21:09 [main] INFO  HostAndAdventurePageDetails:152 - What qualifies you to give this tour? is entered
+2025-04-08 21:21:09 [main] INFO  HostAndAdventurePageDetails:158 - Additional info is entered
+2025-04-08 21:21:09 [main] INFO  HostAndAdventurePageDetails:164 - Cancellation is entered
+2025-04-08 21:21:09 [main] INFO  HostAndAdventurePageDetails:169 - Clicking on Save button
+2025-04-08 21:21:14 [main] INFO  HostAndAdventurePageDetails:175 - Meetup Location is selected
+2025-04-08 21:21:15 [main] INFO  HostAndAdventurePageDetails:181 - Itinerary is entered
+2025-04-08 21:21:15 [main] INFO  HostAndAdventurePageDetails:186 - Clicking on Save button
+2025-04-08 21:21:23 [main] INFO  HostAndAdventurePageDetails:193 - Clicking on View Tour button
+2025-04-08 21:21:26 [main] INFO  HostAndAdventurePageDetails:197 - Waiting for new window to open
+2025-04-08 21:21:30 [main] INFO  CommanHelper:136 - Switched to window at index: 1 | URL: https://www.embark.org/tours/summar-fun-52
+2025-04-08 21:21:30 [main] INFO  HostAndAdventurePageDetails:200 - Switching to new window
+2025-04-08 21:21:30 [main] INFO  HostAndAdventurePageDetails:205 - Clicking on Save to Wishlist button
+2025-04-08 21:21:30 [main] INFO  HostAndAdventurePageDetails:209 - Closing the new Opened window
+2025-04-08 21:21:30 [main] INFO  CommanHelper:136 - Switched to window at index: 0 | URL: https://www.embark.org/tours/edit/7120/itinerary
+2025-04-08 21:21:30 [main] INFO  HostAndAdventurePageDetails:213 - Switching back to the original window
+2025-04-08 21:21:30 [main] INFO  HomePage:47 - Clicking on Logo link
+2025-04-08 21:21:30 [main] INFO  EmbarkTestCase:89 - Clicking on Logo
+2025-04-08 21:21:30 [main] INFO  HomePage:34 - Clicking on UserName link
+2025-04-08 21:21:32 [main] INFO  HomePage:38 - Clicking on Logout link
+2025-04-08 21:21:32 [main] INFO  HomePage:41 - Logout link clicked
+2025-04-08 21:21:32 [main] INFO  EmbarkTestCase:91 - Clicking on Logout
+2025-04-08 21:23:48 [main] INFO  EmbarkTestCase:24 - Starting User Registration test
+2025-04-08 21:23:49 [main] INFO  LandingPage:45 - Clicking on Register button
+2025-04-08 21:23:49 [main] INFO  LandingPage:52 - Successfully navigated to Register page: https://www.embark.org/register
+2025-04-08 21:23:49 [main] INFO  EmbarkTestCase:30 - Clicking on Register button
+2025-04-08 21:23:49 [main] INFO  EmbarkTestCase:33 - Starting registration test
+2025-04-08 21:23:49 [main] INFO  RegistrationPage:35 - Full Name is entered
+2025-04-08 21:23:49 [main] INFO  RegistrationPage:41 - Username is entered
+2025-04-08 21:23:49 [main] INFO  RegistrationPage:47 - Email is entered
+2025-04-08 21:23:49 [main] INFO  RegistrationPage:54 - Password is entered
+2025-04-08 21:23:49 [main] INFO  RegistrationPage:60 - Confirm Password is entered
+2025-04-08 21:23:54 [main] INFO  RegistrationPage:65 - Location is selected
+2025-04-08 21:25:22 [main] INFO  EmbarkTestCase:23 - Starting User Registration test
+2025-04-08 21:25:22 [main] INFO  LandingPage:45 - Clicking on Register button
+2025-04-08 21:25:22 [main] INFO  LandingPage:52 - Successfully navigated to Register page: https://www.embark.org/register
+2025-04-08 21:25:22 [main] INFO  EmbarkTestCase:29 - Clicking on Register button
+2025-04-08 21:25:22 [main] INFO  EmbarkTestCase:32 - Starting registration test
+2025-04-08 21:25:22 [main] INFO  RegistrationPage:35 - Full Name is entered
+2025-04-08 21:25:22 [main] INFO  RegistrationPage:41 - Username is entered
+2025-04-08 21:25:22 [main] INFO  RegistrationPage:47 - Email is entered
+2025-04-08 21:25:23 [main] INFO  RegistrationPage:54 - Password is entered
+2025-04-08 21:25:23 [main] INFO  RegistrationPage:60 - Confirm Password is entered
+2025-04-08 21:25:28 [main] INFO  RegistrationPage:65 - Location is selected
+2025-04-08 21:33:33 [main] INFO  EmbarkTestCase:23 - Starting User Registration test
+2025-04-08 21:33:33 [main] INFO  LandingPage:45 - Clicking on Register button
+2025-04-08 21:33:33 [main] INFO  LandingPage:52 - Successfully navigated to Register page: https://www.embark.org/register
+2025-04-08 21:33:33 [main] INFO  EmbarkTestCase:29 - Clicking on Register button
+2025-04-08 21:33:33 [main] INFO  EmbarkTestCase:32 - Starting registration test
+2025-04-08 21:33:34 [main] INFO  RegistrationPage:35 - Full Name is entered
+2025-04-08 21:33:34 [main] INFO  RegistrationPage:41 - Username is entered
+2025-04-08 21:33:34 [main] INFO  RegistrationPage:47 - Email is entered
+2025-04-08 21:33:34 [main] INFO  RegistrationPage:54 - Password is entered
+2025-04-08 21:33:34 [main] INFO  RegistrationPage:60 - Confirm Password is entered
+2025-04-08 21:33:39 [main] INFO  RegistrationPage:65 - Location is selected
+2025-04-08 21:33:50 [main] INFO  EmbarkTestCase:65 - Starting User Login test
+2025-04-08 21:33:50 [main] INFO  LandingPage:29 - Clicking on Login button
+2025-04-08 21:33:50 [main] INFO  LandingPage:37 - Successfully navigated to Login page: https://www.embark.org/login
+2025-04-08 21:33:50 [main] INFO  EmbarkTestCase:69 - Clicking on Login button
+2025-04-08 21:33:50 [main] INFO  EmbarkTestCase:72 - Redirected to login page
+2025-04-08 21:33:50 [main] INFO  LoginPage:28 - Username is entered
+2025-04-08 21:33:51 [main] INFO  LoginPage:31 - Password is entered
+2025-04-08 21:33:51 [main] INFO  LoginPage:34 - Login button is clicked
+2025-04-08 21:33:51 [main] INFO  EmbarkTestCase:75 - Logging in with email and password
+2025-04-08 21:33:53 [main] INFO  EmbarkTestCase:83 - Starting Host and Adventure test
+2025-04-08 21:33:53 [main] INFO  HomePage:27 - Clicking on Host an Adventure link
+2025-04-08 21:33:53 [main] INFO  EmbarkTestCase:87 - Clicking on Host an Adventure
+2025-04-08 21:33:53 [main] INFO  EmbarkTestCase:90 - Starting Host and Adventure test
+2025-04-08 21:33:53 [main] INFO  HostAndAdventurePage:33 - Host an Adventure header is displayed
+2025-04-08 21:33:56 [main] INFO  HostAndAdventurePage:38 - Category is selected
+2025-04-08 21:33:58 [main] INFO  HostAndAdventurePage:43 - Difficulty is selected
+2025-04-08 21:34:04 [main] INFO  HostAndAdventurePage:49 - City is selected
+2025-04-08 21:34:07 [main] INFO  HostAndAdventurePage:56 - Clicking on Next button
+2025-04-08 21:34:08 [main] INFO  HostAndAdventurePage:62 - Minimum group size error is displayed
+2025-04-08 21:34:08 [main] INFO  HostAndAdventurePage:66 - Minimum group size error is displayed
+2025-04-08 21:34:09 [main] INFO  HostAndAdventurePage:72 - Minimum group size is entered
+2025-04-08 21:34:09 [main] INFO  HostAndAdventurePage:78 - Maximum group size is entered
+2025-04-08 21:34:09 [main] INFO  HostAndAdventurePage:82 - Clicking on Next button
+2025-04-08 21:34:11 [main] INFO  HostAndAdventurePage:85 - Waiting for new tab to load....
+2025-04-08 21:34:11 [main] INFO  EmbarkTestCase:95 - Starting Host and Adventure test
+2025-04-08 21:34:14 [main] INFO  HostAndAdventurePageDetails:49 - Title is entered
+2025-04-08 21:34:16 [main] INFO  HostAndAdventurePageDetails:54 - Difficulty is selected
+2025-04-08 21:34:16 [main] INFO  HostAndAdventurePageDetails:60 - Summary is entered
+2025-04-08 21:34:16 [main] INFO  HostAndAdventurePageDetails:65 - Included is entered
+2025-04-08 21:34:16 [main] INFO  HostAndAdventurePageDetails:71 - Not included is entered
+2025-04-08 21:34:17 [main] INFO  HostAndAdventurePageDetails:76 - Clicking on Save button
+2025-04-08 21:34:23 [main] INFO  HostAndAdventurePageDetails:82 - City is selected
+2025-04-08 21:34:23 [main] INFO  HostAndAdventurePageDetails:87 - Clicking on Save button
+2025-04-08 21:34:24 [main] INFO  HostAndAdventurePageDetails:94 - Clicking on Save button
+2025-04-08 21:34:27 [main] INFO  HostAndAdventurePageDetails:101 - Duration is entered
+2025-04-08 21:34:30 [main] INFO  HostAndAdventurePageDetails:107 - Days and Time is selected
+2025-04-08 21:34:30 [main] INFO  HostAndAdventurePageDetails:128 - Price is entered
+2025-04-08 21:34:32 [main] INFO  HostAndAdventurePageDetails:134 - City is selected
+2025-04-08 21:34:34 [main] INFO  HostAndAdventurePageDetails:140 - Group is selected
+2025-04-08 21:34:34 [main] INFO  HostAndAdventurePageDetails:146 - Availability is entered
+2025-04-08 21:34:34 [main] INFO  HostAndAdventurePageDetails:152 - What qualifies you to give this tour? is entered
+2025-04-08 21:34:34 [main] INFO  HostAndAdventurePageDetails:158 - Additional info is entered
+2025-04-08 21:34:34 [main] INFO  HostAndAdventurePageDetails:164 - Cancellation is entered
+2025-04-08 21:34:35 [main] INFO  HostAndAdventurePageDetails:169 - Clicking on Save button
+2025-04-08 21:34:40 [main] INFO  HostAndAdventurePageDetails:175 - Meetup Location is selected
+2025-04-08 21:34:40 [main] INFO  HostAndAdventurePageDetails:181 - Itinerary is entered
+2025-04-08 21:34:40 [main] INFO  HostAndAdventurePageDetails:186 - Clicking on Save button
+2025-04-08 21:34:49 [main] INFO  HostAndAdventurePageDetails:193 - Clicking on View Tour button
+2025-04-08 21:34:52 [main] INFO  HostAndAdventurePageDetails:197 - Waiting for new window to open
+2025-04-08 21:34:55 [main] INFO  CommanHelper:136 - Switched to window at index: 1 | URL: https://www.embark.org/tours/summar-fun-53
+2025-04-08 21:34:55 [main] INFO  HostAndAdventurePageDetails:200 - Switching to new window
+2025-04-08 21:34:55 [main] INFO  HostAndAdventurePageDetails:205 - Clicking on Save to Wishlist button
+2025-04-08 21:34:56 [main] INFO  HostAndAdventurePageDetails:209 - Closing the new Opened window
+2025-04-08 21:34:56 [main] INFO  CommanHelper:136 - Switched to window at index: 0 | URL: https://www.embark.org/tours/edit/7121/itinerary
+2025-04-08 21:34:56 [main] INFO  HostAndAdventurePageDetails:213 - Switching back to the original window
+2025-04-08 21:34:56 [main] INFO  HomePage:47 - Clicking on Logo link
+2025-04-08 21:34:56 [main] INFO  EmbarkTestCase:100 - Clicking on Logo
+2025-04-08 21:34:56 [main] INFO  HomePage:34 - Clicking on UserName link
+2025-04-08 21:34:58 [main] INFO  HomePage:38 - Clicking on Logout link
+2025-04-08 21:34:58 [main] INFO  HomePage:41 - Logout link clicked
+2025-04-08 21:34:58 [main] INFO  EmbarkTestCase:103 - Clicking on Logout
+2025-04-08 21:53:53 [main] INFO  EmbarkTestCase:23 - Starting User Registration test
+2025-04-08 21:54:05 [main] INFO  LandingPage:45 - Clicking on Register button
+2025-04-08 21:54:05 [main] INFO  LandingPage:52 - Successfully navigated to Register page: https://www.embark.org/register
+2025-04-08 21:54:05 [main] INFO  EmbarkTestCase:29 - Clicking on Register button
+2025-04-08 21:54:05 [main] INFO  EmbarkTestCase:32 - Starting registration test
+2025-04-08 21:54:06 [main] INFO  RegistrationPage:35 - Full Name is entered
+2025-04-08 21:54:06 [main] INFO  RegistrationPage:41 - Username is entered
+2025-04-08 21:54:06 [main] INFO  RegistrationPage:47 - Email is entered
+2025-04-08 21:54:06 [main] INFO  RegistrationPage:54 - Password is entered
+2025-04-08 21:54:06 [main] INFO  RegistrationPage:60 - Confirm Password is entered
+2025-04-08 21:54:11 [main] INFO  RegistrationPage:65 - Location is selected
+2025-04-08 21:58:49 [main] INFO  EmbarkTestCase:23 - Starting User Registration test
+2025-04-08 21:58:49 [main] INFO  LandingPage:45 - Clicking on Register button
+2025-04-08 21:58:49 [main] INFO  LandingPage:52 - Successfully navigated to Register page: https://www.embark.org/register
+2025-04-08 21:58:49 [main] INFO  EmbarkTestCase:29 - Clicking on Register button
+2025-04-08 21:58:49 [main] INFO  EmbarkTestCase:32 - Starting registration test
+2025-04-08 21:58:49 [main] INFO  RegistrationPage:35 - Full Name is entered
+2025-04-08 21:58:50 [main] INFO  RegistrationPage:41 - Username is entered
+2025-04-08 21:58:50 [main] INFO  RegistrationPage:47 - Email is entered
+2025-04-08 21:58:50 [main] INFO  RegistrationPage:54 - Password is entered
+2025-04-08 21:58:50 [main] INFO  RegistrationPage:60 - Confirm Password is entered
+2025-04-08 21:58:55 [main] INFO  RegistrationPage:65 - Location is selected
+2025-04-08 21:59:06 [main] INFO  EmbarkTestCase:65 - Starting User Login test
+2025-04-08 21:59:06 [main] INFO  LandingPage:29 - Clicking on Login button
+2025-04-08 21:59:06 [main] INFO  LandingPage:37 - Successfully navigated to Login page: https://www.embark.org/login
+2025-04-08 21:59:06 [main] INFO  EmbarkTestCase:69 - Clicking on Login button
+2025-04-08 21:59:06 [main] INFO  EmbarkTestCase:72 - Redirected to login page
+2025-04-08 21:59:06 [main] INFO  LoginPage:28 - Username is entered
+2025-04-08 21:59:07 [main] INFO  LoginPage:31 - Password is entered
+2025-04-08 21:59:07 [main] INFO  LoginPage:34 - Login button is clicked
+2025-04-08 21:59:07 [main] INFO  EmbarkTestCase:75 - Logging in with email and password
+2025-04-08 21:59:09 [main] INFO  EmbarkTestCase:83 - Starting Host and Adventure test
+2025-04-08 21:59:09 [main] INFO  HomePage:27 - Clicking on Host an Adventure link
+2025-04-08 21:59:09 [main] INFO  EmbarkTestCase:87 - Clicking on Host an Adventure
+2025-04-08 21:59:09 [main] INFO  EmbarkTestCase:90 - Starting Host and Adventure test
+2025-04-08 21:59:09 [main] INFO  HostAndAdventurePage:33 - Host an Adventure header is displayed
+2025-04-08 21:59:12 [main] INFO  HostAndAdventurePage:38 - Category is selected
+2025-04-08 21:59:14 [main] INFO  HostAndAdventurePage:43 - Difficulty is selected
+2025-04-08 21:59:20 [main] INFO  HostAndAdventurePage:49 - City is selected
+2025-04-08 21:59:23 [main] INFO  HostAndAdventurePage:56 - Clicking on Next button
+2025-04-08 21:59:24 [main] INFO  HostAndAdventurePage:62 - Minimum group size error is displayed
+2025-04-08 21:59:24 [main] INFO  HostAndAdventurePage:66 - Minimum group size error is displayed
+2025-04-08 21:59:24 [main] INFO  HostAndAdventurePage:72 - Minimum group size is entered
+2025-04-08 21:59:24 [main] INFO  HostAndAdventurePage:78 - Maximum group size is entered
+2025-04-08 21:59:25 [main] INFO  HostAndAdventurePage:82 - Clicking on Next button
+2025-04-08 21:59:27 [main] INFO  HostAndAdventurePage:85 - Waiting for new tab to load....
+2025-04-08 21:59:27 [main] INFO  EmbarkTestCase:95 - Starting Host and Adventure test
+2025-04-08 21:59:30 [main] INFO  HostAndAdventurePageDetails:49 - Title is entered
+2025-04-08 21:59:32 [main] INFO  HostAndAdventurePageDetails:54 - Difficulty is selected
+2025-04-08 21:59:32 [main] INFO  HostAndAdventurePageDetails:60 - Summary is entered
+2025-04-08 21:59:32 [main] INFO  HostAndAdventurePageDetails:65 - Included is entered
+2025-04-08 21:59:32 [main] INFO  HostAndAdventurePageDetails:71 - Not included is entered
+2025-04-08 21:59:32 [main] INFO  HostAndAdventurePageDetails:76 - Clicking on Save button
+2025-04-08 21:59:39 [main] INFO  HostAndAdventurePageDetails:82 - City is selected
+2025-04-08 21:59:39 [main] INFO  HostAndAdventurePageDetails:87 - Clicking on Save button
+2025-04-08 21:59:40 [main] INFO  HostAndAdventurePageDetails:94 - Clicking on Save button
+2025-04-08 21:59:43 [main] INFO  HostAndAdventurePageDetails:101 - Duration is entered
+2025-04-08 21:59:45 [main] INFO  HostAndAdventurePageDetails:107 - Days and Time is selected
+2025-04-08 21:59:45 [main] INFO  HostAndAdventurePageDetails:128 - Price is entered
+2025-04-08 21:59:47 [main] INFO  HostAndAdventurePageDetails:134 - City is selected
+2025-04-08 21:59:49 [main] INFO  HostAndAdventurePageDetails:140 - Group is selected
+2025-04-08 21:59:49 [main] INFO  HostAndAdventurePageDetails:146 - Availability is entered
+2025-04-08 21:59:50 [main] INFO  HostAndAdventurePageDetails:152 - What qualifies you to give this tour? is entered
+2025-04-08 21:59:50 [main] INFO  HostAndAdventurePageDetails:158 - Additional info is entered
+2025-04-08 21:59:50 [main] INFO  HostAndAdventurePageDetails:164 - Cancellation is entered
+2025-04-08 21:59:50 [main] INFO  HostAndAdventurePageDetails:169 - Clicking on Save button
+2025-04-08 21:59:55 [main] INFO  HostAndAdventurePageDetails:175 - Meetup Location is selected
+2025-04-08 21:59:55 [main] INFO  HostAndAdventurePageDetails:181 - Itinerary is entered
+2025-04-08 21:59:55 [main] INFO  HostAndAdventurePageDetails:186 - Clicking on Save button
+2025-04-08 22:00:04 [main] INFO  HostAndAdventurePageDetails:193 - Clicking on View Tour button
+2025-04-08 22:00:07 [main] INFO  HostAndAdventurePageDetails:197 - Waiting for new window to open
+2025-04-08 22:00:07 [main] INFO  CommanHelper:136 - Switched to window at index: 1 | URL: https://www.embark.org/tours/summar-fun-54
+2025-04-08 22:00:07 [main] INFO  HostAndAdventurePageDetails:200 - Switching to new window
+2025-04-08 22:00:07 [main] INFO  HostAndAdventurePageDetails:205 - Clicking on Save to Wishlist button
+2025-04-08 22:00:07 [main] INFO  HostAndAdventurePageDetails:209 - Closing the new Opened window
+2025-04-08 22:00:07 [main] INFO  CommanHelper:136 - Switched to window at index: 0 | URL: https://www.embark.org/tours/edit/7122/itinerary
+2025-04-08 22:00:07 [main] INFO  HostAndAdventurePageDetails:213 - Switching back to the original window
+2025-04-08 22:00:07 [main] INFO  HomePage:47 - Clicking on Logo link
+2025-04-08 22:00:07 [main] INFO  EmbarkTestCase:100 - Clicking on Logo
+2025-04-08 22:00:07 [main] INFO  HomePage:34 - Clicking on UserName link
+2025-04-08 22:00:09 [main] INFO  HomePage:38 - Clicking on Logout link
+2025-04-08 22:00:09 [main] INFO  HomePage:41 - Logout link clicked
+2025-04-08 22:00:09 [main] INFO  EmbarkTestCase:103 - Clicking on Logout
+2025-04-08 22:07:06 [main] INFO  EmbarkTestCase:23 - Starting User Registration test
+2025-04-08 22:07:06 [main] INFO  LandingPage:45 - Clicking on Register button
+2025-04-08 22:07:06 [main] INFO  LandingPage:52 - Successfully navigated to Register page: https://www.embark.org/register
+2025-04-08 22:07:06 [main] INFO  EmbarkTestCase:29 - Clicking on Register button
+2025-04-08 22:07:06 [main] INFO  EmbarkTestCase:32 - Starting registration test
+2025-04-08 22:07:06 [main] INFO  RegistrationPage:35 - Full Name is entered
+2025-04-08 22:07:07 [main] INFO  RegistrationPage:41 - Username is entered
+2025-04-08 22:07:07 [main] INFO  RegistrationPage:47 - Email is entered
+2025-04-08 22:07:07 [main] INFO  RegistrationPage:54 - Password is entered
+2025-04-08 22:07:07 [main] INFO  RegistrationPage:60 - Confirm Password is entered
+2025-04-08 22:07:12 [main] INFO  RegistrationPage:65 - Location is selected
+2025-04-08 22:19:32 [main] INFO  EmbarkTestCase:23 - Starting User Registration test
+2025-04-08 22:19:32 [main] INFO  LandingPage:45 - Clicking on Register button
+2025-04-08 22:19:32 [main] INFO  LandingPage:52 - Successfully navigated to Register page: https://www.embark.org/register
+2025-04-08 22:19:32 [main] INFO  EmbarkTestCase:29 - Clicking on Register button
+2025-04-08 22:19:32 [main] INFO  EmbarkTestCase:32 - Starting registration test
+2025-04-08 22:19:33 [main] INFO  RegistrationPage:35 - Full Name is entered
+2025-04-08 22:19:33 [main] INFO  RegistrationPage:41 - Username is entered
+2025-04-08 22:19:33 [main] INFO  RegistrationPage:47 - Email is entered
+2025-04-08 22:19:33 [main] INFO  RegistrationPage:54 - Password is entered
+2025-04-08 22:19:33 [main] INFO  RegistrationPage:60 - Confirm Password is entered
+2025-04-08 22:19:38 [main] INFO  RegistrationPage:65 - Location is selected
+2025-04-08 22:24:03 [main] INFO  EmbarkTestCase:23 - Starting User Registration test
+2025-04-08 22:24:03 [main] INFO  LandingPage:45 - Clicking on Register button
+2025-04-08 22:24:03 [main] INFO  LandingPage:52 - Successfully navigated to Register page: https://www.embark.org/register
+2025-04-08 22:24:03 [main] INFO  EmbarkTestCase:29 - Clicking on Register button
+2025-04-08 22:24:03 [main] INFO  EmbarkTestCase:32 - Starting registration test
+2025-04-08 22:24:03 [main] INFO  RegistrationPage:35 - Full Name is entered
+2025-04-08 22:24:03 [main] INFO  RegistrationPage:41 - Username is entered
+2025-04-08 22:24:03 [main] INFO  RegistrationPage:47 - Email is entered
+2025-04-08 22:24:03 [main] INFO  RegistrationPage:54 - Password is entered
+2025-04-08 22:24:04 [main] INFO  RegistrationPage:60 - Confirm Password is entered
+2025-04-08 22:24:08 [main] INFO  RegistrationPage:65 - Location is selected
+2025-04-08 22:24:18 [main] INFO  CommanHelper:108 - no such element: Unable to locate element: {"method":"xpath","selector":"terms_and_conditions"}
+  (Session info: chrome=135.0.7049.42)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.30.0', revision: '509c7f17cc*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cd86363f6758361ff51de1ba9c11c9e9, findElement {using=xpath, value=terms_and_conditions}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.42, chrome: {chromedriverVersion: 135.0.7049.42 (0f351bbd2617..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52282}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52282/devtoo..., se:cdpVersion: 135.0.7049.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cd86363f6758361ff51de1ba9c11c9e9
+2025-04-08 22:24:18 [main] INFO  RegistrationPage:69 - Clicking on Terms and Condition checkbox
+2025-04-08 22:24:19 [main] INFO  RegistrationPage:74 - Clicking on Register button
+2025-04-08 22:24:22 [main] INFO  HomePage:47 - Clicking on Logo link
+2025-04-08 22:24:22 [main] INFO  RegistrationPage:80 - Clicking on Logo
+2025-04-08 22:35:28 [main] INFO  EmbarkTestCase:23 - Starting User Registration test
+2025-04-08 22:35:28 [main] INFO  LandingPage:47 - Clicking on Register button
+2025-04-08 22:35:28 [main] INFO  LandingPage:54 - Successfully navigated to Register page: https://www.embark.org/register
+2025-04-08 22:35:28 [main] INFO  EmbarkTestCase:29 - Clicking on Register button
+2025-04-08 22:35:28 [main] INFO  EmbarkTestCase:32 - Starting registration test
+2025-04-08 22:35:29 [main] INFO  RegistrationPage:36 - Full Name is entered
+2025-04-08 22:35:29 [main] INFO  RegistrationPage:42 - Username is entered
+2025-04-08 22:35:29 [main] INFO  RegistrationPage:48 - Email is entered
+2025-04-08 22:35:29 [main] INFO  RegistrationPage:55 - Password is entered
+2025-04-08 22:35:29 [main] INFO  RegistrationPage:61 - Confirm Password is entered
+2025-04-08 22:35:34 [main] INFO  RegistrationPage:66 - Location is selected
+2025-04-08 22:35:44 [main] INFO  CommanHelper:108 - no such element: Unable to locate element: {"method":"xpath","selector":"terms_and_conditions"}
+  (Session info: chrome=135.0.7049.42)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.30.0', revision: '509c7f17cc*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b760ed44c3ec19cc7b2e84fc6bf47f87, findElement {value=terms_and_conditions, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.42, chrome: {chromedriverVersion: 135.0.7049.42 (0f351bbd2617..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52390}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52390/devtoo..., se:cdpVersion: 135.0.7049.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b760ed44c3ec19cc7b2e84fc6bf47f87
+2025-04-08 22:35:44 [main] INFO  RegistrationPage:70 - Clicking on Terms and Condition checkbox
+2025-04-08 22:35:44 [main] INFO  RegistrationPage:75 - Clicking on Register button
+2025-04-08 22:35:47 [main] INFO  HomePage:53 - Clicking on Logo link
+2025-04-08 22:35:47 [main] INFO  RegistrationPage:81 - Clicking on Logo
+2025-04-08 22:36:01 [main] ERROR HomePage:45 - Error while clicking on Logout link: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='right-side']//div//div[@id='navExplore']"}
+  (Session info: chrome=135.0.7049.42)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.30.0', revision: '509c7f17cc*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b760ed44c3ec19cc7b2e84fc6bf47f87, findElement {value=//div[@class='right-side']//div//div[@id='navExplore'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.42, chrome: {chromedriverVersion: 135.0.7049.42 (0f351bbd2617..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52390}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52390/devtoo..., se:cdpVersion: 135.0.7049.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b760ed44c3ec19cc7b2e84fc6bf47f87
+2025-04-08 22:36:01 [main] INFO  RegistrationPage:85 - Clicking on Logout
+2025-04-08 22:36:01 [main] INFO  EmbarkTestCase:35 - User registration is completed
+2025-04-08 22:37:36 [main] INFO  EmbarkTestCase:23 - Starting User Registration test
+2025-04-08 22:37:36 [main] INFO  LandingPage:47 - Clicking on Register button
+2025-04-08 22:37:36 [main] INFO  LandingPage:54 - Successfully navigated to Register page: https://www.embark.org/register
+2025-04-08 22:37:36 [main] INFO  EmbarkTestCase:29 - Clicking on Register button
+2025-04-08 22:37:36 [main] INFO  EmbarkTestCase:32 - Starting registration test
+2025-04-08 22:37:37 [main] INFO  RegistrationPage:36 - Full Name is entered
+2025-04-08 22:37:37 [main] INFO  RegistrationPage:42 - Username is entered
+2025-04-08 22:37:37 [main] INFO  RegistrationPage:48 - Email is entered
+2025-04-08 22:37:37 [main] INFO  RegistrationPage:55 - Password is entered
+2025-04-08 22:37:37 [main] INFO  RegistrationPage:61 - Confirm Password is entered
+2025-04-08 22:37:42 [main] INFO  RegistrationPage:66 - Location is selected
+2025-04-08 22:37:52 [main] INFO  CommanHelper:108 - no such element: Unable to locate element: {"method":"xpath","selector":"terms_and_conditions"}
+  (Session info: chrome=135.0.7049.42)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.30.0', revision: '509c7f17cc*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b99072021a6f18237c8c8efd414501b3, findElement {using=xpath, value=terms_and_conditions}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.42, chrome: {chromedriverVersion: 135.0.7049.42 (0f351bbd2617..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52476}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52476/devtoo..., se:cdpVersion: 135.0.7049.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b99072021a6f18237c8c8efd414501b3
+2025-04-08 22:37:52 [main] INFO  RegistrationPage:70 - Clicking on Terms and Condition checkbox
+2025-04-08 22:37:52 [main] INFO  RegistrationPage:75 - Clicking on Register button
+2025-04-08 22:37:55 [main] INFO  HomePage:53 - Clicking on Logo link
+2025-04-08 22:37:56 [main] INFO  RegistrationPage:81 - Clicking on Logo
+2025-04-08 22:38:09 [main] ERROR HomePage:45 - Error while clicking on Logout link: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='right-side']//div//div[@id='navExplore']"}
+  (Session info: chrome=135.0.7049.42)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.30.0', revision: '509c7f17cc*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b99072021a6f18237c8c8efd414501b3, findElement {using=xpath, value=//div[@class='right-side']//div//div[@id='navExplore']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.42, chrome: {chromedriverVersion: 135.0.7049.42 (0f351bbd2617..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52476}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52476/devtoo..., se:cdpVersion: 135.0.7049.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b99072021a6f18237c8c8efd414501b3
+2025-04-08 22:38:09 [main] INFO  RegistrationPage:85 - Clicking on Logout
+2025-04-08 22:38:09 [main] INFO  EmbarkTestCase:35 - User registration is completed
+2025-04-08 22:38:09 [main] INFO  EmbarkTestCase:43 - Starting User Login test
+2025-04-08 22:38:09 [main] INFO  LandingPage:27 - Clicking on Login button
+2025-04-08 22:38:09 [main] INFO  LandingPage:35 - Successfully navigated to Login page: https://www.embark.org/login
+2025-04-08 22:38:09 [main] INFO  EmbarkTestCase:47 - Clicking on Login button
+2025-04-08 22:38:09 [main] INFO  EmbarkTestCase:50 - Redirected to login page
+2025-04-08 22:38:10 [main] INFO  LoginPage:29 - Username is entered
+2025-04-08 22:38:10 [main] INFO  LoginPage:32 - Password is entered
+2025-04-08 22:38:12 [main] INFO  LoginPage:36 - Login button is clicked
+2025-04-08 22:38:12 [main] INFO  EmbarkTestCase:55 - Logging in with email and password
+2025-04-08 22:39:37 [main] INFO  EmbarkTestCase:23 - Starting User Registration test
+2025-04-08 22:39:37 [main] INFO  LandingPage:47 - Clicking on Register button
+2025-04-08 22:39:37 [main] INFO  LandingPage:54 - Successfully navigated to Register page: https://www.embark.org/register
+2025-04-08 22:39:37 [main] INFO  EmbarkTestCase:29 - Clicking on Register button
+2025-04-08 22:39:37 [main] INFO  EmbarkTestCase:32 - Starting registration test
+2025-04-08 22:39:38 [main] INFO  RegistrationPage:36 - Full Name is entered
+2025-04-08 22:39:38 [main] INFO  RegistrationPage:42 - Username is entered
+2025-04-08 22:39:38 [main] INFO  RegistrationPage:48 - Email is entered
+2025-04-08 22:39:38 [main] INFO  RegistrationPage:55 - Password is entered
+2025-04-08 22:39:38 [main] INFO  RegistrationPage:61 - Confirm Password is entered
+2025-04-08 22:39:43 [main] INFO  RegistrationPage:66 - Location is selected
+2025-04-08 22:39:53 [main] INFO  CommanHelper:108 - no such element: Unable to locate element: {"method":"xpath","selector":"terms_and_conditions"}
+  (Session info: chrome=135.0.7049.42)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.30.0', revision: '509c7f17cc*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5c51fe32ade57615e15adeb8aad060fb, findElement {value=terms_and_conditions, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.42, chrome: {chromedriverVersion: 135.0.7049.42 (0f351bbd2617..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52567}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52567/devtoo..., se:cdpVersion: 135.0.7049.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5c51fe32ade57615e15adeb8aad060fb
+2025-04-08 22:39:53 [main] INFO  RegistrationPage:70 - Clicking on Terms and Condition checkbox
+2025-04-08 22:39:53 [main] INFO  RegistrationPage:75 - Clicking on Register button
+2025-04-08 22:39:56 [main] INFO  HomePage:53 - Clicking on Logo link
+2025-04-08 22:39:56 [main] INFO  RegistrationPage:81 - Clicking on Logo
+2025-04-08 22:40:09 [main] ERROR HomePage:45 - Error while clicking on Logout link: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='right-side']//div//div[@id='navExplore']"}
+  (Session info: chrome=135.0.7049.42)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.30.0', revision: '509c7f17cc*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5c51fe32ade57615e15adeb8aad060fb, findElement {value=//div[@class='right-side']//div//div[@id='navExplore'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.42, chrome: {chromedriverVersion: 135.0.7049.42 (0f351bbd2617..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52567}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52567/devtoo..., se:cdpVersion: 135.0.7049.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5c51fe32ade57615e15adeb8aad060fb
+2025-04-08 22:40:09 [main] INFO  RegistrationPage:85 - Clicking on Logout
+2025-04-08 22:40:09 [main] INFO  EmbarkTestCase:35 - User registration is completed
+2025-04-08 22:41:59 [main] INFO  EmbarkTestCase:23 - Starting User Registration test
+2025-04-08 22:41:59 [main] INFO  LandingPage:47 - Clicking on Register button
+2025-04-08 22:41:59 [main] INFO  LandingPage:54 - Successfully navigated to Register page: https://www.embark.org/register
+2025-04-08 22:41:59 [main] INFO  EmbarkTestCase:29 - Clicking on Register button
+2025-04-08 22:41:59 [main] INFO  EmbarkTestCase:32 - Starting registration test
+2025-04-08 22:42:00 [main] INFO  RegistrationPage:35 - Full Name is entered
+2025-04-08 22:42:00 [main] INFO  RegistrationPage:41 - Username is entered
+2025-04-08 22:42:00 [main] INFO  RegistrationPage:47 - Email is entered
+2025-04-08 22:42:00 [main] INFO  RegistrationPage:54 - Password is entered
+2025-04-08 22:42:00 [main] INFO  RegistrationPage:60 - Confirm Password is entered
+2025-04-08 22:42:05 [main] INFO  RegistrationPage:65 - Location is selected
+2025-04-08 22:42:15 [main] INFO  CommanHelper:108 - no such element: Unable to locate element: {"method":"xpath","selector":"terms_and_conditions"}
+  (Session info: chrome=135.0.7049.42)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.30.0', revision: '509c7f17cc*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [19cedc92e52cc9a2a7f4ac9b64661d25, findElement {using=xpath, value=terms_and_conditions}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.42, chrome: {chromedriverVersion: 135.0.7049.42 (0f351bbd2617..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52665}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52665/devtoo..., se:cdpVersion: 135.0.7049.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 19cedc92e52cc9a2a7f4ac9b64661d25
+2025-04-08 22:42:15 [main] INFO  RegistrationPage:69 - Clicking on Terms and Condition checkbox
+2025-04-08 22:42:15 [main] INFO  RegistrationPage:74 - Clicking on Register button
+2025-04-08 22:42:18 [main] INFO  HomePage:53 - Clicking on Logo link
+2025-04-08 22:42:18 [main] INFO  RegistrationPage:80 - Clicking on Logo
+2025-04-08 22:42:31 [main] ERROR HomePage:45 - Error while clicking on Logout link: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='right-side']//div//div[@id='navExplore']"}
+  (Session info: chrome=135.0.7049.42)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.30.0', revision: '509c7f17cc*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [19cedc92e52cc9a2a7f4ac9b64661d25, findElement {using=xpath, value=//div[@class='right-side']//div//div[@id='navExplore']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.42, chrome: {chromedriverVersion: 135.0.7049.42 (0f351bbd2617..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52665}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52665/devtoo..., se:cdpVersion: 135.0.7049.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 19cedc92e52cc9a2a7f4ac9b64661d25
+2025-04-08 22:42:31 [main] INFO  RegistrationPage:84 - Clicking on Logout
+2025-04-08 22:42:31 [main] INFO  EmbarkTestCase:35 - User registration is completed

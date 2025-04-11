@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\vikram solanki\AppData\Local\Temp\testng-eclipse-2040735955\testng-customsuite.xml</span>
+                    <span>C:\Users\vikram solanki\AppData\Local\Temp\testng-eclipse-967637530\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -162,15 +162,15 @@
                   <a name="UserRegistrationTest">
                   </a> <!-- UserRegistrationTest -->
                   <span class="method-name">UserRegistrationTest</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;terms_and_conditions&quot;}
-  (Session info: chrome=134.0.6998.179)
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;right-side&apos;]//div//div[@id=&apos;navExplore&apos;]&quot;}
+  (Session info: chrome=135.0.7049.42)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.30.0&apos;, revision: &apos;509c7f17cc*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c4a51812edcdb360df96f281ffb18302, findElement {using=xpath, value=terms_and_conditions}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.179, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54137}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54137/devtoo..., se:cdpVersion: 134.0.6998.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c4a51812edcdb360df96f281ffb18302
+Command: [f4dbfd6d3cc21203358b60393a863dc3, findElement {using=xpath, value=//div[@class=&apos;right-side&apos;]//div//div[@id=&apos;navExplore&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.42, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65484}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65484/devtoo..., se:cdpVersion: 135.0.7049.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f4dbfd6d3cc21203358b60393a863dc3
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -187,9 +187,9 @@ Session ID: c4a51812edcdb360df96f281ffb18302
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at helper.CommanHelper.selectCheckboxIfNotSelected(CommanHelper.java:94)
-	at pages.RegistrationPage.userRegistering(RegistrationPage.java:68)
-	at testcases.EmbarkTestCase.UserRegistrationTest(EmbarkTestCase.java:30)
+	at pages.HomePage.logout(HomePage.java:33)
+	at pages.RegistrationPage.userRegistering(RegistrationPage.java:83)
+	at testcases.EmbarkTestCase.UserRegistrationTest(EmbarkTestCase.java:34)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -235,8 +235,8 @@ Session ID: c4a51812edcdb360df96f281ffb18302
                   <a name="RegistedLoginTest">
                   </a> <!-- RegistedLoginTest -->
                   <span class="method-name">RegistedLoginTest</span>
-                  <div class="stack-trace">java.lang.Throwable: Method testcases.EmbarkTestCase.RegistedLoginTest() on instance testcases.EmbarkTestCase@3e1162e7 depends on not successfully finished methods 
-[testcases.EmbarkTestCase.UserRegistrationTest() on instance testcases.EmbarkTestCase@3e1162e7]
+                  <div class="stack-trace">java.lang.Throwable: Method testcases.EmbarkTestCase.RegistedLoginTest() on instance testcases.EmbarkTestCase@6ddeeb78 depends on not successfully finished methods 
+[testcases.EmbarkTestCase.UserRegistrationTest() on instance testcases.EmbarkTestCase@6ddeeb78]
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
@@ -287,7 +287,7 @@ Session ID: c4a51812edcdb360df96f281ffb18302
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\vikram solanki\AppData\Local\Temp\testng-eclipse-2040735955\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\vikram solanki\AppData\Local\Temp\testng-eclipse-967637530\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -340,15 +340,15 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyHostAndAdventure')
 data.setCell(0, 2, 'testcases.EmbarkTestCase')
-data.setCell(0, 3, 59719);
+data.setCell(0, 3, 60133);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'UserRegistrationTest')
 data.setCell(1, 2, 'testcases.EmbarkTestCase')
-data.setCell(1, 3, 16178);
+data.setCell(1, 3, 32834);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'UserLoginTest')
 data.setCell(2, 2, 'testcases.EmbarkTestCase')
-data.setCell(2, 3, 2595);
+data.setCell(2, 3, 4774);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'RegistedLoginTest')
 data.setCell(3, 2, 'testcases.EmbarkTestCase')
@@ -392,19 +392,19 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">UserRegistrationTest</span>
-                <span class="method-start">12260 ms</span>
+                <span class="method-start">21814 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">UserLoginTest</span>
-                <span class="method-start">29688 ms</span>
+                <span class="method-start">56000 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyHostAndAdventure</span>
-                <span class="method-start">33010 ms</span>
+                <span class="method-start">61367 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">close</span>
-                <span class="method-start">93530 ms</span>
+                <span class="method-start">122138 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

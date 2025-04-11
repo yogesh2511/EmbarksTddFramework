@@ -6,14 +6,13 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.Markup;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 
+import base.TestBase;
 import utilities.ExcelReader;
 import utilities.ExtentManager;
 import utilities.LoggerUtils;
@@ -28,20 +27,14 @@ import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.Date;
 
-public class ReportHelperListener implements ITestListener {
+public class ReportHelperListener extends TestBase implements ITestListener {
 
 	private ExcelReader excel;
 	private final String sheetName = "TestResults";
 	private int testCounter = 1;
 	private int executionNumber = 1;
 	private String excelPath;
-
-	static Date d = new Date();
-	static String fileName = "Extent_" + d.toString().replace(":", "_").replace(" ", "_") + ".html";
-	private static ExtentReports extent = ExtentManager
-			.createInstance(System.getProperty("user.dir") + "\\report\\" + fileName);
-	public static ExtentTest test;
-
+	
 	@Override
 	public void onStart(ITestContext context) {
 		try {
@@ -61,7 +54,7 @@ public class ReportHelperListener implements ITestListener {
 				workbook.write(fileOut);
 				fileOut.close();
 				workbook.close();
-				System.out.println("Created new Excel file: " + excelPath);
+				LoggerUtils.info("Excel file created: " + excelPath);
 			}
 
 			excel = new ExcelReader(excelPath);
@@ -77,8 +70,8 @@ public class ReportHelperListener implements ITestListener {
 			excel.addColumn(sheetName, "Time");
 
 		} catch (Exception e) {
-			e.printStackTrace();
-		}
+			LoggerUtils.info("Error setting up Excel file: " + e.getMessage());
+				}
 	}
 
 	@Override
@@ -100,7 +93,7 @@ public class ReportHelperListener implements ITestListener {
 					MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			LoggerUtils.info("Exception during success reporting: " + e.getMessage());
 		}
 
 		Markup m = MarkupHelper.createLabel(logText, ExtentColor.GREEN);
@@ -121,14 +114,13 @@ public class ReportHelperListener implements ITestListener {
 		String logText = "<b>" + "TEST CASE:- " + methodName.toUpperCase() + " FAILED" + "</b>";
 		try {
 			writeTestResult(result, "FAIL");
-			String screenshot = base64Image;
 			test.fail("<b><font color=red>" + "Screenshot of failure" + "</font></b><br>",
 					MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
 			test.addScreenCaptureFromBase64String(base64Image, methodName + " Screenshot");
 
 		} catch (Exception e) {
 			LoggerUtils.info("Exception during failure reporting: " + e.getMessage());
-			e.printStackTrace();
+			test.fail("Exception during failure reporting: " + e.getMessage());
 		}
 		Markup m = MarkupHelper.createLabel(logText, ExtentColor.RED);
 		test.log(Status.FAIL, m);
@@ -146,7 +138,8 @@ public class ReportHelperListener implements ITestListener {
 					MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			LoggerUtils.info("Exception during skipping reporting: " + e.getMessage());
+			test.skip("Exception during skipping reporting: " + e.getMessage());
 		}
 		Markup m = MarkupHelper.createLabel(logText, ExtentColor.YELLOW);
 		test.skip(m);
@@ -178,7 +171,7 @@ public class ReportHelperListener implements ITestListener {
 
 			testCounter++;
 		} catch (Exception e) {
-			e.printStackTrace();
+			LoggerUtils.info("Error writing test result to Excel: " + e.getMessage());
 		}
 	}
 
@@ -190,8 +183,7 @@ public class ReportHelperListener implements ITestListener {
 			encodedFile = new String(Base64.encodeBase64(bytes), "UTF-8");
 		} catch (Exception e) {
 			LoggerUtils.info("Base64 encoding failed: " + e.getMessage());
-			e.printStackTrace();
-		}
+					}
 		return encodedFile;
 	}
 }

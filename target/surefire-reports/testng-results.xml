@@ -1,39 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="6" passed="3" failed="1" skipped="0">
+<testng-results ignored="2" total="6" passed="2" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-07T22:19:27 IST" name="Surefire suite" finished-at="2025-04-07T22:20:55 IST" duration-ms="87889">
+  <suite started-at="2025-04-08T21:58:48 IST" name="Surefire suite" finished-at="2025-04-08T22:00:11 IST" duration-ms="82273">
     <groups>
     </groups>
-    <test started-at="2025-04-07T22:19:27 IST" name="Surefire test" finished-at="2025-04-07T22:20:55 IST" duration-ms="87889">
+    <test started-at="2025-04-08T21:58:48 IST" name="Surefire test" finished-at="2025-04-08T22:00:11 IST" duration-ms="82273">
       <class name="testcases.EmbarkTestCase">
-        <test-method signature="RegistedLoginTest()[pri:0, instance:testcases.EmbarkTestCase@63fd4873]" started-at="2025-04-07T22:19:28 IST" name="RegistedLoginTest" finished-at="2025-04-07T22:19:31 IST" duration-ms="3776" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- RegistedLoginTest -->
-        <test-method signature="UserRegistrationTest()[pri:0, instance:testcases.EmbarkTestCase@63fd4873]" started-at="2025-04-07T22:19:32 IST" name="UserRegistrationTest" finished-at="2025-04-07T22:19:48 IST" duration-ms="16136" status="FAIL">
+        <test-method signature="UserRegistrationTest()[pri:0, instance:testcases.EmbarkTestCase@6cf633eb]" started-at="2025-04-08T21:58:49 IST" name="UserRegistrationTest" finished-at="2025-04-08T21:59:05 IST" duration-ms="16273" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"terms_and_conditions"}
-  (Session info: chrome=134.0.6998.179)
+  (Session info: chrome=135.0.7049.42)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.30.0', revision: '509c7f17cc*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [de1a3e33fc8a86a78e8ca8e947f2a1c8, findElement {value=terms_and_conditions, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.179, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53453}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53453/devtoo..., se:cdpVersion: 134.0.6998.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: de1a3e33fc8a86a78e8ca8e947f2a1c8]]>
+Command: [62b651e5197193a5f73f65ed2bd0fa29, findElement {using=xpath, value=terms_and_conditions}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.42, chrome: {chromedriverVersion: 135.0.7049.42 (0f351bbd2617..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50841}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50841/devtoo..., se:cdpVersion: 135.0.7049.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 62b651e5197193a5f73f65ed2bd0fa29]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"terms_and_conditions"}
-  (Session info: chrome=134.0.6998.179)
+  (Session info: chrome=135.0.7049.42)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.30.0', revision: '509c7f17cc*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [de1a3e33fc8a86a78e8ca8e947f2a1c8, findElement {value=terms_and_conditions, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.179, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53453}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53453/devtoo..., se:cdpVersion: 134.0.6998.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: de1a3e33fc8a86a78e8ca8e947f2a1c8
+Command: [62b651e5197193a5f73f65ed2bd0fa29, findElement {using=xpath, value=terms_and_conditions}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.42, chrome: {chromedriverVersion: 135.0.7049.42 (0f351bbd2617..., userDataDir: C:\Users\VIKRAM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50841}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50841/devtoo..., se:cdpVersion: 135.0.7049.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 62b651e5197193a5f73f65ed2bd0fa29
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -52,7 +48,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
 at helper.CommanHelper.selectCheckboxIfNotSelected(CommanHelper.java:94)
 at pages.RegistrationPage.userRegistering(RegistrationPage.java:68)
-at testcases.EmbarkTestCase.UserRegistrationTest(EmbarkTestCase.java:30)
+at testcases.EmbarkTestCase.UserRegistrationTest(EmbarkTestCase.java:34)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -92,21 +88,58 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserRegistrationTest -->
-        <test-method signature="UserLoginTest()[pri:1, instance:testcases.EmbarkTestCase@63fd4873]" started-at="2025-04-07T22:19:49 IST" name="UserLoginTest" finished-at="2025-04-07T22:19:51 IST" duration-ms="2611" status="PASS">
+        <test-method signature="RegistedLoginTest()[pri:0, instance:testcases.EmbarkTestCase@6cf633eb]" started-at="2025-04-08T21:59:06 IST" name="RegistedLoginTest" finished-at="2025-04-08T21:59:06 IST" depends-on-methods="testcases.EmbarkTestCase.UserRegistrationTest" duration-ms="1" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method EmbarkTestCase.RegistedLoginTest()[pri:0, instance:testcases.EmbarkTestCase@6cf633eb] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method EmbarkTestCase.RegistedLoginTest()[pri:0, instance:testcases.EmbarkTestCase@6cf633eb] depends on not successfully finished methods
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistedLoginTest -->
+        <test-method signature="UserLoginTest()[pri:1, instance:testcases.EmbarkTestCase@6cf633eb]" started-at="2025-04-08T21:59:06 IST" name="UserLoginTest" finished-at="2025-04-08T21:59:09 IST" duration-ms="2558" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserLoginTest -->
-        <test-method signature="verifyHostAndAdventure()[pri:2, instance:testcases.EmbarkTestCase@63fd4873]" started-at="2025-04-07T22:19:52 IST" name="verifyHostAndAdventure" finished-at="2025-04-07T22:20:54 IST" depends-on-methods="testcases.EmbarkTestCase.UserLoginTest" duration-ms="62179" status="PASS">
+        <test-method signature="verifyHostAndAdventure()[pri:1, instance:testcases.EmbarkTestCase@6cf633eb]" started-at="2025-04-08T21:59:09 IST" name="verifyHostAndAdventure" finished-at="2025-04-08T22:00:10 IST" depends-on-methods="testcases.EmbarkTestCase.UserLoginTest" duration-ms="60353" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHostAndAdventure -->
       </class> <!-- testcases.EmbarkTestCase -->
       <class name="base.TestBase">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:base.TestBase@6c4f9535]" started-at="2025-04-07T22:19:14 IST" name="setUp" finished-at="2025-04-07T22:19:27 IST" duration-ms="12444" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:base.TestBase@33e6176b]" started-at="2025-04-08T21:58:38 IST" name="setUp" finished-at="2025-04-08T21:58:48 IST" duration-ms="10110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="close()[pri:0, instance:base.TestBase@6c4f9535]" started-at="2025-04-07T22:20:54 IST" name="close" finished-at="2025-04-07T22:20:55 IST" duration-ms="467" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:base.TestBase@33e6176b]" started-at="2025-04-08T22:00:10 IST" name="close" finished-at="2025-04-08T22:00:11 IST" duration-ms="408" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
